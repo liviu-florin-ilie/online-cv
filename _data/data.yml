@@ -108,6 +108,7 @@ experiences:
           
           Tech Stack: A microservices architecture built over an inhouse SpringBoot-ish framework 
           over Kotlin and MySql as a database.
+          
           Team: 3 stream members, 30+ extended team   
       - role: Principal Software Engineer
         time: 2018/03 - 2021/05
@@ -128,6 +129,7 @@ experiences:
           The team for a project consists of team-lead and one or two developers
           
           Tech Stack: Groovy, MongoDB, Akka, Angular.
+          
           Team: The team for a project consists of team-lead and one or two developers.          
       - role: Senior Software Developer
         time: 2015/03 - 2018/03
@@ -139,7 +141,8 @@ experiences:
           the calculation engine, Hazelcast for caching data, and Angular for the frontend. We also used SBT 
           for building the Scala microservices. We aimed to provide the users with a more pleasant experience 
           and we fully realized that by increasing the webapps speed and resilience. The microservices were 
-          eventually deployed on Docker. 
+          eventually deployed on Docker.
+          
           The team for this project consisted of a technical analyst, business analyst and six developers. 
           We worked in an Agile way.  
 
@@ -164,6 +167,7 @@ experiences:
            - Hibernate, Spring, Spring MVC, MySQL, JSP and jQuery, Tomcat
            - Struts, Hibernate, MySQL, JBoss
            - JIRA for task/ bug tracking
+           
           We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
           supervised by a team manager and a project manager. The QA department helped us with the testing.
       - role: Java Developer
@@ -175,7 +179,9 @@ experiences:
           The harvested data from the implemented site is then saved into the application\'s MySQL database, for later use.
           The purpose of Title search app is to enable the user to gather all the data available regarding a property or a property 
           seller in order for the selling to be as "safe" as possible in terms of risks that can affect the buyer. 
+          
           Tech stack: GWT, Servlets, MySQL, Resin.
+          
           Team consisted of 8 developers, 3 testers, and one dev lead.
       - role: Java Developer
         time: 2007/02 - 2007/06
@@ -223,26 +229,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java experience and adaptability to jump on to new Java based programming languages
-        level: 100
+      - name: Java
+        level: 80%
+        
+      - name: Adaptability to jump on to new Java based programming languages
+        level: 80%  
 
       - name: Software design
-        level: 70
+        level: 70%
 
       - name: Adaptable
-        level: 90
+        level: 90%
 
       - name: Creative
-        level: 80
+        level: 80%
       
       - name: Open
-        level: 85
+        level: 85%
         
       - name: Hard worker
-        level: 95
+        level: 95%
       
       - name: Willing to learn both technically and business wise
-        level: 90
+        level: 90%
         
         
 footer: >
