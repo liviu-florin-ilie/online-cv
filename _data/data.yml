@@ -32,7 +32,7 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Romanian
           level: Native
           
         - idiom: English
@@ -88,7 +88,8 @@ education:
         university: Academy of Economic Studies, Bucharest
         time: 2001 - 2006
         details: |
-         Cybernetics, Statistics and Economy Informatics Department: Informatics; 
+         Cybernetics, Statistics and Economy Informatics 
+         Department: Economy Informatics; 
           
 experiences:
     title: Experiences
@@ -156,7 +157,7 @@ experiences:
           Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
       - role: Java Developer
         time: 2011/10 - 2015/03
-        company: UniCredit Services, Bucharest
+        company: Intuitext/Softwin, Bucharest
         details: |
           I worked on different projects in eLearning area. The projects I worked on, were LMS (Learning 
           Management Systems)/LCMS (Learning Content Management Systems). Their aim was to help students and 
