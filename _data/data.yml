@@ -17,51 +17,65 @@ sidebar:
     timezone: CET Timezone
     citizenship: Romanian
 #     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    linkedin: www.linkedin.com/in/liviu-florin-i-a094367/
+    xing: 
+    github: github.com/liviu-florin-ilie
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 2285846/liviu-florin-ilie # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
         - idiom: English
           level: Native
-
-        - idiom: French
+          
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Swedish
+          level: Studying to Reach Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Running
           link:
 
-        - item: Snowboarding
+        - item: Cycling
           link:
 
-        - item: Cooking
+        - item: Psychology
           link:
 
 career-profile:
     title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    summary: 
+      I am a  seasoned (15+ years) Software Developer who lives by this: "Do what you can, with what you have, where you are". 
+      This allowed me to perform in different company cultures, different team setups and also ever changing tech-stacks. 
+      Worked as a full-stack developer developing software in Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
+      Built production ready software for various industries and end users:
+            - Mobile Gaming in the Payments Area
+            - Financial Sector
+            - eLearning
+            - Title search
+            - Task Management
+      I was also involved in configuration of CI pipelines involving WebSphere application servers
+      and internal CI tools.
+      I am a creative, resilient, open and helpful person.
+      I worked with great people who helped me grow both my technical and soft skills.
+      This is my take on software development:
+The software developer nowadays has to fill in different roles: he can be a fireman when something
+“catches fire”, he can be an archaeologist when there is no handover or even a private detective
+when there are things he needs to accomplish his tasks and has to look for the people that can provide help. 
+Sometimes one can act as a translator as there are things that not all people can understand. One can even be the housekeeping lady 
+when everyone else is avoiding it. He must be a teacher in order to share  what he has acquired. And sometimes he can be what he 
+is destined to be: an architect and a builder.
 education:
     title: Education
     info:
