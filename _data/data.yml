@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -88,31 +88,114 @@ education:
         university: Academy of Economic Studies, Bucharest
         time: 2001 - 2006
         details: |
+         Cybernetics, Statistics and Economy Informatics Department: Informatics; 
           
 experiences:
     title: Experiences
     info:
       - role: Software Developer @Payments
-        time: 2021 - Present
+        time: 2021/05 - Present
         company: Leovegas, Remote-Sweden
         details: |
-          TBA
-            - Bullet point
-            - Bullet point
+          The team in the Payments department builds and maintains payment integrations 
+          between our core systems and different payment providers and payment methods 
+          which enables the player to deposit and withdraw his money in a smooth way. 
+          My role lies within the cards stream which deals specifically with the card 
+          payments integrations. Our aim is to lower the cost of the price per payment, 
+          expand our current payment methods and lower the fraud risk for the payments. 
+          As a member of the Card stream I was involved in building one of our integrations 
+          and the rule engine used to build rules for risk and fraud mitigation.
+          
+          Tech Stack: A microservices architecture built over an inhouse SpringBoot-ish framework 
+          over Kotlin and MySql as a database.
+          Team: 3 stream members, 30+ extended team   
       - role: Principal Software Engineer
-        time: 2018 - 2021
+        time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Romania
         details: |
-          TBA
-            - Bullet point
-            - Bullet point
+          Our department’s aim is to mitigate risk when a loan is requested by a customer.
+          I am involved in building tools that help automate certain tasks in our department.
+          Built a web app that automated the monitoring and deployment of our 20+ Blaze instances 
+          by integrating with GitLab and Artifactory external systems. This app increased the happiness 
+          of our colleagues in charge of the release of new versions and eased the process of monitoring
+          our instances during high season. Tech stack for this app: Angular, Groovy, Servlets, MongoDB.
+
+          Was involved in creating a web-app that would help our colleagues overview and verify the suspect 
+          transactions. Tech stack for this app: Angular, Groovy, Servlets, MongoDB. I rewrote and enhanced 
+          an existing automated testing framework that allows our developers to test their code against 
+          expected results.
+          Also managed to integrate SSO functionality into our webapps using Waffle.
+          The team for a project consists of team-lead and one or two developers
+          
+          Tech Stack: Groovy, MongoDB, Akka, Angular.
+          Team: The team for a project consists of team-lead and one or two developers.          
       - role: Senior Software Developer
-        time: 2015 - 2018
+        time: 2015/03 - 2018/03
         company: UniCredit Services, Bucharest
         details: |
-          TBA
-            - Bullet point
-            - Bullet point
+          Worked on different "Pricing engines" for our Unicredit colleagues from Italy. The most 
+          important one was GPT (Global Pricing Tool) which we rewrote from a monolith build on a Java 
+          tech stack to a microservice infrastructure with Scala for the microservices, Python for 
+          the calculation engine, Hazelcast for caching data, and Angular for the frontend. We also used SBT 
+          for building the Scala microservices. We aimed to provide the users with a more pleasant experience 
+          and we fully realized that by increasing the webapps speed and resilience. The microservices were 
+          eventually deployed on Docker. 
+          The team for this project consisted of a technical analyst, business analyst and six developers. 
+          We worked in an Agile way.  
+
+          For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
+          engine to a new server infrastructure. The tech-stack had EJB2.0, JMS, WebSphere 5 and 8.
+          
+          I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
+          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
+          For deployment we used Jenkins and but our modules on Docker. Took it to MVP level.
+          
+          Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
+      - role: Java Developer
+        time: 2011/10 - 2015/03
+        company: UniCredit Services, Bucharest
+        details: |
+          I worked on different projects in eLearning area. The projects I worked on, were LMS (Learning 
+          Management Systems)/LCMS (Learning Content Management Systems). Their aim was to help students and 
+          professionals to acquire new knowledge and skills in certain areas. The platforms supported going 
+          through online courses, they could measure the progress and also assess their knowledge. There were 
+          three different kind of frameworks that I worked on, which had different tech-stacks:
+           - Hibernate, Spring, Struts 1, MySQL, BIRT, Tomcat
+           - Hibernate, Spring, Spring MVC, MySQL, JSP and jQuery, Tomcat
+           - Struts, Hibernate, MySQL, JBoss
+           - JIRA for task/ bug tracking
+          We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
+          supervised by a team manager and a project manager. The QA department helped us with the testing.
+      - role: Java Developer
+        time: 2009/04 - 2011/08
+        company: Advantage Title Solutions, Bucharest
+        details: |
+          Developed and maintained the Title-Search Application by integrating new sites 
+          into it with the help of Http  Client API, Html Parser API, regular expressions and XML. 
+          The harvested data from the implemented site is then saved into the application\'s MySQL database, for later use.
+          The purpose of Title search app is to enable the user to gather all the data available regarding a property or a property 
+          seller in order for the selling to be as "safe" as possible in terms of risks that can affect the buyer. 
+          Tech stack: GWT, Servlets, MySQL, Resin.
+          Team consisted of 8 developers, 3 testers, and one dev lead.
+      - role: Java Developer
+        time: 2007/02 - 2007/06
+        company: Genesys, Bucharest
+      - role: Java Developer
+        time: 2005/04 - 2007/02
+        company: INGENIO-UCS, Bucharest
+          
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
 # projects:
 #     title: Projects
 #     intro: >
@@ -140,23 +223,27 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java
-#         level: 
+      - name: Java experience and adaptability to jump on to new Java based programming languages
+        level: 100
 
-      - name: Kotlin
-        level: 
+      - name: Software design
+        level: 70
 
-      - name: Angular
-        level: 
+      - name: Adaptable
+        level: 90
 
-      - name: Groovy
-        level: 
-
-      - name: Spring
-        level: 
-
-      - name: Sql
-        level: 
-
+      - name: Creative
+        level: 80
+      
+      - name: Open
+        level: 85
+        
+      - name: Hard worker
+        level: 95
+      
+      - name: Willing to learn both technically and business wise
+        level: 90
+        
+        
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
