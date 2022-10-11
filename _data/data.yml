@@ -55,19 +55,22 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: "I am a  seasoned (15+ years) Software Developer who lives by this: \"Do what you can, with what you have, where you are\". 
-      This allowed me to perform in different company cultures, different team setups and also ever changing tech-stacks. 
-      Worked as a full-stack developer developing software in Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
+    summary: |
+      I am a  seasoned (15+ years) Software Developer who lives by this: 
+      \"Do what you can, with what you have, where you are\". 
+      This allowed me to perform in different company cultures, different team setups 
+      and also ever changing tech-stacks. Worked as a full-stack developer developing 
+      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
       Built production ready software for various industries and end users:
             - Mobile Gaming in the Payments Area
             - Financial Sector
             - eLearning
             - Title search
             - Task Management
-      I was also involved in configuration of CI pipelines involving WebSphere application servers
-      and internal CI tools.
-      I am a creative, resilient, open and helpful person.
+      I was also involved in configuration of CI pipelines involving WebSphere application
+      servers and internal CI tools. I am a creative, resilient, open and helpful person.
       I worked with great people who helped me grow both my technical and soft skills.
+      
       This is my take on software development:
       The software developer nowadays has to fill in different roles: he can
       be a fireman when something \"catches fire\", he can be an archaeologist
@@ -77,7 +80,7 @@ career-profile:
       are things that not all people can understand. One can even be the
       housekeeping lady when everyone else is avoiding it. He must be a
       teacher in order to share  what he has acquired. And sometimes he can be
-      what he is destined to be: an architect and a builder."
+      what he is destined to be: an architect and a builder.
 education:
     title: Education
     info:
