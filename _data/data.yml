@@ -72,15 +72,15 @@ career-profile:
       I worked with great people who helped me grow both my technical and soft skills.
       
       This is my take on software development:
-      The software developer nowadays has to fill in different roles: he can
-      be a fireman when something \"catches fire\", he can be an archaeologist
-      when there is no handover or even a private detective when there are
-      things he needs to accomplish his tasks and has to look for the people
-      that can provide help. Sometimes one can act as a translator as there
-      are things that not all people can understand. One can even be the
-      housekeeping lady when everyone else is avoiding it. He must be a
-      teacher in order to share  what he has acquired. And sometimes he can be
-      what he is destined to be: an architect and a builder.
+      The software developer nowadays has to fill in different roles: 
+        - one can be a fireman when something \"catches fire\", 
+        - one can be an archaeologist when there is no handover 
+        - or even a private detective when there are things he needs to accomplish ones tasks 
+          and has to look for the people that can provide help,
+        - sometimes one can act as a translator as there are things that not all people can understand, 
+        - one can even be the housekeeping lady when everyone else is avoiding doing the dirty work, 
+        - one must be a teacher in order to share what he has acquired,
+        - and sometimes one can be what he is destined to be: an architect and a builder.
 education:
     title: Education
     info:
