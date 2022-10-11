@@ -260,6 +260,7 @@ p {
   }
   .level-bar-inner {
     height: 12px;
+    max-width: 342px;
     background: lighten($theme-color, 15%);
   }
 }
