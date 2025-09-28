@@ -1,0 +1,258 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+sidebar:
+  about: False
+  education: True
+
+  name: dataLiviu Florin Ilie
+  tagline: Programvaruutvecklare med fokus på Java-liknande språk
+  avatar: profile.png
+
+  email: ilie.liviu@gmail.com
+  phone: +46767657704
+  timezone: CET Tidszon
+  citizenship: Rumänsk
+  linkedin: liviu-florin-i-a094367/
+  xing:
+  github: liviu-florin-ilie
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: 2285846/liviu-florin-ilie
+  codewars:
+  goodreads:
+  pdf:
+    link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_en.pdf
+    label: Mitt CV
+  otherlanguage:
+    link: https://liviu-florin-ilie.github.io/en/index.html
+    label: My CV in English
+
+  languages:
+    title: Språk
+    info:
+      - idiom: Rumänska
+        level: Modersmål
+
+      - idiom: Engelska
+        level: Professionell
+
+      - idiom: Svenska
+        level: Professionell
+
+  interests:
+    title: Intressen
+    info:
+      - item: Triathlon
+        link:
+
+      - item: Psykologi
+        link:
+
+career-profile:
+  title: Karriärprofil
+  summary: |
+    Jag är en erfaren (15+ år) programvaruutvecklare som lever efter detta:
+    "Gör vad du kan, med vad du har, där du är".
+    Detta har gjort det möjligt för mig att prestera i olika företagskulturer, olika teamuppsättningar
+    och även ständigt föränderliga teknikstackar. Har arbetat som fullstack-utvecklare och utvecklat
+    programvara i Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
+    Har byggt produktionsklar programvara för olika branscher och slutanvändare:
+      - Mobilspel inom betalningsområdet
+      - Finanssektorn
+      - eLearning
+      - Titelgranskning
+      - Uppgiftshantering
+    Jag har också varit involverad i konfiguration av CI-pipelines med WebSphere-applikationsservrar
+    och interna CI-verktyg. Jag är en kreativ, motståndskraftig, öppen och hjälpsam person.
+    Jag har arbetat med fantastiska människor som hjälpt mig att utvecklas både tekniskt och socialt.
+    
+    Så här ser jag på programvaruutveckling:
+    En utvecklare idag måste kunna ta olika roller:
+      - vara brandman när något "brinner",
+      - vara arkeolog när det saknas överlämning,
+      - eller privatdetektiv när man måste hitta rätt personer för att få hjälp,
+      - ibland agera som översättare när inte alla förstår tekniken,
+      - vara städerska när ingen annan vill göra det smutsiga jobbet,
+      - vara lärare för att dela med sig av kunskap,
+      - och ibland vara det man är ämnad att vara: arkitekt och byggare.
+
+education:
+  title: Utbildning
+  info:
+    - degree: MSc i Ekonomi med inriktning mot Datavetenskap
+      university: Ekonomihögskolan, Bukarest
+      time: 2001 - 2006
+      details: |
+        Cybernetik, Statistik och Ekonomisk Informatik
+        Institution: Ekonomisk Informatik;
+
+experiences:
+    title: Erfarenheter
+    info:
+      - role: Senior Lead Developer
+        time: 2023/05 - nu
+        company: Tietoevry, Kalmar, Sverige
+        details: |
+          Har varit involverad i flera projekt.
+          AI Application Modernization POC – AI-app för att hjälpa utvecklare.
+          Samla projektdata, erbjuda lösningar för förbättring och modernisering.
+          Första kontakten med ett AI-projekt och praktisk erfarenhet med verktyg som
+          Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
+          Docker Compose och Python.
+          
+          RSS – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
+          som arbetar med mikrosystem för olika industrier och objekt.
+          Ansvarig för utveckling och underhåll.
+          Integration med ett annat system, Upsales.
+          Teknikstack: Neo4j, Cypher, Typescript med NestJS och Angular samt
+          mer erfarenhet med GraphQL och AWS.
+          
+          Friends MDT – Utveckling av digitala verktyg för Friends-stiftelsen i deras arbete
+          mot mobbning och trakasserier.
+          Inkluderar ett nytt verktyg för insamling, visualisering och analys av enkäter i skolor.
+          Efter insamlingen genererades en komplex rapport baserad på forskning
+          som visar barnens känslor i skolan.
+          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och
+          allt distribuerades på AWS.
+      - role: Programvaruutvecklare @Payments
+        time: 2021/05 - 2023/05
+        company: Leovegas, Remote-Sverige
+        details: |
+          Teamet i betalningsavdelningen bygger och underhåller betalningsintegrationer 
+          mellan våra kärnsystem och olika betalningsleverantörer och betalningsmetoder 
+          vilket möjliggör för spelaren att sätta in och ta ut pengar på ett smidigt sätt. 
+          Min roll låg inom kortströmmen som specifikt hanterar kortbetalningsintegrationer. 
+          Vårt mål är att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
+          och minska risken för bedrägerier vid betalningar. 
+          Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
+          och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
+          
+          Teknikstack: En mikrotjänstarkitektur byggd över ett internt SpringBoot-liknande ramverk 
+          med Kotlin och MySql som databas.
+          
+          Team: 3–5 strömsmedlemmar, 30+ utökat team
+
+      - role: Principal Programvaruingenjör
+        time: 2018/03 - 2021/05
+        company: Dell Financial Services, Remote-Rumänien
+        details: |
+          Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
+          Jag är involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
+          Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar 
+          genom integration med externa system som GitLab och Artifactory. Denna app ökade nöjdheten 
+          hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
+          av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.
+          
+          Var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
+          transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
+          ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
+          förväntade resultat.
+          Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.
+          Teamet för ett projekt består av teamledare och en eller två utvecklare.
+          
+          Teknikstack: Groovy, MongoDB, Akka, Angular.
+          
+          Team: Teamet för ett projekt består av teamledare och en eller två utvecklare.
+
+      - role: Senior Programvaruutvecklare
+        time: 2015/03 - 2018/03
+        company: UniCredit Services, Bukarest
+        details: |
+         Arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien. Den viktigaste 
+         var GPT (Global Pricing Tool) som vi skrev om från en monolit byggd på en Java-teknikstack 
+         till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
+         beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
+         för att bygga Scala-mikrotjänsterna. Vi strävade efter att ge användarna en mer behaglig upplevelse 
+         och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
+         distribuerades slutligen på Docker.
+         
+         Teamet för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
+         Vi arbetade enligt Agile-metodik.
+         
+         I 4 månader bidrog jag till migreringen av en viktig applikation, BUL-Batch-plattform/beräkningsmotor 
+         till en ny serverinfrastruktur. Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.
+         
+         Jag omstrukturerade Fund Transfer Price - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
+         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. 
+         För distribution använde vi Jenkins och lade våra moduler på Docker. Tog det till MVP-nivå.
+         
+         Hade även en liten roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
+
+      - role: Javautvecklare
+        time: 2011/10 - 2015/03
+        company: Intuitext/Softwin, Bukarest
+        details: |
+          Jag arbetade med olika projekt inom eLearning-området. Projekten jag arbetade med var LMS (Learning 
+          Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
+          yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
+          igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: 
+#         link: 
+#         authors: 
+#         conference:
+
+
+skills:
+  title: Färdigheter &amp;amp; Kompetens
+
+  toolset:
+    - name: Java
+      level: 80%
+
+    - name: Anpassningsförmåga att hoppa på nya Java-baserade programmeringsspråk
+      level: 80%
+
+    - name: Programvarudesign
+      level: 70%
+
+    - name: Anpassningsbar
+      level: 90%
+
+    - name: Kreativ
+      level: 80%
+
+    - name: Öppen
+      level: 85%
+
+    - name: Hårt arbetande
+      level: 95%
+
+    - name: Villig att lära sig både tekniskt och affärsmässigt
+      level: 90%
+
+
+footer: >
+    Designed med <i class="fas fa-heart"></i> av <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

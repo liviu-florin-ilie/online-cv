@@ -93,9 +93,17 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <a href="{{ sidebar.pdf.link }}" target="_blank">{{sidebar.pdf.label}}</a>
     </li>
     {% endif %}
+
+    {% if sidebar.otherlanguage %}
+    <li class="phone"><i class="fas fa-link"></i>
+      <a href="{{ sidebar.otherlanguage.link }}" target="_blank">{{ sidebar.otherlanguage.label }}</a>
+    </li>
+    {% endif %}
+
+
 
   </ul>
 </div><!--//contact-container-->

@@ -18,7 +18,7 @@ sidebar:
     citizenship: Romanian
 #     website: blog.webjeda.com #do not add http://
     linkedin: liviu-florin-i-a094367/
-    xing: 
+    xing:
     github: liviu-florin-ilie
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -27,27 +27,28 @@ sidebar:
     stack-overflow: 2285846/liviu-florin-ilie # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV.pdf
-
+    pdf:
+      link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV.pdf
+      label: Resume PDF
+    otherlanguage:
+      link: https://liviu-florin-ilie.github.io/sv/index.html
+      label: Mitt CV på Svenska
     languages:
       title: Languages
       info:
         - idiom: Romanian
           level: Native
-          
+
         - idiom: English
           level: Professional
 
         - idiom: Swedish
-          level: Studying to Reach Professional
+          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Running
-          link:
-
-        - item: Cycling
+        - item: Triathlon
           link:
 
         - item: Psychology
@@ -90,12 +91,39 @@ education:
         details: |
          Cybernetics, Statistics and Economy Informatics 
          Department: Economy Informatics; 
-          
+
 experiences:
     title: Experiences
     info:
+      - role: Senior Lead Consultant
+        time: 2023/05 - now
+        company: Tietoevry, Kalmar, Sweden
+        details: |
+          Was involved in several projects.
+          AI Application Modernization POC- AI app to assist devs.
+          gather project data, offer solutions for improvement and modernization.
+          Got a first contact with an AI project and got some hands on experience with tools like 
+          Chainlit, LangGraph, LangChain, Elasticsearch and refreshed some other
+          Docker Compose och Python.
+          
+          RSS- I worked with full-stack development for an application hosted on AWS, that is meant 
+          to support the activities of a company that works in a niche market of dealing micro-components 
+          used in different industries and objects for a profit. 
+          I have been responsible for development and maintenance. 
+          Did an integration with another system Upsales.
+          Some of the tech stack used here involved Neo4j, Cypher, Typescript with NestJS and Angular and also 
+          got more familiar with GraphQL and the AWS stack.
+
+          Friends MDT- Development of digital tools for the Friends foundation to assist them in 
+          their work against bullying and harassment. 
+          Includes creating a new tool for collecting, visualizing, and analyzing inquiries done in
+          schools. After the collection of the inquiries a complex report was generated. The report was 
+          bases on research meant to show the actual feeling of the children in a school.
+          The application had this stack Postgres, Neo4j, SpringBoot with Kotlin, Angular and all
+          was deployed on AWS.
+
       - role: Software Developer @Payments
-        time: 2021/05 - Present
+        time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sweden
         details: |
           The team in the Payments department builds and maintains payment integrations 
@@ -110,7 +138,7 @@ experiences:
           Tech Stack: A microservices architecture built over an inhouse SpringBoot-ish framework 
           over Kotlin and MySql as a database.
           
-          Team: 3 stream members, 30+ extended team   
+          Team: 3-5 stream members, 30+ extended team
       - role: Principal Software Engineer
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Romania
