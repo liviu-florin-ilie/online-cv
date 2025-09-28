@@ -2,11 +2,13 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv/en'
+baseurl: "/online-cv/en"
+url: "https://liviu-florin-ilie.github.io"
+
 # English language settings
 defaults:
   - scope:
