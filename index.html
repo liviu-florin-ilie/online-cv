@@ -1,18 +1,20 @@
 ---
 layout: default
+lang: sv
+title: "Mitt CV - Svenska"
 ---
+{% assign lang = site.data[page.lang] %}
 
-
-{% include career-profile.html %}
+{% include career-profile.html lang=lang %}
 
 {% unless site.data.data.sidebar.education %}
-  {% include education.html %}
+{% include education.html %}
 {% endunless %}
 
-{% include experiences.html %}
+{% include experiences.html lang=lang %}
 
-{% include projects.html %}
+{% include projects.html lang=lang %}
 
-{% include publications.html %}
+{% include publications.html lang=lang %}
 
-{% include skills.html %}
+{% include skills.html lang=lang %}
