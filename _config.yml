@@ -8,7 +8,7 @@ title: My Resume
 #baseurl: '/online-cv/en'
 #baseurl: "/online-cv/en"
 url: "https://liviu-florin-ilie.github.io"
-
+baseurl: "/online-cv"
 defaults:
   - scope:
       path: "en"
