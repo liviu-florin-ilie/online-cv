@@ -7,7 +7,7 @@ title: "Mitt CV - Svenska"
 
 {% include career-profile.html lang=lang %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless site.data[page.lang].data.sidebar.education %}
 {% include education.html %}
 {% endunless %}
 

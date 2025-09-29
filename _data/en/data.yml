@@ -57,29 +57,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a  seasoned (15+ years) Software Developer who lives by this: 
+      I am a  seasoned (20+ years) Software Developer who lives by this: 
       \"Do what you can, with what you have, where you are\". 
       This allowed me to perform in different company cultures, different team setups 
       and also ever changing tech-stacks. Worked as a full-stack developer developing 
-      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
+      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher.
       Built production ready software for various industries and end users:
+        - AI POC
+        - Survey analytics tools
+        - Procurement and resale
         - Mobile Gaming in the Payments Area
         - Financial Sector
         - eLearning
-        - Title search
         - Task Management
       I was also involved in configuration of CI pipelines involving WebSphere application
       servers and internal CI tools. I am a creative, resilient, open and helpful person.
       I worked with great people who helped me grow both my technical and soft skills.
       
       This is my take on software development:
-      The software developer nowadays has to fill in different roles: 
-        - one can be a fireman when something \"catches fire\", 
+      The software developer nowadays has to fill in different roles:
+        - assess and take care of the most important tasks
+        - one can be a fireman when something \"catches fire\",         
         - one can be an archaeologist when there is no handover 
         - or even a private detective when there are things he needs to accomplish ones tasks 
           and has to look for the people that can provide help,
         - sometimes one can act as a translator as there are things that not all people can understand, 
-        - one can even be the housekeeping lady when everyone else is avoiding doing the dirty work, 
+        - one can even be the housekeeping lady when no one else dares doing the dirty work, 
         - one must be a teacher in order to share what he has acquired,
         - and sometimes one can be what he is destined to be: an architect and a builder.
 education:
@@ -100,6 +103,7 @@ experiences:
         company: Tietoevry, Kalmar, Sweden
         details: |
           Was involved in several projects.
+          
           AI Application Modernization POC- AI app to assist devs.
           gather project data, offer solutions for improvement and modernization.
           Got a first contact with an AI project and got some hands on experience with tools like 
@@ -261,8 +265,8 @@ skills:
       - name: Java
         level: 80%
         
-      - name: Adaptability to jump on to new Java based programming languages
-        level: 80%  
+      - name: Typescript
+        level: 60%
 
       - name: Software design
         level: 70%

@@ -54,16 +54,18 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren (15+ år) programvaruutvecklare som lever efter detta:
+    Jag är en erfaren (20+ år) programvaruutvecklare som lever efter detta:
     "Gör vad du kan, med vad du har, där du är".
     Detta har gjort det möjligt för mig att prestera i olika företagskulturer, olika teamuppsättningar
     och även ständigt föränderliga teknikstackar. Har arbetat som fullstack-utvecklare och utvecklat
-    programvara i Java, Groovy, Python, Scala, SQL, Swing, JSP, JavaScript, Angular.
+    programvara i Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher .
     Har byggt produktionsklar programvara för olika branscher och slutanvändare:
+      - AI POC → AI-koncepttest
+      - Survey analytics tools → Verktyg för enkätanalys
+      - Inköp och vidareförsäljning
       - Mobilspel inom betalningsområdet
       - Finanssektorn
-      - eLearning
-      - Titelgranskning
+      - eLearning      
       - Uppgiftshantering
     Jag har också varit involverad i konfiguration av CI-pipelines med WebSphere-applikationsservrar
     och interna CI-verktyg. Jag är en kreativ, motståndskraftig, öppen och hjälpsam person.
@@ -71,11 +73,12 @@ career-profile:
     
     Så här ser jag på programvaruutveckling:
     En utvecklare idag måste kunna ta olika roller:
+      - bedöma och ta hand om de viktigaste uppgifterna
       - vara brandman när något "brinner",
       - vara arkeolog när det saknas överlämning,
       - eller privatdetektiv när man måste hitta rätt personer för att få hjälp,
       - ibland agera som översättare när inte alla förstår tekniken,
-      - vara städerska när ingen annan vill göra det smutsiga jobbet,
+      - vara städerska när ingen annan vågar det smutsiga jobbet,
       - vara lärare för att dela med sig av kunskap,
       - och ibland vara det man är ämnad att vara: arkitekt och byggare.
 
@@ -97,6 +100,7 @@ experiences:
         company: Tietoevry, Kalmar, Sverige
         details: |
           Har varit involverad i flera projekt.
+          
           AI Application Modernization POC – AI-app för att hjälpa utvecklare.
           Samla projektdata, erbjuda lösningar för förbättring och modernisering.
           Första kontakten med ett AI-projekt och praktisk erfarenhet med verktyg som
@@ -104,19 +108,16 @@ experiences:
           Docker Compose och Python.
           
           RSS – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
-          som arbetar med mikrosystem för olika industrier och objekt.
-          Ansvarig för utveckling och underhåll.
-          Integration med ett annat system, Upsales.
-          Teknikstack: Neo4j, Cypher, Typescript med NestJS och Angular samt
-          mer erfarenhet med GraphQL och AWS.
+          som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
+          ett annat system, Upsales.
+          Teknikstack: Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.
           
-          Friends MDT – Utveckling av digitala verktyg för Friends-stiftelsen i deras arbete
-          mot mobbning och trakasserier.
-          Inkluderar ett nytt verktyg för insamling, visualisering och analys av enkäter i skolor.
-          Efter insamlingen genererades en komplex rapport baserad på forskning
-          som visar barnens känslor i skolan.
+          Friends MDT – Utveckling av digitala enkät verktyg för Friends-stiftelsen i deras arbete
+          mot mobbning och trakasserier. Appen användes för insamling ava data från skolor genom att driva enkäter med 
+          syfte av visualisering och analys. Efter insamlingen genererades en komplex rapport baserad på forskning
+          som visar barnens välmående i skolan.
           Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och
-          allt distribuerades på AWS.
+          allt använde AWS.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sverige
@@ -179,7 +180,7 @@ experiences:
          Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. 
          För distribution använde vi Jenkins och lade våra moduler på Docker. Tog det till MVP-nivå.
          
-         Hade även en liten roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
+         Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
 
       - role: Javautvecklare
         time: 2011/10 - 2015/03
@@ -232,11 +233,11 @@ skills:
     - name: Java
       level: 80%
 
-    - name: Anpassningsförmåga att hoppa på nya Java-baserade programmeringsspråk
-      level: 80%
+    - name: Typescript
+      level: 60%
 
     - name: Programvarudesign
-      level: 70%
+      level: 80%
 
     - name: Anpassningsbar
       level: 90%
