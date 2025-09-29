@@ -14,12 +14,12 @@ defaults:
       path: "en"
     values:
       lang: en
-      permalink: /en/:path/
+      permalink: /:path/
   - scope:
       path: "sv"
     values:
       lang: sv
-      permalink: /sv/:path/
+      permalink: /:path/
 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
