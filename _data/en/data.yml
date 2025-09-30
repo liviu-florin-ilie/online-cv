@@ -28,7 +28,7 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf:
-      link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV.pdf
+      link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_en.pdf
       label: Resume PDF
     otherlanguage:
       link: https://liviu-florin-ilie.github.io/online-cv/sv/index.html
@@ -63,8 +63,7 @@ career-profile:
       and also ever changing tech-stacks. Worked as a full-stack developer developing 
       software in Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher.
       Built production ready software for various industries and end users:
-        - AI POC
-        - Survey analytics tools
+        - experience with building, improving and using CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
         - Procurement and resale
         - Mobile Gaming in the Payments Area
         - Financial Sector
@@ -124,7 +123,8 @@ experiences:
           schools. After the collection of the inquiries a complex report was generated. The report was 
           bases on research meant to show the actual feeling of the children in a school.
           The application had this stack Postgres, Neo4j, SpringBoot with Kotlin, Angular and all
-          was deployed on AWS.
+          was deployed on AWS. In the first phase of the project we experimented with VmWares Tanzu
+          platform.
 
       - role: Software Developer @Payments
         time: 2021/05 - 2023/05
@@ -150,9 +150,10 @@ experiences:
           Our department’s aim is to mitigate risk when a loan is requested by a customer.
           I am involved in building tools that help automate certain tasks in our department.
           Built a web app that automated the monitoring and deployment of our 20+ Blaze instances 
-          by integrating with GitLab and Artifactory external systems. This app increased the happiness 
-          of our colleagues in charge of the release of new versions and eased the process of monitoring
+          by building a CI/CD pipeline with GitLab and Artifactory and Pivotal Cloud Foundry. 
+          This app increased the happiness of our colleagues in charge of the release of new versions and eased the process of monitoring
           our instances during high season. Tech stack for this app: Angular, Groovy, Servlets, MongoDB.
+          All of this was deployed in Pivotal Cloud 
 
           Was involved in creating a web-app that would help our colleagues overview and verify the suspect 
           transactions. Tech stack for this app: Angular, Groovy, Servlets, MongoDB. I rewrote and enhanced 
@@ -180,11 +181,15 @@ experiences:
           We worked in an Agile way.  
 
           For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
-          engine to a new server infrastructure. The tech-stack had EJB2.0, JMS, WebSphere 5 and 8.
+          engine to a new server infrastructure. One of the important parts of the job was integrating the application 
+          into the company’s servers and CI/CD pipelines. This involved coordinating with the team responsible for the
+          WebSphere servers, as well as the team managing the CI/CD software (Gandalf), since some of the configurations 
+          could not be done independently.
+          The tech-stack had EJB2.0, JMS, WebSphere 5 and 8. 
           
           I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
           tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
-          For deployment we used Jenkins and but our modules on Docker. Took it to MVP level.
+          We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
           
           Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
       - role: Java Developer
