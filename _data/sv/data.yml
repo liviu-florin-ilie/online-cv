@@ -100,9 +100,9 @@ experiences:
         details: |
           Jag har varit involverad i flera projekt.
           
-          AI Application Modernization POC – AI-app för att hjälpa utvecklare.
-          Samla projektdata, erbjuda lösningar för förbättring och modernisering.
-          Första kontakten med ett AI-projekt och praktisk erfarenhet med verktyg som
+          AI Application Modernization POC – är an AI-app för att hjälpa utvecklare för att 
+          samla projektdata, erbjuda lösningar för förbättring och modernisering.
+          Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
           Docker Compose och Python.
           
@@ -111,12 +111,12 @@ experiences:
           ett annat system, Upsales.
           Teknikstack: Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.
           
-          Friends MDT – Utveckling av digitala enkät verktyg för Friends-stiftelsen i deras arbete
-          mot mobbning och trakasserier. Appen användes för insamling av data från skolor genom att driva enkäter med 
-          syfte att visualisera och analysera. Efter insamlingen genererades en komplex rapport baserad på forskning
-          som visar barnens välmående i skolan.
-          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och
-          allt distribuerades via AWS. I första fasen använde vi Vmwares Tanzu för CI/CD.
+          Friends MDT – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
+          Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
+          och analysera resultaten.
+          Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
+          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och distribuerades via AWS.
+          I den första fasen använde vi VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sverige
