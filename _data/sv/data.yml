@@ -57,8 +57,8 @@ career-profile:
     Jag är en erfaren (20+ år) programvaruutvecklare som lever efter detta:
     "Gör vad du kan, med vad du har, där du är".
     Detta har gjort det möjligt för mig att prestera i olika företagskulturer, olika teamuppsättningar
-    och även ständigt föränderliga teknikstackar. Har arbetat som fullstack-utvecklare och utvecklat
-    programvara i Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher .
+    och även ständigt föränderliga teknikstackar. Jag har arbetat som fullstack-utvecklare och utvecklat
+    programvara i Java, Groovy, Python, Scala, SQL, JSP, Typescript och Cypher .
     Har byggt produktionsklar programvara för olika branscher och slutanvändare:
       - Erfarenhet av att bygga, förbättra och använda CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
       - Inköp och vidareförsäljning
@@ -113,10 +113,10 @@ experiences:
           
           Friends MDT – Utveckling av digitala enkät verktyg för Friends-stiftelsen i deras arbete
           mot mobbning och trakasserier. Appen användes för insamling av data från skolor genom att driva enkäter med 
-          syfte av visualisering och analys. Efter insamlingen genererades en komplex rapport baserad på forskning
+          syfte att visualisera och analysera. Efter insamlingen genererades en komplex rapport baserad på forskning
           som visar barnens välmående i skolan.
           Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och
-          allt använde AWS. I första fasen använde vi Vmwares Tanzu för CI/CD.
+          allt distribuerades via AWS. I första fasen använde vi Vmwares Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sverige
@@ -131,8 +131,8 @@ experiences:
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
           
           Teknikstack: En mikrotjänstarkitektur byggd över ett internt SpringBoot-liknande ramverk 
-          med Kotlin och MySql som databas. Vi deployade vår mikrotjänster i Google Cloud och 
-          vi använde oss av Kubernetes för container ramverk.
+          med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
+          vi använde oss av Kubernetes för containerplattform.
           
           Team: 3–5 strömsmedlemmar, 30+ utökat team
 
@@ -142,7 +142,7 @@ experiences:
         details: |
           Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
           Jag är involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
-          Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I den här projekt
+          Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I det här projektet
           byggde vi bland annat en CI/CD pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Denna app ökade nöjdheten 
           hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
           av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.
@@ -150,7 +150,7 @@ experiences:
           Var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
           transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
           ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
-          förväntade resultat.
+          förväntade utfall.
           Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.
           Teamet för ett projekt består av teamledare och en eller två utvecklare.
           
@@ -171,16 +171,16 @@ experiences:
          distribuerades slutligen på Docker.
          
          Teamet för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
-         Vi arbetade enligt Agile-metodik.
+         Vi arbetade enligt agil metodik.
          
          I 4 månader bidrog jag till migreringen av en viktig applikation, BUL-Batch-plattform/beräkningsmotor 
          till en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
          och CI/CD-pipelines. Detta innebar samarbete med teamet som ansvarade för WebSphere-servrarna samt teamet som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
          Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.
-         
-         
-         Jag omstrukturerade Fund Transfer Price - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
+          
+          
+          Jag omstrukturerade Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
          Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. 
          Vi byggde vår CI/CD med Jenkins och använde Docker för moduler. Tog det till MVP-nivå.
          
