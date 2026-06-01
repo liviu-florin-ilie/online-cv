@@ -99,7 +99,16 @@ experiences:
         company: Tietoevry, Kalmar, Sverige
         details: |
           Jag har varit involverad i flera projekt.
+
+          SOS-VIDEO till 112 - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
+          SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
+          Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
+          som sitter högst upp i flödet.
+          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.
           
+          Driftorder Demo Application - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
+          Jag byggde integration till Form.io.
+
           AI Application Modernization POC – är an AI-app för att hjälpa utvecklare för att 
           samla projektdata, erbjuda lösningar för förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
