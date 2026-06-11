@@ -97,23 +97,32 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Senior Lead Consultant
+      - role: Lead Solutions Consultant
         time: 2023/05 - now
         company: Tietoevry, Kalmar, Sweden
         details: |
           Was involved in several projects.
           
-          AI Application Modernization POC- AI app to assist devs.
+          SOS-VIDEO for 112 Emergency Services - The purpose of the project was to add video capabilities to existing 112 emergency calls by sending a 
+          SMS containing a link that the caller can open to establish a video connection with the operator handling the call.
+          This was achieved using an open-source technology stack consisting of Janus as the video server, an internally developed SIP stack, and two Quarkus applications 
+          at the top of the processing flow.
+          The deployment pipeline was fully automated using GitLab, Ansible, and Docker.
+
+          BPMN process runner Demo Application - A demo application for the handling BPMN processes built with Spring Boot and Flowable. I was responsible for 
+          implementing the integration with Form.io.
+
+          AI Application Modernization POC - AI app to assist devs.
           gather project data, offer solutions for improvement and modernization.
           Got a first contact with an AI project and got some hands on experience with tools like 
           Chainlit, LangGraph, LangChain, Elasticsearch and refreshed some other
           Docker Compose och Python.
           
-          RSS- I worked with full-stack development for an application hosted on AWS, that is meant 
+          RSS - I worked with full-stack development for an application hosted on AWS, that is meant 
           to support the activities of a company that works in a niche market of dealing micro-components 
           used in different industries and objects for a profit. 
           I have been responsible for development and maintenance. 
-          Did an integration with another system Upsales.
+          Did an integration with another system, Upsales.
           Some of the tech stack used here involved Neo4j, Cypher, Typescript with NestJS and Angular and also 
           got more familiar with GraphQL and the AWS stack.
 
