@@ -53,33 +53,32 @@ sidebar:
 
 career-profile:
   title: Karriärprofil
-  summary: |
-    Jag är en erfaren (20+ år) programvaruutvecklare som lever efter detta:
-    "Gör vad du kan, med vad du har, där du är".
-    Detta har gjort det möjligt för mig att prestera i olika företagskulturer, olika teamuppsättningar
-    och även ständigt föränderliga teknikstackar. Jag har arbetat som fullstack-utvecklare och utvecklat
-    programvara i Java, Groovy, Python, Scala, SQL, JSP, Typescript och Cypher .
-    Har byggt produktionsklar programvara för olika branscher och slutanvändare:
-      - Erfarenhet av att bygga, förbättra och använda CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
-      - Inköp och vidareförsäljning
-      - Mobilspel inom betalningsområdet
-      - Finanssektorn
-      - eLearning      
-      - Uppgiftshantering
-    Jag har också varit involverad i konfiguration av CI-pipelines med WebSphere-applikationsservrar
-    och interna CI-verktyg. Jag är en kreativ, motståndskraftig, öppen och hjälpsam person.
-    Jag har arbetat med fantastiska människor som hjälpt mig att utvecklas både tekniskt och socialt.
-    
-    Så här ser jag på programvaruutveckling:
-    En utvecklare idag måste kunna ta olika roller:
-      - bedöma och ta hand om de viktigaste uppgifterna
-      - vara brandman när något "brinner",
-      - vara arkeolog när det saknas överlämning,
-      - eller privatdetektiv när man måste hitta rätt personer för att få hjälp,
-      - ibland agera som översättare när inte alla förstår tekniken,
-      - vara städerska när ingen annan vågar det smutsiga jobbet,
-      - vara lärare för att dela med sig av kunskap,
-      - och ibland vara det man är ämnad att vara: arkitekt och byggare.
+  summary: |  
+      Hos UniCredit fick jag under cirka sex månader möjlighet att agera som **Solution Architect** i ett projekt där jag ansvarade för att designa en ny proof-of-concept för en **Fund Transfer Pricing-motor** som skulle ersätta den befintliga applikationen.
+      I denna roll analyserade jag de tekniska kraven, utvärderade olika teknologier och tog fram en lösningsarkitektur som balanserade verksamhetens behov, tekniska krav och teamets befintliga kompetenser. Jag valde Spring Batch och Vaadin som teknisk grund eftersom dessa teknologier passade både lösningens krav och utvecklingsteamets erfarenhet.  
+      Utöver arkitekturarbetet hade jag rollen som **Team Lead** och vägledde tre utvecklare genom design, implementation och tekniska beslut.
+      Denna erfarenhet gav mig en större förståelse för arkitektrollen och de avvägningar som krävs för att skapa hållbara tekniska lösningar. Samtidigt är min huvudsakliga bakgrund som **mjukvaruutvecklare**, där jag under över 20 år har byggt produktionsklara lösningar inom flera olika branscher:  
+        * Inköp och vidareförsäljning
+        * Betalningslösningar inom mobilspelsindustrin
+        * Finanssektorn
+        * eLearning-plattformar
+        * Uppgiftshanteringssystem
+        * Enkätsystem och analysplattformar
+        * Videolösningar för kritisk kommunikation
+        * AI proof-of-concepts
+  
+      Jag har även arbetat med komplexa systemintegrationer och varit involverad i design och implementation av CI/CD-lösningar.  
+      Genom åren har jag utvecklat en förståelse för vad som krävs för att bygga långlivade mjukvarulösningar. Jag ser arkitektrollen som en naturlig förlängning av en erfaren utvecklares ansvar – inte bara att välja tekniska lösningar, utan att förstå helheten och skapa förutsättningar för att team ska lyckas.
+      En bra utvecklare och arkitekt behöver ibland kunna ta olika roller:    
+        * **Byggare** – omsätta idéer till fungerande, produktionsklara lösningar.
+        * **Arkitekt** – skapa struktur, teknisk riktning och långsiktiga lösningar.
+        * **Brandman** – snabbt lösa kritiska problem när något går fel.
+        * **Arkeolog** – förstå och förbättra befintliga system där dokumentationen är begränsad.
+        * **Privatdetektiv** – hitta rätt information och rätt personer för att lösa komplexa problem.
+        * **Översättare** – skapa förståelse mellan verksamhetens behov och tekniska möjligheter.
+        * **Lärare och mentor** – dela kunskap och hjälpa andra att utvecklas.
+          
+        Min styrka är kombinationen av praktisk erfarenhet av att utveckla och driftsätta system samt förståelse för de arkitektoniska beslut som krävs för att bygga hållbara lösningar.
 
 education:
   title: Utbildning
@@ -94,7 +93,7 @@ experiences:
     title: Erfarenheter
     info:
       - role: Lead Solutions Consultant
-        time: 2023/05 - nu
+        time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
           Jag har varit involverad i flera projekt.
@@ -133,7 +132,7 @@ experiences:
           mellan våra kärnsystem och olika betalningsleverantörer och betalningsmetoder 
           vilket möjliggör för spelaren att sätta in och ta ut pengar på ett smidigt sätt. 
           Min roll låg inom kortströmmen som specifikt hanterar kortbetalningsintegrationer. 
-          Vårt mål är att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
+          Vårt mål var att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
           och minska risken för bedrägerier vid betalningar. 
           Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
@@ -148,19 +147,18 @@ experiences:
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
         details: |
-          Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
+          Vårt avdelningsmål var att minska risken när ett lån begärs av en kund.
           Jag är involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
           Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I det här projektet
           byggde vi bland annat en CI/CD pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Denna app ökade nöjdheten 
-          hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
+          hos våra kollegor som hade ansvar för att släppa nya versioner och underlättade övervakningen
           av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.
           
           Var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
           transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
-          ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
+          ett befintligt automatiserat testningsramverk som gjorde det möjligt för våra utvecklare att testa sin kod mot 
           förväntade utfall.
-          Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.
-          Teamet för ett projekt består av teamledare och en eller två utvecklare.
+          Jag integrerade SSO-funktionalitet i våra webbappar med hjälp av Waffle.
           
           Teknikstack: Groovy, MongoDB, Akka, Angular.
           
@@ -186,9 +184,8 @@ experiences:
          och CI/CD-pipelines. Detta innebar samarbete med teamet som ansvarade för WebSphere-servrarna samt teamet som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
          Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.
-          
-          
-          Jag omstrukturerade Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
+                            
+         Jag agerade som Solution Arkitect och Team Leadför  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
          Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. 
          Vi byggde vår CI/CD med Jenkins och använde Docker för moduler. Tog det till MVP-nivå.
          
@@ -202,6 +199,28 @@ experiences:
           Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
           yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
           igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
+          
+      - role: Javautvecklare
+        time: 2008/04 - 2011/08
+        company: Advantage Title Solutions
+        details: |
+          Jag utvecklade och underhöll Title-Search-applikationen genom att möjliggöra crawling av webbplatser med hjälp av Http Client API, Html Parser API, reguljära uttryck och XML. Den insamlade datan från den implementerade webbplatsen sparas sedan i applikationens MySQL-databas för senare användning. Syftet med Title-search-appen är att göra det möjligt för användaren att samla all tillgänglig information om en fastighet eller en fastighetssäljare för att transaktionen ska vara så "säker" som möjligt när det gäller risker som kan påverka köparen.
+          Teknikstack: GWT, Servlets, MySQL, Resin.  
+          Teamet bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
+
+      - role: Javautvecklare
+        time: 2006/06 - 2008/03
+        company: Concept Data
+        details: |
+          TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
+          Teknologier: Java, Swing, Hibernate, Oracle, Postgres, Ant, JUnit, Java Web Start, Spring, JSF, RMI och Maven.
+          Team hade 5 utvecklare och en testare.
+
+      - role: Javautvecklare
+        time:
+        company: Ingenio Software (UCS Group)
+        details: |
+          Utvecklade applikationer för kreditbedömning och låneberäkning för rumänska banker med Java ramverk Struts, JSP, jquery, Servlets samt Oracle som databas.
 
 # projects:
 #     title: Projects
