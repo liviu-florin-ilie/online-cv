@@ -201,7 +201,7 @@ experiences:
           igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
           
       - role: Javautvecklare
-        time: 2008/04 - 2011/08
+        time: 2009/04 - 2011/08
         company: Advantage Title Solutions
         details: |
           Jag utvecklade och underhöll Title-Search-applikationen genom att möjliggöra crawling av webbplatser med hjälp av Http Client API, Html Parser API, reguljära uttryck och XML. Den insamlade datan från den implementerade webbplatsen sparas sedan i applikationens MySQL-databas för senare användning. Syftet med Title-search-appen är att göra det möjligt för användaren att samla all tillgänglig information om en fastighet eller en fastighetssäljare för att transaktionen ska vara så "säker" som möjligt när det gäller risker som kan påverka köparen.
@@ -209,7 +209,7 @@ experiences:
           Teamet bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
 
       - role: Javautvecklare
-        time: 2006/06 - 2008/03
+        time: 2007/06 - 2009/03
         company: Concept Data
         details: |
           TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
