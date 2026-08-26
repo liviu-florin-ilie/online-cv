@@ -1,0 +1,59 @@
+    Hos Unicredit agerade jag som lösningarkitekt under 6 månader när jag byggde en lösning för en räkningmotorn Fund Transfer Price som skulle ersätta dåvarande applikationen.
+    Jag agerade som teamlead eftersom jag guidade 3 andra utvecklare. Jag byggde Fund Transfer Price POC motorn med Spring Batch och Vaadin. När jag tog det beslutet för de här ramverk räknade jag att
+    techstacken skulle passa de tekniska krav och de färdigheter som fanns i laget.
+
+    Jag har byggt produktionsklar programvara för olika branscher och slutanvändare:
+          - Inköp och vidareförsäljning
+          - Betalningsområdet i mobilspel branschen
+          - Finanssektorn
+          - eLearning
+          - Uppgiftshantering
+          - Enkätsystem
+          - Videolösningar
+
+    Till och med var jag inblandad i olika system integrationer och har erfarenhet att bygga lösningar och CI/CD pipelines.
+
+    Jag är en kreativ, motståndskraftig, öppen och hjälpsam person som lever efter detta: "Gör vad du kan, med vad du har, där du är".
+
+    Genom åren lärde jag mig vad är det som krävs för att bygga långående mjukvaru och har gått genom dem mellansteg som krävs för en sådant roll.
+    En arkitekt har som huvud roll skylldighet att bygga bra lösningar men han måste också:
+          - bedöma och ta hand om de viktigaste uppgifterna
+          - vara brandman när något "brinner",
+          - vara arkeolog när det saknas överlämning,
+          - eller privatdetektiv när man måste hitta rätt personer för att få hjälp,
+          - ibland agera som översättare när inte alla förstår tekniken,
+          - vara städerska när ingen annan vågar det smutsiga jobbet,
+          - vara lärare för att dela med sig av kunskap,
+
+
+Hos UniCredit fick jag under cirka sex månader möjlighet att agera som **Solution Architect** i ett projekt där jag ansvarade för att designa en ny lösning för en **Fund Transfer Pricing-motor** som skulle ersätta den befintliga applikationen.
+
+I denna roll analyserade jag de tekniska kraven, utvärderade olika teknologier och tog fram en lösningsarkitektur som balanserade verksamhetens behov, tekniska krav och teamets befintliga kompetenser. Jag valde Spring Batch och Vaadin som teknisk grund eftersom dessa teknologier passade både lösningens krav och utvecklingsteamets erfarenhet.
+
+Utöver arkitekturarbetet hade jag rollen som **Team Lead** och vägledde tre utvecklare genom design, implementation och tekniska beslut. Jag utvecklade även en proof-of-concept för Fund Transfer Pricing-motorn med fokus på beräkningslogik, automatiserade batchflöden och användargränssnitt.
+
+Denna erfarenhet gav mig en större förståelse för arkitektrollen och de avvägningar som krävs för att skapa hållbara tekniska lösningar. Samtidigt är min huvudsakliga bakgrund som **mjukvaruutvecklare**, där jag under över 20 år har byggt produktionsklara lösningar inom flera olika branscher:
+
+* Inköp och vidareförsäljning
+* Betalningslösningar inom mobilspelsindustrin
+* Finanssektorn
+* eLearning-plattformar
+* Uppgiftshanteringssystem
+* Enkätsystem och analysplattformar
+* Videolösningar för kritisk kommunikation
+
+Jag har även arbetat med komplexa systemintegrationer och varit involverad i design och implementation av CI/CD-lösningar.
+
+Genom åren har jag utvecklat en förståelse för vad som krävs för att bygga långlivade mjukvarulösningar. Jag ser arkitektrollen som en naturlig förlängning av en erfaren utvecklares ansvar – inte bara att välja tekniska lösningar, utan att förstå helheten och skapa förutsättningar för att team ska lyckas.
+
+En bra utvecklare och arkitekt behöver ibland kunna ta olika roller:
+
+* **Byggare** – omsätta idéer till fungerande, produktionsklara lösningar.
+* **Arkitekt** – skapa struktur, teknisk riktning och långsiktiga lösningar.
+* **Brandman** – snabbt lösa kritiska problem när något går fel.
+* **Arkeolog** – förstå och förbättra befintliga system där dokumentationen är begränsad.
+* **Privatdetektiv** – hitta rätt information och rätt personer för att lösa komplexa problem.
+* **Översättare** – skapa förståelse mellan verksamhetens behov och tekniska möjligheter.
+* **Lärare och mentor** – dela kunskap och hjälpa andra att utvecklas.
+
+Min styrka är kombinationen av praktisk erfarenhet av att utveckla och driftsätta system samt förståelse för de arkitektoniska beslut som krävs för att bygga hållbara lösningar.

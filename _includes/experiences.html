@@ -23,10 +23,14 @@
 
     </div><!--//meta-->
 
+
     {% if experience.details %}
+    {% if experience.show OR details-project %}
     <div class="details">
       {{ experience.details | markdownify }}
-    </div><!--//details-->
+    </div>
+    {% endif %}
+    <!--//details-->
     {% endif %}
 
   </div><!--//item-->

@@ -3,11 +3,8 @@
 #
 
 sidebar:
-    # This is the setup area
-    # where some switches can be turned on or off
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    details-project: False # when set to False it will not show the project details from experience.details
 
     # Profile information
     name: Liviu Florin Ilie
@@ -39,8 +36,8 @@ sidebar:
     languages:
       title: Languages
       info:
-#        - idiom: Romanian
-#          level: Native
+        - idiom: Romanian
+          level: Native
 
         - idiom: English
           level: Professional
@@ -60,33 +57,31 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a  seasoned (20+ years) Software Developer who lives by this: 
-      \"Do what you can, with what you have, where you are\". 
-      This allowed me to perform in different company cultures, different team setups 
-      and also ever changing tech-stacks. Worked as a full-stack developer developing 
-      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher.
-      Built production ready software for various industries and end users:
-        - experience with building, improving and using CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
-        - Procurement and resale
-        - Mobile Gaming in the Payments Area
-        - Financial Sector
-        - eLearning
-        - Task Management
-      I was also involved in configuration of CI pipelines involving WebSphere application
-      servers and internal CI tools. I am a creative, resilient, open and helpful person.
-      I worked with great people who helped me grow both my technical and soft skills.
-      
-      This is my take on software development:
-      The software developer nowadays has to fill in different roles:
-        - assess and take care of the most important tasks
-        - one can be a fireman when something \"catches fire\",         
-        - one can be an archaeologist when there is no handover 
-        - or even a private detective when there are things he needs to accomplish ones tasks 
-          and has to look for the people that can provide help,
-        - sometimes one can act as a translator as there are things that not all people can understand, 
-        - one can even be the housekeeping lady when no one else dares doing the dirty work, 
-        - one must be a teacher in order to share what he has acquired,
-        - and sometimes one can be what he is destined to be: an architect and a builder.
+      I am an experienced software developer with 20+ years in the industry, and I live by the principle: 
+      **“Do what you can, with what you have, where you are.”**
+
+      I have strong hands-on experience with **Java, Spring Boot, SQL, Docker, Kubernetes, CI/CD, MyBatis**, 
+      and cloud-native architectures. I am comfortable working across the full software development lifecycle, 
+      from architectural design and implementation to troubleshooting, performance optimization, production support, 
+      and continuous improvement.
+
+      At **LeoVegas**, I worked in the Payments department on high-volume transactional systems. Our microservices were 
+      built on a modified Spring Boot framework that made it possible to quickly develop and deploy new services. 
+      Many of the technologies and architectural patterns used in this role were part of my daily work at LeoVegas, 
+      including **microservices, Spring Boot, SQL, Kubernetes, messaging, monitoring, and highly transactional systems**.
+
+      At **UniCredit**, I was responsible for building a proof of concept for an application intended to replace an 
+      existing Fund Transfer Pricing Engine. I designed the solution using **Spring Boot, Spring Batch, and MyBatis**, 
+      focusing on a robust architecture capable of handling complex calculations and large volumes of data.
+
+      I am comfortable taking ownership of challenges across different parts of a system, 
+      designing and implementing integrations with both internal and external systems, participating in peer reviews, 
+      troubleshooting production issues, and taking part in on-call responsibilities when needed. 
+      I also have experience working as a Team Lead and supporting less experienced developers.
+
+      I thrive in remote environments, where I find that focused communication and a high degree of 
+      autonomy allow teams to concentrate on solving the problems that matter.
+
 education:
     title: Education
     info:
@@ -101,7 +96,7 @@ experiences:
     title: Experiences
     info:
       - role: Lead Solutions Consultant
-        time: 2023/05 - now
+        time: 2023/05 - 2023/07
         company: Tietoevry, Kalmar, Sweden
         details: |
           Was involved in several projects.
@@ -139,7 +134,6 @@ experiences:
           platform.
 
       - role: Software Developer @Payments
-        show: True
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sweden
         details: |
@@ -179,7 +173,6 @@ experiences:
           
           Team: The team for a project consists of team-lead and one or two developers.          
       - role: Senior Software Developer
-        show: True
         time: 2015/03 - 2018/03
         company: UniCredit Services, Bucharest
         details: |
@@ -192,7 +185,7 @@ experiences:
           eventually deployed on Docker.
           
           The team for this project consisted of a technical analyst, business analyst and six developers. 
-          We worked in an Agile way.  
+          We worked in an agile way.  
 
           For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
           engine to a new server infrastructure. One of the important parts of the job was integrating the application 
@@ -202,7 +195,7 @@ experiences:
           The tech-stack had EJB2.0, JMS, WebSphere 5 and 8. 
           
           I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
-          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
+          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin and using the previous Teradata database. 
           We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
           
           Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
