@@ -2,19 +2,19 @@
 layout: default
 lang: en
 title: "My Resume - English"
+template: data
 ---
-{% assign lang = site.data[page.lang] %}
+{% assign lang = site.data[page.lang][page.template] %}
 <!--DEBUG-->
 <!--<pre>-->
 <!--{{ lang | jsonify }}-->
 <!--</pre>-->
-{% include career-profile.html lang=lang %}
+{% include career-profile.html career-node=lang  %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% assign details-project = lang.sidebar.details-project %}
 
-{% include experiences.html lang=lang %}
+
+{% include experiences.html lang=lang details-project=details-project%}
 
 {% include projects.html lang=lang %}
 
