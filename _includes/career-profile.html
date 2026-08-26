@@ -1,4 +1,5 @@
-{% assign career-profile = lang.career-profile %}
+{% assign career-profile = {{include.career-node.career-profile }} %}
+
 {% if career-profile %}
 <section class="section summary-section">
 

@@ -101,7 +101,7 @@ experiences:
     title: Experiences
     info:
       - role: Lead Solutions Consultant
-        time: 2023/05 - now
+        time: 2023/05 - 2023/07
         company: Tietoevry, Kalmar, Sweden
         details: |
           Was involved in several projects.
@@ -192,7 +192,7 @@ experiences:
           eventually deployed on Docker.
           
           The team for this project consisted of a technical analyst, business analyst and six developers. 
-          We worked in an Agile way.  
+          We worked in an agile way.  
 
           For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
           engine to a new server infrastructure. One of the important parts of the job was integrating the application 
@@ -202,7 +202,7 @@ experiences:
           The tech-stack had EJB2.0, JMS, WebSphere 5 and 8. 
           
           I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
-          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
+          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin and using the previous Teradata database. 
           We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
           
           Also had a small role in Exonus project which was built with Spring Cloud infrastructure.

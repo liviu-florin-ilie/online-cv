@@ -3,8 +3,11 @@
 #
 
 sidebar:
+    # This is the setup area
+    # where some switches can be turned on or off
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    details-project: False # when set to False it will not show the project details from experience.details
 
     # Profile information
     name: Liviu Florin Ilie
@@ -36,9 +39,6 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: Romanian
-          level: Native
-
         - idiom: English
           level: Professional
 
@@ -134,6 +134,7 @@ experiences:
           platform.
 
       - role: Software Developer @Payments
+        show: True
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sweden
         details: |
@@ -173,6 +174,7 @@ experiences:
           
           Team: The team for a project consists of team-lead and one or two developers.          
       - role: Senior Software Developer
+        show: True
         time: 2015/03 - 2018/03
         company: UniCredit Services, Bucharest
         details: |
