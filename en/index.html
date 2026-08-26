@@ -3,7 +3,7 @@ layout: default
 lang: en
 title: "My Resume - English"
 ---
-{% assign lang = site.data[page.lang].data_sporty %}
+{% assign lang = site.data[page.lang] %}
 <!--DEBUG-->
 <!--<pre>-->
 <!--{{ lang | jsonify }}-->
@@ -12,14 +12,14 @@ title: "My Resume - English"
 
 {% assign details-project = lang.sidebar.details-project %}
 
-<pre>
-  page.lang = {{ page.lang  }}
-  Details project flag  {{ lang | jsonify}}
-<!--  Site data {{ site.data | jsonify }}-->
-  Lang {{ lang | jsonify }}
-  Education {{lang.data.sidebar.education| jsonify }}
+<!--<pre>-->
+<!--  page.lang = {{ page.lang  }}-->
+<!--  Details project flag  {{ lang | jsonify}}-->
+<!--&lt;!&ndash;  Site data {{ site.data | jsonify }}&ndash;&gt;-->
+<!--  Lang {{ lang | jsonify }}-->
+<!--  Education {{lang.data.sidebar.education| jsonify }}-->
 
-</pre>
+<!--</pre>-->
 
 {% unless lang.data.sidebar.education %}
   {% include education.html %}
