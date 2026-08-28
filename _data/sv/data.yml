@@ -53,26 +53,18 @@ sidebar:
 
 career-profile:
   title: Karriärprofil
-  summary: |  
-    Jag är en erfaren programvaruutvecklare med 20+ års erfarenhet och lever efter mottot:  **"Gör vad du kan, med vad du har, där du är"**.
-    Under mina första tio år arbetade jag huvudsakligen med Java och J2EE. Därefter började jag arbeta mer med fullstackutveckling och TypeScript/Angular,
-    bland annat hos UniCredit. 
-    
-    Jag har sedan dess arbetat med Angular i flera projekt, bland annat inom Tietoevry i både Friends- och RSS-projekten samt i flera projekt hos Dell.
-    Jag har lång erfarenhet av testning och har använt olika testbibliotek och teststrategier inom Java-utveckling. Den erfarenheten ger mig en god grund för att arbeta med
-    testning av moderna webbapplikationer, inklusive komponent-, integrations- och API-tester.
-    
-    På LeoVegas arbetade jag med klientdelen av betalningsintegrationer mot bland annat PCI Proxy och Adyen.
-    Jag har även arbetat med flera integrationslösningar inom betalningsområdet samt med integrationen mellan RSS-applikationen och Upsales.    
-    Detta har gett mig bred praktisk erfarenhet av att utveckla och felsöka integrationer mellan interna och externa system. 
-    
-    Jag har erfarenhet av både GCP- och AWS-baserade miljöer. På LeoVegas arbetade
-    vi med GCP som molnplattform, medan jag på Tietoevry har arbetat med AWS-baserade lösningar.
-    
-    På Advantage Title Solutions arbetade jag med datainsamling från både offentliga och icke-offentliga datakällor. Syftet var att samla och bearbeta information som användes
-    för att säkerställa att en fastighetsaffär kunde genomföras utan problem. Detta gav mig ytterligare erfarenhet av dataflöden, integrationer och hantering av stora mängder information.
-    
-    Min bakgrund inom Java, TypeScript, Angular, molnplattformar, integrationer, testning och produktionssatta system ger mig en bred teknisk grund och goda förutsättningar att snabbt sätta mig in i nya tekniker och arkitekturer.
+  summary: |
+    Jag är en erfaren programvaruutvecklare med 20+ års erfarenhet och lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
+  
+    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt arbeta inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Parallellt har jag byggt upp en bred fullstackkompetens inom framför allt TypeScript och Angular genom projekt hos UniCredit, Dell och Tietoevry.
+  
+    Integrationer har varit en återkommande del av min karriär. På LeoVegas arbetade jag inom Payments med integrationer mot externa betalningsleverantörer som Adyen och PCI Proxy i en mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
+  
+    Jag har erfarenhet av både GCP och AWS. På LeoVegas distribuerades våra mikrotjänster i Google Cloud med Kubernetes som containerplattform, medan flera av mina projekt hos Tietoevry har byggts och distribuerats på AWS. Jag har även arbetat med Docker, CI/CD och produktionssatta affärskritiska system.
+  
+    Jag har lång erfarenhet av automatiserad testning och olika teststrategier. Hos Dell skrev jag bland annat om och förbättrade ett automatiserat testramverk samtidigt som jag arbetade med Angular-baserade webbapplikationer.
+  
+    Min kombination av Java, TypeScript, integrationer, molnplattformar och erfarenhet från komplexa produktionssystem gör att jag kan arbeta över flera delar av en lösning och snabbt sätta mig in i nya tekniker och arkitekturer.
 
 education:
   title: Utbildning
