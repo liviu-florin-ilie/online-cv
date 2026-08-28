@@ -4,9 +4,10 @@
 sidebar:
   about: False
   education: True
+  details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Programvaruutvecklare med fokus på Java-liknande språk
+  tagline: Senior programvaruutvecklare – Java, Fullstack & Integration
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -33,9 +34,6 @@ sidebar:
   languages:
     title: Språk
     info:
-      - idiom: Rumänska
-        level: Modersmål
-
       - idiom: Engelska
         level: Professionell
 
@@ -45,41 +43,26 @@ sidebar:
   interests:
     title: Intressen
     info:
-      - item: Triathlon
-        link:
+      - item: Triathlon (Ironman Finisher)
+        link: https://www.movable-ink-850.com/p/rp/b93e9f68d865fb74/url?mi_u=61436628&mi_ecmp=65854c77-2bf9-452b-b78e-508bbdf4def0&contactid=a3733971-bff3-4a5c-881d-8099f44cd331&utm_campaign=25670808-EMEA%202026%20-%20IM%20%7C%20All%20Races%20-%20AC&utm_medium=email&_hsenc=p2ANqtz-9A3gjOPsXvznC1zJTm2RTTIzzffQYRADnCl5jKWLnVP0rQEQA2qb1Hqshz7VFWdpyqNlko6ODY5-mbNn34T5Ht-9ymig&_hsmi=433939101&utm_content=433939101&utm_source=hs_email&mi_cmp=da27ea647bf68f51&mi_sc=t
 
-      - item: Psykologi
+      - item: Samhällsvetenskap
         link:
 
 career-profile:
   title: Karriärprofil
-  summary: |
-    Jag är en erfaren (20+ år) programvaruutvecklare som lever efter detta:
-    "Gör vad du kan, med vad du har, där du är".
-    Detta har gjort det möjligt för mig att prestera i olika företagskulturer, olika teamuppsättningar
-    och även ständigt föränderliga teknikstackar. Jag har arbetat som fullstack-utvecklare och utvecklat
-    programvara i Java, Groovy, Python, Scala, SQL, JSP, Typescript och Cypher .
-    Har byggt produktionsklar programvara för olika branscher och slutanvändare:
-      - Erfarenhet av att bygga, förbättra och använda CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
-      - Inköp och vidareförsäljning
-      - Mobilspel inom betalningsområdet
-      - Finanssektorn
-      - eLearning      
-      - Uppgiftshantering
-    Jag har också varit involverad i konfiguration av CI-pipelines med WebSphere-applikationsservrar
-    och interna CI-verktyg. Jag är en kreativ, motståndskraftig, öppen och hjälpsam person.
-    Jag har arbetat med fantastiska människor som hjälpt mig att utvecklas både tekniskt och socialt.
-    
-    Så här ser jag på programvaruutveckling:
-    En utvecklare idag måste kunna ta olika roller:
-      - bedöma och ta hand om de viktigaste uppgifterna
-      - vara brandman när något "brinner",
-      - vara arkeolog när det saknas överlämning,
-      - eller privatdetektiv när man måste hitta rätt personer för att få hjälp,
-      - ibland agera som översättare när inte alla förstår tekniken,
-      - vara städerska när ingen annan vågar det smutsiga jobbet,
-      - vara lärare för att dela med sig av kunskap,
-      - och ibland vara det man är ämnad att vara: arkitekt och byggare.
+  summary: |  
+    Jag är en erfaren programvaruutvecklare med 20+ års erfarenhet och lever efter mottot: "Gör vad du kan, med vad du har, där du är".
+    Under mina första tio år arbetade jag huvudsakligen med Java och J2EE. Därefter började jag arbeta mer med fullstackutveckling och TypeScript/Angular,
+    bland annat hos UniCredit. Jag har sedan dess arbetat med Angular i flera projekt, bland annat inom Tietoevry i både Friends- och RSS-projekten samt i flera projekt hos Dell.
+    Jag har lång erfarenhet av testning och har använt olika testbibliotek och teststrategier inom Java-utveckling. Den erfarenheten ger mig en god grund för att arbeta med
+    testning av moderna webbapplikationer, inklusive komponent-, integrations- och API-tester. På LeoVegas arbetade jag med klientdelen av betalningsintegrationer mot bland annat PCI Proxy och Adyen.
+    Jag har även arbetat med flera integrationslösningar inom betalningsområdet samt med integrationen mellan RSS-applikationen och Upsales.
+    Detta har gett mig bred praktisk erfarenhet av att utveckla och felsöka integrationer mellan interna och externa system. Jag har erfarenhet av både GCP- och AWS-baserade miljöer. På LeoVegas arbetade
+    vi med GCP som molnplattform, medan jag på Tietoevry har arbetat med AWS-baserade lösningar.
+    På Advantage Title Solutions arbetade jag med datainsamling från både offentliga och icke-offentliga datakällor. Syftet var att samla och bearbeta information som användes
+    för att säkerställa att en fastighetsaffär kunde genomföras utan problem. Detta gav mig ytterligare erfarenhet av dataflöden, integrationer och hantering av stora mängder information.
+    Min bakgrund inom Java, TypeScript, Angular, molnplattformar, integrationer, testning och produktionssatta system ger mig en bred teknisk grund och goda förutsättningar att snabbt sätta mig in i nya tekniker och arkitekturer.
 
 education:
   title: Utbildning
@@ -94,7 +77,8 @@ experiences:
     title: Erfarenheter
     info:
       - role: Lead Solutions Consultant
-        time: 2023/05 - nu
+        show: True
+        time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
           Jag har varit involverad i flera projekt.
@@ -112,7 +96,7 @@ experiences:
           samla projektdata, erbjuda lösningar för förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.
+          Docker Compose och Python. 
           
           RSS – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
           som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
@@ -127,6 +111,7 @@ experiences:
           I den första fasen använde vi VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
+        show: True
         company: Leovegas, Remote-Sverige
         details: |
           Teamet i betalningsavdelningen bygger och underhåller betalningsintegrationer 
@@ -145,6 +130,7 @@ experiences:
           Team: 3–5 strömsmedlemmar, 30+ utökat team
 
       - role: Principal Programvaruingenjör
+        show: True
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
         details: |
@@ -168,6 +154,7 @@ experiences:
 
       - role: Senior Programvaruutvecklare
         time: 2015/03 - 2018/03
+        show: True
         company: UniCredit Services, Bukarest
         details: |
          Arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien. Den viktigaste 
@@ -202,6 +189,26 @@ experiences:
           Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
           yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
           igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
+
+      - role: Java Developer
+        time: 2009/04 - 2011/08
+        company: Advantage Title Solutions, Bucharest
+        details: |
+          Jag utvecklade och underhöll en applikation för fastighets- och ägarundersökningar genom att integrera nya webbplatser 
+          med hjälp av Http Client API, HTML Parser API, reguljära uttryck och XML. Den insamlade informationen från de integrerade webbplatserna sparades sedan i applikationens MySQL-databas för vidare användning.  
+          Syftet med Title Search-applikationen var att göra det möjligt för användaren att samla in all tillgänglig information om en fastighet eller en fastighetssäljare, för att göra fastighetsaffären så säker som möjligt och minimera risker som kan påverka köparen.
+  
+          **Teknikstack:** GWT, Servlets, MySQL och Resin.
+
+          Teamet bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
+
+      - role: Java Developer
+        time: 2007/02 - 2007/06
+        company: Genesys, Bucharest
+      - role: Java Developer
+        time: 2005/04 - 2007/02
+        company: INGENIO-UCS, Bucharest
+
 
 # projects:
 #     title: Projects
