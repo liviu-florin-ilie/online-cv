@@ -230,10 +230,16 @@ experiences:
           Tech stack: GWT, Servlets, MySQL, Resin.
           
           Team consisted of 8 developers, 3 testers, and one dev lead.
+
       - role: Java Developer
+        time: 2007/06 - 2009/03
+        company: Concept Data, Bucharest
+
+      - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
-      - role: Java Developer
+
+      - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bucharest
           
