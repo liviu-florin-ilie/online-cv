@@ -11,9 +11,11 @@ sidebar:
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
-  phone: +46767657704
-  timezone: CET Tidszon
-  citizenship: Rumänsk
+#  phone: +46767657704
+  local_phone: 0767657704
+#  timezone: CET Tidszon
+  location: Kalmar, Sverige
+  citizenship: Rumänsk(EU medborgare)
   linkedin: liviu-florin-i-a094367/
   xing:
   github: liviu-florin-ilie
@@ -24,12 +26,12 @@ sidebar:
   stack-overflow: 2285846/liviu-florin-ilie
   codewars:
   goodreads:
-  pdf:
-    link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_sv.pdf
-    label: Mitt CV
-  otherlanguage:
-    link: https://liviu-florin-ilie.github.io/online-cv/en/index.html
-    label: My CV in English
+#  pdf:
+#    link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_sv.pdf
+#    label: Mitt CV
+#  otherlanguage:
+#    link: https://liviu-florin-ilie.github.io/online-cv/en/index.html
+#    label: My CV in English
 
   languages:
     title: Språk
