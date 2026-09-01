@@ -282,29 +282,20 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java
-        level: 80%
-        
-      - name: Typescript
-        level: 60%
+      - name: AI
+        technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
 
-      - name: Software design
-        level: 70%
+      - name: Backend
+        technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
 
-      - name: Adaptable
-        level: 90%
+      - name: Frontend
+        technologies: [TypeScript, Angular]
 
-      - name: Creative
-        level: 80%
-      
-      - name: Open
-        level: 85%
-        
-      - name: Hard worker
-        level: 95%
-      
-      - name: Willing to learn both technically and business wise
-        level: 90%
+      - name: Cloud & DevOps
+        technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
+
+      - name: Data
+        technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
         
         
 footer: >

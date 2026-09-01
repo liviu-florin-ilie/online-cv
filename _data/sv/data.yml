@@ -7,7 +7,7 @@ sidebar:
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior programvaruutvecklare – Java, Fullstack & Integration
+  tagline: Senior programvaruutvecklare – Backend, Integration & AI
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -57,7 +57,9 @@ career-profile:
     Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att bygga och vidareutveckla affärskritiska system. Jag vill använda min bakgrund inom backend, integrationer och molnplattformar för att utveckla AI-drivna och agentiska applikationer. Jag lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
 
     På Tietoevry deltog jag i **AI Application Modernization POC**, en AI-applikation som samlar in och analyserar projektdata samt föreslår förbättringar och moderniseringsåtgärder. I projektet fick jag praktisk erfarenhet av Python, Chainlit, LangChain, LangGraph, Elasticsearch och Docker Compose. Arbetet gav mig konkret erfarenhet av hur AI-baserade och agentiska flöden kan användas för att lösa verkliga problem inom programvaruutveckling.
-
+    Jag har sedan dess fortsatt att fördjupa mina kunskaper inom AI och har även tagit **Microsoft-certifieringen AI-102 (Azure AI Engineer Associate)**.
+    I mitt dagliga utvecklingsarbete använder jag även AI-baserade utvecklingsverktyg som GitHub Copilot och IntelliJ:s AI-verktyg.
+    
     Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Det har gett mig en stabil grund för att designa robusta backendlösningar, API:er och integrationsarkitekturer med fokus på kvalitet, struktur och långsiktig hållbarhet.
 
     Integrationer har varit en central del av min karriär. På LeoVegas arbetade jag inom Payments med externa betalningsleverantörer som Adyen och PCI Proxy i en molnbaserad mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt en integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
@@ -239,29 +241,20 @@ skills:
   title: Färdigheter & Kompetens
 
   toolset:
-    - name: Java
-      level: 80%
+    - name: AI
+      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
 
-    - name: Typescript
-      level: 60%
+    - name: Backend
+      technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
 
-    - name: Programvarudesign
-      level: 80%
+    - name: Frontend
+      technologies: [TypeScript, Angular]
 
-    - name: Anpassningsbar
-      level: 90%
+    - name: Cloud & DevOps
+      technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
 
-    - name: Kreativ
-      level: 80%
-
-    - name: Öppen
-      level: 85%
-
-    - name: Hårt arbetande
-      level: 95%
-
-    - name: Villig att lära sig både tekniskt och affärsmässigt
-      level: 90%
+    - name: Data
+      technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
 
 
 footer: >
