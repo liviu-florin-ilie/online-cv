@@ -54,18 +54,17 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren programvaruutvecklare med 20+ års erfarenhet och lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
-  
-    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt arbeta inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Parallellt har jag byggt upp en bred fullstackkompetens inom framför allt TypeScript och Angular genom projekt hos UniCredit, Dell och Tietoevry.
-  
-    Integrationer har varit en återkommande del av min karriär. På LeoVegas arbetade jag inom Payments med integrationer mot externa betalningsleverantörer som Adyen och PCI Proxy i en mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
-  
-    Jag har erfarenhet av både GCP och AWS. På LeoVegas distribuerades våra mikrotjänster i Google Cloud med Kubernetes som containerplattform, medan flera av mina projekt hos Tietoevry har byggts och distribuerats på AWS. Jag har även arbetat med Docker, CI/CD och produktionssatta affärskritiska system.
-  
-    Jag har lång erfarenhet av automatiserad testning och olika teststrategier. Hos Dell skrev jag bland annat om och förbättrade ett automatiserat testramverk samtidigt som jag arbetade med Angular-baserade webbapplikationer.
-  
-    Min kombination av Java, TypeScript, integrationer, molnplattformar och erfarenhet från komplexa produktionssystem gör att jag kan arbeta över flera delar av en lösning och snabbt sätta mig in i nya tekniker och arkitekturer.
+    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att bygga och vidareutveckla affärskritiska system. Jag vill använda min bakgrund inom backend, integrationer och molnplattformar för att utveckla AI-drivna och agentiska applikationer. Jag lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
 
+    På Tietoevry deltog jag i **AI Application Modernization POC**, en AI-applikation som samlar in och analyserar projektdata samt föreslår förbättringar och moderniseringsåtgärder. I projektet fick jag praktisk erfarenhet av Python, Chainlit, LangChain, LangGraph, Elasticsearch och Docker Compose. Arbetet gav mig konkret erfarenhet av hur AI-baserade och agentiska flöden kan användas för att lösa verkliga problem inom programvaruutveckling.
+
+    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Det har gett mig en stabil grund för att designa robusta backendlösningar, API:er och integrationsarkitekturer med fokus på kvalitet, struktur och långsiktig hållbarhet.
+
+    Integrationer har varit en central del av min karriär. På LeoVegas arbetade jag inom Payments med externa betalningsleverantörer som Adyen och PCI Proxy i en molnbaserad mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt en integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
+
+    Jag har också bred fullstackkompetens, framför allt inom TypeScript och Angular, vilket gör att jag förstår hela kedjan från backend och API:er till frontend och användarupplevelse. Jag har arbetat med AWS och GCP samt med Kubernetes, Docker, CI/CD och automatiserad testning i produktionssatta system.
+
+    Kombinationen av praktisk AI-erfarenhet, senior backendkompetens, integrationsvana, molnerfarenhet och förståelse för hela produktkedjan gör att jag kan bidra till att bygga användbara och hållbara AI-produkter. Jag är nyfiken, van att snabbt sätta mig in i nya tekniker och motiveras av att göra komplexa lösningar enkla för användaren.
 education:
   title: Utbildning
   info:
@@ -125,7 +124,7 @@ experiences:
           **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
 
       - role: Principal Programvaruingenjör
-        show: True
+        show: False
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
         details: |
@@ -178,7 +177,7 @@ experiences:
           igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
 
       - role: Java Developer
-        show: True
+        show: False
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bucharest
         details: |

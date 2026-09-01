@@ -1,20 +1,20 @@
 ---
 layout: default
-lang: sv
+lang: en
 title: "Mitt CV - Svenska"
+template: data
 ---
+{% assign lang = site.data[page.lang][page.template] %}
+<!--DEBUG-->
+<!--<pre>-->
+<!--{{ lang | jsonify }}-->
+<!--</pre>-->
+{% include career-profile.html career-node=lang  %}
+
+{% assign details-project = lang.sidebar.details-project %}
 
 
-
-{% assign lang = site.data[page.lang] %}
-
-{% include career-profile.html lang=lang %}
-
-{% unless site.data[page.lang].data.sidebar.education %}
-{% include education.html %}
-{% endunless %}
-
-{% include experiences.html lang=lang %}
+{% include experiences.html lang=lang details-project=details-project%}
 
 {% include projects.html lang=lang %}
 
