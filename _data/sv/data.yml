@@ -91,9 +91,8 @@ experiences:
           som sitter högst upp i flödet.
           Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
           **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
-          Jag byggde integration till Form.io.
-          **AI Application Modernization POC** – är an AI-app för att hjälpa utvecklare för att 
-          samla projektdata, erbjuda lösningar för förbättring och modernisering.
+          Jag utvecklade integrationen med Form.io.
+          **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
           Docker Compose och Python.         
@@ -105,7 +104,7 @@ experiences:
           Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
           och analysera resultaten.
           Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
-          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och distribuerades via AWS.
+          Applikationen använde Postgres, Neo4j, Spring Boot med Kotlin, Angular och distribuerades via AWS.
           I den första fasen använde vi VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
@@ -120,7 +119,7 @@ experiences:
           och minska risken för bedrägerier vid betalningar. 
           Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
-          **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt SpringBoot-liknande ramverk 
+          **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt Spring Boot-liknande ramverk 
           med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
           vi använde oss av Kubernetes för containerplattform.<br />
           **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
