@@ -132,6 +132,7 @@ experiences:
           med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
           vi använde oss av Kubernetes för containerplattform.<br />
           **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
+          <br /><br />
 
       - role: Principal Programvaruingenjör
         show: False
