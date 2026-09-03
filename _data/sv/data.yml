@@ -4,15 +4,18 @@
 sidebar:
   about: False
   education: True
+  details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Programvaruutvecklare med fokus på Java-liknande språk
+  tagline: Senior programvaruutvecklare – Backend, Integration & AI
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
-  phone: +46767657704
-  timezone: CET Tidszon
-  citizenship: Rumänsk
+#  phone: +46767657704
+  local_phone: "0767657704"
+#  timezone: CET Tidszon
+  location: Kalmar, Sverige
+  citizenship: Rumänsk(EU medborgare)
   linkedin: liviu-florin-i-a094367/
   xing:
   github: liviu-florin-ilie
@@ -23,19 +26,16 @@ sidebar:
   stack-overflow: 2285846/liviu-florin-ilie
   codewars:
   goodreads:
-  pdf:
-    link: https://liviu-florin-ilie.github.io/online-cv/assets/liviu-florin-ilie_A.pdf
-    label: Mitt CV
-  otherlanguage:
-    link: https://liviu-florin-ilie.github.io/online-cv/en/index.html
-    label: My CV in English
+#  pdf:
+#    link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_sv.pdf
+#    label: Mitt CV
+#  otherlanguage:
+#    link: https://liviu-florin-ilie.github.io/online-cv/en/index.html
+#    label: My CV in English
 
   languages:
     title: Språk
     info:
-      - idiom: Rumänska
-        level: Modersmål
-
       - idiom: Engelska
         level: Professionell
 
@@ -45,40 +45,35 @@ sidebar:
   interests:
     title: Intressen
     info:
-      - item: Triathlon
-        link:
+      - item: Triathlon (Ironman Finisher)
+        link: https://feathersprod.blob.core.windows.net/api-public/fdc12f9a-8896-4529-acb0-6bd89e50f9ec.pdf
 
-      - item: Psykologi
+      - item: Samhällsvetenskap
         link:
 
 career-profile:
   title: Karriärprofil
-  summary: |  
-      Hos UniCredit fick jag under cirka sex månader möjlighet att agera som **Solution Architect** i ett projekt där jag ansvarade för att designa en ny proof-of-concept för en **Fund Transfer Pricing-motor** som skulle ersätta den befintliga applikationen.
-      I denna roll analyserade jag de tekniska kraven, utvärderade olika teknologier och tog fram en lösningsarkitektur som balanserade verksamhetens behov, tekniska krav och teamets befintliga kompetenser. Jag valde Spring Batch och Vaadin som teknisk grund eftersom dessa teknologier passade både lösningens krav och utvecklingsteamets erfarenhet.  
-      Utöver arkitekturarbetet hade jag rollen som **Team Lead** och vägledde tre utvecklare genom design, implementation och tekniska beslut.
-      Denna erfarenhet gav mig en större förståelse för arkitektrollen och de avvägningar som krävs för att skapa hållbara tekniska lösningar. Samtidigt är min huvudsakliga bakgrund som **mjukvaruutvecklare**, där jag under över 20 år har byggt produktionsklara lösningar inom flera olika branscher:  
-        * Inköp och vidareförsäljning
-        * Betalningslösningar inom mobilspelsindustrin
-        * Finanssektorn
-        * eLearning-plattformar
-        * Uppgiftshanteringssystem
-        * Enkätsystem och analysplattformar
-        * Videolösningar för kritisk kommunikation
-        * AI proof-of-concepts
+  summary: |
+    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att utveckla och vidareutveckla affärskritiska system. 
+    Min bakgrund ligger framför allt inom backendutveckling, men under min karriär har jag även arbetat med lösningsarkitektur, 
+    integrationer, tekniska plattformar och tekniskt ledarskap.
   
-      Jag har även arbetat med komplexa systemintegrationer och varit involverad i design och implementation av CI/CD-lösningar.  
-      Genom åren har jag utvecklat en förståelse för vad som krävs för att bygga långlivade mjukvarulösningar. Jag ser arkitektrollen som en naturlig förlängning av en erfaren utvecklares ansvar – inte bara att välja tekniska lösningar, utan att förstå helheten och skapa förutsättningar för att team ska lyckas.
-      En bra utvecklare och arkitekt behöver ibland kunna ta olika roller:    
-        * **Byggare** – omsätta idéer till fungerande, produktionsklara lösningar.
-        * **Arkitekt** – skapa struktur, teknisk riktning och långsiktiga lösningar.
-        * **Brandman** – snabbt lösa kritiska problem när något går fel.
-        * **Arkeolog** – förstå och förbättra befintliga system där dokumentationen är begränsad.
-        * **Privatdetektiv** – hitta rätt information och rätt personer för att lösa komplexa problem.
-        * **Översättare** – skapa förståelse mellan verksamhetens behov och tekniska möjligheter.
-        * **Lärare och mentor** – dela kunskap och hjälpa andra att utvecklas.
-          
-        Min styrka är kombinationen av praktisk erfarenhet av att utveckla och driftsätta system samt förståelse för de arkitektoniska beslut som krävs för att bygga hållbara lösningar.
+    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat 
+    Kotlin, Groovy, Spring Boot och Quarkus. Jag har arbetat med distribuerade system, mikrotjänster, API och integrationsarkitektur 
+    samt med AWS, GCP, Kubernetes, Docker, VMware Tanzu, WebSphere, GitLab CI/CD, Jenkins.
+    
+    På UniCredit agerade jag under en period som team lead/lösningsarkitekt och ansvarade bland annat för en POC för en ny Fund Transfer Price-plattform. 
+    Arbetet omfattade tekniska vägval kring arkitektur, ramverk, batchhantering, databasintegration, containerisering och CI/CD.
+    
+    På Tietoevry har jag arbetat med både molnbaserade och on-premise-lösningar. Inom SOS-VIDEO till 112 arbetade 
+    jag med integrations- och kommunikationsflöden i en lösning baserad på bland annat SIP, Janus, Quarkus, Docker, GitLab.
+    
+    Jag har erfarenhet av både molnbaserade och on-premise-lösningar. I Friends MDT arbetade jag med en AWS-baserad arkitektur 
+    där Amazon Cognito användes för användar- och identitetshantering. Inom SOS-VIDEO till 112 arbetade jag med integrations- och kommunikationsflöden 
+    i en on-premise-miljö med bland annat SIP, Janus, Quarkus, Docker, GitLab och Ansible.
+    
+    Min långa utvecklarbakgrund gör att jag kan kombinera ett arkitekturperspektiv med förståelse för hur tekniska beslut påverkar implementation, integration, 
+    driftsättning och långsiktig förvaltning. Jag trivs med att se helheten, diskutera tekniska alternativ och bidra till lösningar som är robusta, säkra och hållbara över tid.
 
 education:
   title: Utbildning
@@ -93,101 +88,92 @@ experiences:
     title: Erfarenheter
     info:
       - role: Lead Solutions Consultant
+        show: True
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
-          Jag har varit involverad i flera projekt.
-
-          SOS-VIDEO till 112 - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
+          Jag har varit involverad i flera projekt.<br />
+          **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
           SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
           Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
           som sitter högst upp i flödet.
-          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.
-          
-          Driftorder Demo Application - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
-          Jag byggde integration till Form.io.
-
-          AI Application Modernization POC – är an AI-app för att hjälpa utvecklare för att 
-          samla projektdata, erbjuda lösningar för förbättring och modernisering.
+          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
+          **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
+          Jag utvecklade integrationen med Form.io.
+          **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.
-          
-          RSS – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
+          Docker Compose och Python.         
+          **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
           som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
-          ett annat system, Upsales.
-          Teknikstack: Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.
-          
-          Friends MDT – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
+          ett annat system, Upsales.          
+          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.      
+          **Friends MDT** – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
           Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
           och analysera resultaten.
           Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
-          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och distribuerades via AWS.
-          I den första fasen använde vi VMware Tanzu för CI/CD.
+          Teknikstack: PostgreSQL, Neo4j, Spring Boot med Kotlin, Angular, AWS och Amazon Cognito för användar- och identitetshantering. 
+          I projektets första fas använde vi VMware Tanzu för CI/CD.
+
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
+        show: True
         company: Leovegas, Remote-Sverige
         details: |
           Teamet i betalningsavdelningen bygger och underhåller betalningsintegrationer 
           mellan våra kärnsystem och olika betalningsleverantörer och betalningsmetoder 
           vilket möjliggör för spelaren att sätta in och ta ut pengar på ett smidigt sätt. 
           Min roll låg inom kortströmmen som specifikt hanterar kortbetalningsintegrationer. 
-          Vårt mål var att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
+          Vårt mål är att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
           och minska risken för bedrägerier vid betalningar. 
           Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
-          
-          Teknikstack: En mikrotjänstarkitektur byggd över ett internt SpringBoot-liknande ramverk 
+          **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt Spring Boot-liknande ramverk 
           med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
-          vi använde oss av Kubernetes för containerplattform.
-          
-          Team: 3–5 strömsmedlemmar, 30+ utökat team
+          vi använde oss av Kubernetes för containerplattform.<br />
+          **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
 
       - role: Principal Programvaruingenjör
+        show: False
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
         details: |
-          Vårt avdelningsmål var att minska risken när ett lån begärs av en kund.
-          Jag är involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
+          Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
+          Jag var involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
           Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I det här projektet
           byggde vi bland annat en CI/CD pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Denna app ökade nöjdheten 
-          hos våra kollegor som hade ansvar för att släppa nya versioner och underlättade övervakningen
-          av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.
-          
-          Var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
+          hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
+          av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.          
+          Jag var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
           transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
-          ett befintligt automatiserat testningsramverk som gjorde det möjligt för våra utvecklare att testa sin kod mot 
+          ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
           förväntade utfall.
-          Jag integrerade SSO-funktionalitet i våra webbappar med hjälp av Waffle.
-          
-          Teknikstack: Groovy, MongoDB, Akka, Angular.
-          
-          Team: Teamet för ett projekt består av teamledare och en eller två utvecklare.
+          Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
+          **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
+          **Teknikstack:**  Groovy, MongoDB, Akka, Angular.          
+          **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
 
       - role: Senior Programvaruutvecklare
         time: 2015/03 - 2018/03
+        show: True
         company: UniCredit Services, Bukarest
         details: |
-         Arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien. Den viktigaste 
-         var GPT (Global Pricing Tool) som vi skrev om från en monolit byggd på en Java-teknikstack 
+         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.           
+         **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
          till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
          beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
          för att bygga Scala-mikrotjänsterna. Vi strävade efter att ge användarna en mer behaglig upplevelse 
          och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
          distribuerades slutligen på Docker.
-         
-         Teamet för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
-         Vi arbetade enligt agil metodik.
-         
-         I 4 månader bidrog jag till migreringen av en viktig applikation, BUL-Batch-plattform/beräkningsmotor 
-         till en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
-         och CI/CD-pipelines. Detta innebar samarbete med teamet som ansvarade för WebSphere-servrarna samt teamet som 
+         **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
+         Vi arbetade enligt agil metodik.          
+         **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
+         och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
-         Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.
-                            
-         Jag agerade som Solution Arkitect och Team Leadför  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
-         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. 
-         Vi byggde vår CI/CD med Jenkins och använde Docker för moduler. Tog det till MVP-nivå.
+         Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.          
+         **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
+         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.           
+         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
          
          Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
 
@@ -199,26 +185,33 @@ experiences:
           Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
           yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
           igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
-          
-      - role: Javautvecklare
-        time: 2009/04 - 2011/08
-        company: Advantage Title Solutions
-        details: |
-          Jag utvecklade och underhöll Title-Search-applikationen genom att möjliggöra crawling av webbplatser med hjälp av Http Client API, Html Parser API, reguljära uttryck och XML. Den insamlade datan från den implementerade webbplatsen sparas sedan i applikationens MySQL-databas för senare användning. Syftet med Title-search-appen är att göra det möjligt för användaren att samla all tillgänglig information om en fastighet eller en fastighetssäljare för att transaktionen ska vara så "säker" som möjligt när det gäller risker som kan påverka köparen.
-          Teknikstack: GWT, Servlets, MySQL, Resin.  
-          Teamet bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
 
-      - role: Javautvecklare
+      - role: Java Developer
+        show: False
+        time: 2009/04 - 2011/08
+        company: Advantage Title Solutions, Bukarest
+        details: |
+          Jag utvecklade och underhöll en applikation för fastighets- och ägarundersökningar genom att integrera nya webbplatser 
+          med hjälp av Http Client API, HTML Parser API, reguljära uttryck och XML. Den insamlade informationen från de integrerade webbplatserna sparades sedan i applikationens MySQL-databas för vidare användning.  
+          Syftet med Title Search-applikationen var att göra det möjligt för användaren att samla in all tillgänglig information om en fastighet eller en fastighetssäljare, för att göra fastighetsaffären så säker som möjligt och minimera risker som kan påverka köparen.          
+          **Teknikstack:** GWT, Servlets, MySQL och Resin.        
+          **Teamet**  bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
+
+      - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
-        company: Concept Data
+        company: Concept Data, Bukarest
         details: |
           TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
           Teknologier: Java, Swing, Hibernate, Oracle, Postgres, Ant, JUnit, Java Web Start, Spring, JSF, RMI och Maven.
           Team hade 5 utvecklare och en testare.
 
-      - role: Javautvecklare
-        time:
-        company: Ingenio Software (UCS Group)
+      - role: Fullstack Java Developer
+        time: 2007/02 - 2007/06
+        company: Genesys, Bucharest
+
+      - role: Fullstack Java Developer
+        time: 2005/04 - 2007/02
+        company: INGENIO-UCS, Bukarest
         details: |
           Utvecklade applikationer för kreditbedömning och låneberäkning för rumänska banker med Java ramverk Struts, JSP, jquery, Servlets samt Oracle som databas.
 
@@ -261,29 +254,20 @@ skills:
   title: Färdigheter & Kompetens
 
   toolset:
-    - name: Java
-      level: 80%
+    - name: AI
+      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
 
-    - name: Typescript
-      level: 60%
+    - name: Backend
+      technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
 
-    - name: Programvarudesign
-      level: 80%
+    - name: Frontend
+      technologies: [TypeScript, Angular]
 
-    - name: Anpassningsbar
-      level: 90%
+    - name: Cloud & DevOps
+      technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
 
-    - name: Kreativ
-      level: 80%
-
-    - name: Öppen
-      level: 85%
-
-    - name: Hårt arbetande
-      level: 95%
-
-    - name: Villig att lära sig både tekniskt och affärsmässigt
-      level: 90%
+    - name: Data
+      technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
 
 
 footer: >

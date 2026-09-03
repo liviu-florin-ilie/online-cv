@@ -1,0 +1,32 @@
+**Intresseanmälan – IT / Arkitektur**
+
+Hej,
+
+Jag vill gärna anmäla mitt intresse för framtida möjligheter inom IT hos Region Kalmar län. Jag har arbetat med systemutveckling
+i över 20 år och söker nu framför allt roller där jag kan använda min breda tekniska erfarenhet för att arbeta mer med arkitektur,
+helhetsperspektiv och långsiktiga tekniska vägval.
+
+Min bakgrund ligger främst inom backend- och systemutveckling, men under åren har jag arbetat allt närmare lösningsarkitektur,
+integrationer och tekniska plattformar. Jag har erfarenhet från både traditionella enterprise-miljöer och moderna moln- och containerbaserade
+lösningar med bland annat Java/J2EE, Spring Boot, Quarkus, WebSphere, Docker, Kubernetes, VMware Tanzu, AWS och GCP.
+
+På UniCredit hade jag under en period rollen som team lead och lösningsarkitekt. Jag ansvarade bland annat för en proof of concept
+för en ny Fund Transfer Price-plattform och var med och gjorde tekniska vägval kring arkitektur, ramverk, databasintegration, b
+atchhantering, containerisering och CI/CD.
+
+På Tietoevry har jag arbetat med både molnbaserade och on-premise-lösningar. Ett exempel är SOS-VIDEO till 112, där jag
+arbetade med en lösning baserad på bland annat SIP, Janus, Quarkus, Docker, GitLab och Ansible.
+Integrationer och förståelsen för hur olika tekniska komponenter samverkar har varit en återkommande del av min karriär.
+
+Efter många år som utvecklare vill jag nu använda min erfarenhet i en roll där jag får större möjlighet att arbeta med helheten.
+Jag tycker om att analysera behov, diskutera tekniska alternativ och förstå konsekvenserna av olika vägval – från arkitektur
+och integration till implementation, driftsättning och långsiktig förvaltning. Därför är jag särskilt intresserad av
+ möjligheter inom IT- och lösningsarkitektur, även om jag är öppen för andra seniora tekniska roller där min erfarenhet kan komma till nytta.
+
+Region Kalmar län är särskilt intressant för mig eftersom tekniken här har en tydlig koppling till samhällsnytta. Möjligheten
+att bidra till robusta, säkra och långsiktigt hållbara IT-lösningar för samhällsviktiga verksamheter känns både intressant och meningsfull.
+
+Jag ser fram emot möjligheten att diskutera var min erfarenhet skulle kunna passa bäst inom er IT-verksamhet.
+
+Med vänliga hälsningar,
+**Liviu Florin Ilie**
