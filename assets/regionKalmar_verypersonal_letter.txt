@@ -1,0 +1,12 @@
+
+
+
+Hej,
+Min första kontakt med Region Kalmar län var under min frus rekryteringsprocess år 2020. Kort därefter flyttade vi till Kalmar och har bott här sedan dess. Redan då blev jag imponerad av det professionella bemötandet och fick ett väldigt positivt intryck av Region Kalmar län som organisation.
+I grunden är jag mjukvaruutvecklare, men under min karriär har jag successivt tagit mig an mer avancerade roller och även agerade jag som lösningsarkitekt. Ett exempel är Fund Transfer Price-plattformen på UniCredit, där jag var med och tog fram en ny lösning för att ersätta en äldre plattform. De tekniska vägvalen gjorde jag genom att balansera kompetensen i teamet, de tekniska kraven och behovet av en hållbar och flexibel lösning.
+Även i andra sammanhang, när viktiga arkitekturbeslut har behövt fattas, har jag använt ADR:er (Architecture Decision Records )liknande processer för att dokumentera alternativen och resonemanget bakom besluten och för att se till att teamet är delaktigt.
+En annan princip som jag försöker följa är KISS – Keep It Simple. Jag föredrar välbeprövade lösningar framför onödig komplexitet och försöker, där det är möjligt, göra tekniska val som ger flexibilitet och minskar risken för vendor lock-in.
+Region Kalmar län är särskilt intressant för mig eftersom tekniken här har en tydlig koppling till samhällsnytta. Möjligheten att bidra till robusta, säkra och långsiktigt hållbara IT-lösningar för samhällsviktiga verksamheter känns både intressant och meningsfull.
+Jag ser fram emot möjligheten att diskutera hur min erfarenhet och mitt sätt att tänka kring arkitektur skulle kunna bidra till Region Kalmar läns IT-verksamhet.
+Med vänliga hälsningar,
+Liviu Florin Ilie
