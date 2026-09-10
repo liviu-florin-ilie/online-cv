@@ -3,11 +3,11 @@
 #
 sidebar:
   about: False
-  education: True
+  education: False
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior programvaruutvecklare – Backend, Integration & AI
+  tagline: Programvaruutvecklare – Informationssystem, data och AI
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -54,35 +54,40 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att utveckla och vidareutveckla affärskritiska system. 
-    Min bakgrund ligger framför allt inom backendutveckling, men under min karriär har jag även arbetat med lösningsarkitektur, 
-    integrationer, tekniska plattformar och tekniskt ledarskap.
-  
-    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat 
-    Kotlin, Groovy, Spring Boot och Quarkus. Jag har arbetat med distribuerade system, mikrotjänster, API och integrationsarkitektur 
-    samt med AWS, GCP, Kubernetes, Docker, VMware Tanzu, WebSphere, GitLab CI/CD, Jenkins.
-    
-    På UniCredit agerade jag under en period som team lead/lösningsarkitekt och ansvarade bland annat för en POC för en ny Fund Transfer Price-plattform. 
-    Arbetet omfattade tekniska vägval kring arkitektur, ramverk, batchhantering, databasintegration, containerisering och CI/CD.
-    
-    På Tietoevry har jag arbetat med både molnbaserade och on-premise-lösningar. Inom SOS-VIDEO till 112 arbetade 
-    jag med integrations- och kommunikationsflöden i en lösning baserad på bland annat SIP, Janus, Quarkus, Docker, GitLab.
-    
-    Jag har erfarenhet av både molnbaserade och on-premise-lösningar. I Friends MDT arbetade jag med en AWS-baserad arkitektur 
-    där Amazon Cognito användes för användar- och identitetshantering. Inom SOS-VIDEO till 112 arbetade jag med integrations- och kommunikationsflöden 
-    i en on-premise-miljö med bland annat SIP, Janus, Quarkus, Docker, GitLab och Ansible.
-    
-    Min långa utvecklarbakgrund gör att jag kan kombinera ett arkitekturperspektiv med förståelse för hur tekniska beslut påverkar implementation, integration, 
-    driftsättning och långsiktig förvaltning. Jag trivs med att se helheten, diskutera tekniska alternativ och bidra till lösningar som är robusta, säkra och hållbara över tid.
-
+    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av utveckling av informationssystem, datahantering, 
+    integrationer och affärskritiska system. Min akademiska bakgrund är inom Economic Informatics, med studier inom 
+    bland annat programmering, databaser, statistik och numeriska metoder.
+    Under senare år har jag fördjupat mitt intresse för AI och dataanalys. På Tietoevry deltog jag i ett AI Application 
+    Modernization POC där jag arbetade praktiskt med Python, LangChain, LangGraph, Chainlit och Elasticsearch för att 
+    samla in och analysera projektinformation och identifiera möjligheter till förbättring och modernisering. 
+    Jag har därefter fortsatt att utveckla mina kunskaper inom AI och även tagit Microsoft-certifieringen AI-102 (Azure 
+    AI Engineer Associate).
+    Efter en lång karriär inom systemutveckling vill jag nu fördjupa mig vetenskapligt inom AI och dataanalys och är 
+    särskilt intresserad av hur stora mängder strukturerad och ostrukturerad data kan användas för prediktion och beslutsstöd. 
+    Jag ser forskarutbildningen inom hälsoinformatik som en möjlighet att kombinera min erfarenhet av informationssystem 
+    och programvaruutveckling med mitt växande intresse för AI i ett område med tydlig samhällsnytta.
 education:
   title: Utbildning
   info:
-    - degree: MSc i Ekonomi med inriktning mot Datavetenskap (2001 - 2006)
-      university: Ekonomihögskolan, Bukarest
+    - degree: Masterexamen – Informationssystem för verksamhetsledning / Ekonomisk informatik
+      show: True
+      university: Bukarests ekonomiska universitet, 2008–2010
       details: |
-        Cybernetik, Statistik och Ekonomisk Informatik
-        Institution: Ekonomisk Informatik;
+        **Examensarbete:** Hantering av virtuella system för lärande (grundläggande begrepp, fallstudie).
+        
+        **Relevanta kurser:** Informationssystem för verksamhetsledning, numeriska metoder för ekonomiska system,
+        signalbehandling av ekonomiska data samt vetenskaplig forskning inför examensarbetet.
+
+    - degree: Kandidatexamen i ekonomi – Ekonomisk informatik
+      show: True
+      university: Bukarests ekonomiska universitet, 2001–2006
+      details: |
+        Fakulteten för ekonomisk cybernetik, statistik och informatik
+        4,5 år
+        
+        **Utvalda relevanta kurser:** Maskinintelligens I och II, sannolikhetsteori och
+        matematisk statistik, statistik, numeriska metoder, operationsanalys, ekonometri, databaser och
+        databashanteringssystem, datastrukturer, objektorienterad programmering, programvaruteknik samt datornätverk.
 
 experiences:
     title: Erfarenheter
@@ -93,6 +98,10 @@ experiences:
         company: Tietoevry, Kalmar, Sverige
         details: |
           Jag har varit involverad i flera projekt.<br />
+           **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
+          Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
+          Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
+          Docker Compose och Python.        
           **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
           SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
           Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
@@ -100,10 +109,6 @@ experiences:
           Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
           **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
           Jag utvecklade integrationen med Form.io.
-          **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
-          Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
-          Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.         
           **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
           som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
           ett annat system, Upsales.          
@@ -255,20 +260,26 @@ skills:
   title: Färdigheter & Kompetens
 
   toolset:
-    - name: AI
-      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
+    - name: AI och data
+      technologies: [Python, LangChain, LangGraph, Chainlit, Elasticsearch, SQL, Neo4j/Cypher]
 
-    - name: Backend
-      technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
+    - name: Programmering
+      technologies: [Python, Java, Kotlin, Groovy, Scala, TypeScript]
 
-    - name: Frontend
-      technologies: [TypeScript, Angular]
+    - name: Data och databaser
+      technologies: [PostgreSQL, MySQL, Neo4j, MongoDB, Elasticsearch, Teradata]
 
-    - name: Cloud & DevOps
+    - name: Programvaruteknik
+      technologies: [REST, mikrotjänster, distribuerade system, integration, automatiserad testning]
+
+    - name: Molntjänster och plattformar
       technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
 
-    - name: Data
-      technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
+    - name: Webbutveckling
+      technologies: [Angular, TypeScript, JavaScript, backend- och API-utveckling]
+
+    - name: AI-certifiering
+      technologies: ["Microsoft Certified: Azure AI Engineer Associate (AI-102)"]
 
 
 footer: >
