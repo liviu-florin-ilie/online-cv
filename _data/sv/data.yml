@@ -55,23 +55,22 @@ career-profile:
   title: Karriärprofil
   summary: |
     Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av utveckling av informationssystem, datahantering, 
-    integrationer och affärskritiska system. Min akademiska bakgrund är inom Economic Informatics, med studier inom 
-    bland annat programmering, databaser, statistik och numeriska metoder.
-    Under senare år har jag fördjupat mitt intresse för AI och dataanalys. På Tietoevry deltog jag i ett AI Application 
-    Modernization POC där jag arbetade praktiskt med Python, LangChain, LangGraph, Chainlit och Elasticsearch för att 
-    samla in och analysera projektinformation och identifiera möjligheter till förbättring och modernisering. 
-    Jag har därefter fortsatt att utveckla mina kunskaper inom AI och även tagit Microsoft-certifieringen AI-102 (Azure 
-    AI Engineer Associate).
-    Efter en lång karriär inom systemutveckling vill jag nu fördjupa mig vetenskapligt inom AI och dataanalys och är 
-    särskilt intresserad av hur stora mängder strukturerad och ostrukturerad data kan användas för prediktion och beslutsstöd. 
-    Jag ser forskarutbildningen inom hälsoinformatik som en möjlighet att kombinera min erfarenhet av informationssystem 
-    och programvaruutveckling med mitt växande intresse för AI i ett område med tydlig samhällsnytta.
+    integrationer och affärskritiska system. Min akademiska bakgrund är inom Economic Informatics, med studier inom bland annat programmering, 
+    databaser, statistik, numeriska metoder och artificiell intelligens.
+    Under senare år har jag fördjupat mitt intresse för AI och dataanalys. På Tietoevry deltog jag i ett AI Application Modernization POC
+    där jag arbetade praktiskt med Python, LangChain, LangGraph, Chainlit och Elasticsearch för att samla in och analysera projektinformation 
+    och identifiera möjligheter till förbättring och modernisering. Jag har därefter fortsatt att utveckla mina kunskaper inom AI och även 
+    tagit Microsoft-certifieringen AI-102 (Azure AI Engineer Associate).
+    Efter en lång karriär inom systemutveckling vill jag nu fördjupa mig vetenskapligt inom AI och dataanalys och är särskilt intresserad 
+    av hur stora mängder strukturerad och ostrukturerad data kan användas för prediktion och beslutsstöd. Jag ser forskarutbildningen 
+    inom hälsoinformatik som en möjlighet att kombinera min erfarenhet av informationssystem och programvaruutveckling med mitt växande intresse 
+    för AI i ett område med tydlig samhällsnytta.
 education:
   title: Utbildning
   info:
-    - degree: Masterexamen – Informationssystem för verksamhetsledning / Ekonomisk informatik
+    - degree: Masterexamen – Fakulteten för ingenjörsvetenskap på främmande språk Företagsekonomi
       show: True
-      university: Bukarests ekonomiska universitet, 2008–2010
+      university: Politehniska universitetet i Bukarest, 2008–2010
       details: |
         **Examensarbete:** Hantering av virtuella system för lärande (grundläggande begrepp, fallstudie).
         
