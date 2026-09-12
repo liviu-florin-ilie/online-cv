@@ -48,16 +48,36 @@ utvecklas inom ett område där jag tror att min tidigare erfarenhet kan få en 
 Projektet fokuserar på att utveckla och utvärdera maskininlärningsmodeller för att förutsäga biverkningar eller
 läkemedelsproblem med hjälp av både strukturerade vårddata och ostrukturerade kliniska journalanteckningar.
 
-I dags läget program som Cosmic kan säga till vilka medicin passar inte med varandra. För att komma en steg fram: att
-förutsäga biverkningar och läkemedelsproblem man behöver mäta in både strukturerade vård data. För den strukturerade
-data finns standarder som FHIR som kan visa ganska tydlig vad sorts av medicinering fick en patient. Den ostrukturerade
-data skapar utmaningar i dagsläget eftersom det kan innehålla ostrukturerad text, bilder eller ljud. Man kan använda den
-här ostrukturerad data för att tydligare information om tydigare anames i patientens historik. För att bedöma vad sorts
-av effekt kan en medicin ha av en patient man måste använda den där data som finns på patient sida oche genom att
-använda RAG modeller med data från olika källor som FDA Adverse Event Reporting System (FAERS) Database[1] som
-monitorerar biverkningar av medicin kan man skapa en verktyg som kan förutsäga vad sorts av biverkningar är det möjligt
-för en patient att få.
-En sådant system måste visa i vilken utsträkning kan en biverkning träffas i en patient. 
+I dagsläget kan kliniska beslutsstöd exempelvis uppmärksamma vårdpersonal på kända interaktioner mellan olika läkemedel.
+Ett möjligt nästa steg är att försöka förutsäga risken för biverkningar eller andra läkemedelsrelaterade problem för den
+enskilda patienten.
+
+För detta skulle både strukturerade och ostrukturerade vårddata kunna användas. Strukturerade data kan exempelvis
+innehålla information om patientens diagnoser, läkemedel, laboratorievärden, ålder och tidigare vårdhändelser.
+Standarder som FHIR kan användas för att representera och utbyta sådan information på ett standardiserat sätt.
+
+Samtidigt finns viktig information i ostrukturerad form, framför allt i kliniska journalanteckningar. Journaltexten kan
+innehålla information om patientens anamnes, symptom, tidigare reaktioner på behandling och observationer från
+vårdpersonal som inte alltid finns representerade i den strukturerade informationen. Med hjälp av NLP skulle relevant
+information kunna extraheras från journalanteckningarna och kombineras med den strukturerade patientinformationen.
+
+Min forskningsidé är att undersöka om maskininlärningsmodeller som kombinerar dessa två typer av information kan göra en
+mer individuell riskbedömning av biverkningar och läkemedelsrelaterade problem än dagens kliniska beslutsstöd.
+
+Externa informationskällor om läkemedel och kända biverkningar skulle också kunna användas som kompletterande kunskap.
+Ett exempel är FDA Adverse Event Reporting System (FAERS), som innehåller rapporter om misstänkta biverkningar och
+läkemedelsproblem. Sådana data kan bidra med information om tidigare observerade samband mellan läkemedel och möjliga
+biverkningar, men kan inte ensamma användas för att fastställa orsakssamband eller sannolikheten för att en viss
+biverkning ska inträffa.
+
+Ett möjligt system skulle därför kombinera patientens strukturerade vårddata, information från kliniska
+journalanteckningar och relevant extern läkemedelskunskap. Målet skulle vara att beräkna en individuell risk för olika
+läkemedelsrelaterade problem och samtidigt kunna visa vilka faktorer i patientens data som har bidragit till
+riskbedömningen.
+
+En viktig del av forskningen skulle vara att utvärdera om en sådan modell faktiskt ger bättre prediktion än dagens
+kliniska beslutsstöd, samtidigt som antalet irrelevanta varningar hålls på en nivå som gör systemet användbart för
+vårdpersonal.
 
 [1] https://www.fda.gov/drugs/drug-approvals-and-databases/fda-adverse-event-reporting-system-faers-database
 
