@@ -45,6 +45,9 @@ samhällsnytta särskilt motiverande. Jag tror att kombinationen av min akademis
 bidra med ett annorlunda perspektiv till forskningsgruppen. Samtidigt ser jag forskarutbildningen som en möjlighet att
 utvecklas inom ett område där jag tror att min tidigare erfarenhet kan få en ny och meningsfull tillämpning.
 
+Projektet: Hur kan man bedöma möjliga läkemedel biverkningar för en patient genom 
+att bearbeta strukturerade och ostrukturerade journaldata och offentliga läkemedelskällor?
+
 Projektet fokuserar på att utveckla och utvärdera maskininlärningsmodeller för att förutsäga biverkningar eller
 läkemedelsproblem med hjälp av både strukturerade vårddata och ostrukturerade kliniska journalanteckningar.
 
