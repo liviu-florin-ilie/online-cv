@@ -81,4 +81,6 @@ vårdpersonal.
 
 [1] https://www.fda.gov/drugs/drug-approvals-and-databases/fda-adverse-event-reporting-system-faers-database
 
-Med vänliga hälsningar Liviu Florin Ilie
+Med vänliga hälsningar, 
+
+
