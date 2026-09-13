@@ -1,0 +1,29 @@
+Q1
+
+Jag har arbetat med systemutveckling sedan 2005. De första tio åren arbetade jag främst med Java/J2EE som fullstackutvecklare.
+Därefter har jag arbetat med flera olika programmeringsspråk, bland annat Kotlin, Groovy, Python, Scala och TypeScript.
+
+Under åren har jag arbetat med allt från äldre ramverk som Struts och Spring MVC till modernare tekniker som Spring Boot, Quarkus och NestJS.
+På frontendsidan har jag framför allt arbetat med Angular och olika JavaScript-bibliotek, men även med JSP.
+
+Jag fick även möjlighet att prova på AI-utveckling i ett Application Modernization POC hos Tietoevry. Där arbetade jag med Python, LangChain, LangGraph,
+Chainlit och Elasticsearch för att bygga en AI-baserad lösning som analyserade projektinformation och föreslog förbättringar och moderniseringar.
+
+Jag känner mig mest hemma inom backendutveckling, men tack vare min breda bakgrund kan jag även ta mig an andra roller och arbetsuppgifter inom fullstackutveckling, AI och arkitektur.
+Jag tycker om att lära mig nya tekniker och AI är ett område som jag gärna vill fördjupa mig betydligt mer inom.
+
+2. Har du någon erfarenhet av att arbeta med AI eller LLM-teknologier?
+Ja. Hos Tietoevry arbetade jag med ett Application Modernization POC där vi byggde en AI-baserad lösning för att samla in och analysera projektinformation
+samt föreslå förbättringar och moderniseringar. Där fick jag praktisk erfarenhet av Python, LangChain, LangGraph, Chainlit och Elasticsearch.
+
+Det var min första praktiska erfarenhet av ett AI-projekt och väckte mitt intresse för området. Jag har sedan dess fortsatt att fördjupa mina kunskaper inom AI
+och har även tagit Microsoft-certifieringen AI-102 (Azure AI Engineer Associate).
+
+Jag vill gärna fortsätta utvecklas inom LLM:er, agentiska system och AI-utveckling.
+
+2. Har du använt Claude Code, GitHub Copilot eller liknande AI-stöd?
+
+Jag använder AI dagligen som en del av mitt utvecklingsflöde och har bland annat arbetat med IntelliJ AI-verktyg och GitHub Copilot.
+Jag tycker att AI är väldigt effektivt som samarbetspartner, särskilt för väl avgränsade problem. I kombination med min
+erfarenhet kan jag använda AI för att snabbare hitta och utvärdera lösningar, samtidigt som jag säkerställer att resultatet blir hållbart,
+begripligt och läsbart – både för människor och AI.

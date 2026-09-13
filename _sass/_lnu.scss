@@ -1,0 +1,55 @@
+// Use dark foregrounds on yellow instead of the default white sidebar text.
+a {
+  color: $text-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $text-color;
+    background-color: $divider;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $text-color;
+    outline-offset: 3px;
+  }
+}
+
+.sidebar-wrapper {
+  color: $text-color;
+
+  a {
+    color: $text-color;
+  }
+
+  .profile-container {
+    background: $divider;
+    color: $text-color;
+  }
+
+  .tagline,
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc {
+    color: $text-color;
+  }
+}
+
+.main-wrapper {
+  .section-title,
+  .project-title {
+    color: $text-color;
+  }
+
+  .section-title {
+    border-bottom: 3px solid $theme-color;
+    padding-bottom: 8px;
+  }
+}
+
+.skillset .level-bar {
+  background: $divider;
+}
+
+.skillset .level-bar-inner {
+  background: $theme-color;
+}
