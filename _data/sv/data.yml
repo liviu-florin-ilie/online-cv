@@ -7,7 +7,7 @@ sidebar:
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior programvaruutvecklare – Backend, Integration & AI
+  tagline: Senior Fullstack utvecklare – Lösningsarkitektur, integration & cloud, AI
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -54,19 +54,11 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att bygga och vidareutveckla affärskritiska system. Jag vill använda min bakgrund inom backend, integrationer och molnplattformar för att utveckla AI-drivna och agentiska applikationer. Jag lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
+    Senior fullstack- och lösningsorienterad programvaruutvecklare med över 20 års erfarenhet av att utveckla affärskritiska system och omsätta verksamhetsbehov till robusta lösningar i produktion. Jag har arbetat i konsultnära och distribuerade miljöer med backend, integrationer, frontend, CI/CD och tekniska vägval.
 
-    På Tietoevry deltog jag i **AI Application Modernization POC**, en AI-applikation som samlar in och analyserar projektdata samt föreslår förbättringar och moderniseringsåtgärder. I projektet fick jag praktisk erfarenhet av Python, Chainlit, LangChain, LangGraph, Elasticsearch och Docker Compose. Arbetet gav mig konkret erfarenhet av hur AI-baserade och agentiska flöden kan användas för att lösa verkliga problem inom programvaruutveckling.
-    Jag har sedan dess fortsatt att fördjupa mina kunskaper inom AI och har även tagit **Microsoft-certifieringen AI-102 (Azure AI Engineer Associate)**.
-    I mitt dagliga utvecklingsarbete använder jag även AI-baserade utvecklingsverktyg som GitHub Copilot och IntelliJ:s AI-verktyg.
-    
-    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Det har gett mig en stabil grund för att designa robusta backendlösningar, API:er och integrationsarkitekturer med fokus på kvalitet, struktur och långsiktig hållbarhet.
+    På Tietoevry har jag bland annat utvecklat lösningar för SOS Alarm, Friends och molnbaserade affärssystem samt deltagit i en AI-baserad lösning för analys och modernisering av programvara. Där arbetade jag praktiskt med Python, LangChain, LangGraph, Chainlit, Elasticsearch och Docker Compose. Jag är även certifierad **Microsoft Azure AI Engineer Associate (AI-102)**.
 
-    Integrationer har varit en central del av min karriär. På LeoVegas arbetade jag inom Payments med externa betalningsleverantörer som Adyen och PCI Proxy i en molnbaserad mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt en integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
-
-    Jag har också bred fullstackkompetens, framför allt inom TypeScript och Angular, vilket gör att jag förstår hela kedjan från backend och API:er till frontend och användarupplevelse. Jag har arbetat med AWS och GCP samt med Kubernetes, Docker, CI/CD och automatiserad testning i produktionssatta system.
-
-    Kombinationen av praktisk AI-erfarenhet, senior backendkompetens, integrationsvana, molnerfarenhet och förståelse för hela produktkedjan gör att jag kan bidra till att bygga användbara och hållbara AI-produkter. Jag är nyfiken, van att snabbt sätta mig in i nya tekniker och motiveras av att göra komplexa lösningar enkla för användaren.
+    Jag använder AI-verktyg som Codex och IntelliJ AI i utvecklingsarbetet för analys, implementation, felsökning, test och dokumentation, med eget ansvar för granskning och kvalitetssäkring. Min styrka är kombinationen av teknisk bredd, lång erfarenhet och förmågan att skapa hållbara lösningar när både problemet och vägen framåt behöver konkretiseras.
 education:
   title: Utbildning
   info:
@@ -84,28 +76,17 @@ experiences:
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
-          Jag har varit involverad i flera projekt.<br />
-          **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
-          SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
-          Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
-          som sitter högst upp i flödet.
-          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
-          **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
-          Jag utvecklade integrationen med Form.io.
-          **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
-          Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
-          Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.         
-          **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
-          som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
-          ett annat system, Upsales.          
-          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.      
-          **Friends MDT** – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
-          Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
-          och analysera resultaten.
-          Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
-          Applikationen använde Postgres, Neo4j, Spring Boot med Kotlin, Angular och distribuerades via AWS.
-          I den första fasen använde vi VMware Tanzu för CI/CD.
+          Arbetade som Lead Solutions Consultant i flera uppdrag inom AI, backend, fullstackutveckling, integrationer och molnbaserade plattformar.<br />
+
+          **SOS-VIDEO till 112** – Utvecklade delar av en driftskritisk lösning som kompletterar ett pågående 112-samtal med video. Lösningen bygger på Janus, en internt utvecklad SIP-stack och två Quarkus-applikationer. Distributionsflödet automatiserades med GitLab, Ansible och Docker i lokal driftmiljö.
+
+          **Driftorder Demo Application** – Utvecklade integrationen med Form.io i en demonstrationsapplikation för en BPMN-process, byggd med Spring Boot och Flowable.
+
+          **AI Application Modernization POC** – Bidrog till utvecklingen av en AI-baserad applikation som samlar in och analyserar projektdata samt identifierar möjligheter till förbättring och modernisering. Arbetade praktiskt med Python, LangChain, LangGraph, Chainlit, Elasticsearch och Docker Compose.
+
+          **RSS** – Ansvarade för fullstackutveckling, underhåll och integration med Upsales i en AWS-baserad affärsapplikation. Teknikstack: TypeScript, NestJS, Angular, GraphQL, Neo4j och AWS.
+
+          **Friends MDT** – Utvecklade en molnbaserad fullstacklösning för insamling, analys och rapportering av skolenkäter åt Friends. Teknikstack: Kotlin, Spring Boot, Angular, PostgreSQL, Neo4j, AWS och VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
         show: True
@@ -125,7 +106,7 @@ experiences:
           **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
 
       - role: Principal Programvaruingenjör
-        show: False
+        show: True
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
         details: |
@@ -241,19 +222,22 @@ skills:
 
   toolset:
     - name: AI
-      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
+      technologies: [Python, LangChain, LangGraph, Chainlit, GitHub Copilot, IntelliJ AI, Azure AI Engineer AI-102]
 
-    - name: Backend
-      technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
+    - name: Backend & integration
+      technologies: [Java, Kotlin, Spring Boot, Quarkus, NestJS, REST, GraphQL, Microservices]
 
     - name: Frontend
       technologies: [TypeScript, Angular]
 
-    - name: Cloud & DevOps
-      technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
+    - name: Cloud, plattform & DevOps
+      technologies: [AWS, GCP, Docker, Kubernetes, CI/CD, Jenkins]
+
+    - name: Kvalitet & säkerhet
+      technologies: [Automatiserad testning, Kodgranskning, SSO, Betalningssystem, Risk- och bedrägeribekämpning]
 
     - name: Data
-      technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
+      technologies: [PostgreSQL, MySQL, MongoDB, Neo4j]
 
 
 footer: >

@@ -6,3 +6,7 @@
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+{% if site.theme_skin == 'ikama' %}
+@import "ikama";
+{% endif %}
