@@ -32,14 +32,14 @@ vilket problem rapporten faktiskt skulle lösa. Jag införde även en arbetsproc
 resultat med kunden och säkerställa att jag var på rätt spår. Därefter byggde jag om lösningen med AI som stöd i flera
 delar av arbetet.
 
-Jag använde AI för att ta fram enhetstester för de viktigaste beräkningarna. På så sätt kunde vi verifiera att
+Jag använde AI för att ta fram enhetstester för alla beräkningarna. På så sätt kunde vi verifiera att
 resultatet förblev korrekt när implementationen förändrades. Jag använde också AI för att snabbare utforska och
 förbättra algoritmer samt för att refaktorera gränssnittet, minska duplicerad kod och skapa mer återanvändbara
 komponenter.
 
 Det jag är mest stolt över är att jag inte bara använde AI för att producera kod snabbare. Jag använde tekniken för att
-analysera alternativ, automatisera tidskrävande delar och höja kvaliteten, samtidigt som jag själv tog ansvar för
-behovsanalysen, arkitekturen, kommunikationen med kunden och slutresultatet. För mig visar projektet både möjligheterna och begränsningarna
+analysera alternativ, automatisera tidskrävande och tråkiga delar och höja kvaliteten, samtidigt som jag själv tog ansvar för
+behovsanalysen, kommunikationen med kunden och slutresultatet. För mig visar projektet både möjligheterna och begränsningarna
 med AI:
 verktyget kan göra en utvecklare betydligt snabbare, men det kan inte ersätta förståelsen för vilket problem som
 faktiskt behöver lösas.
