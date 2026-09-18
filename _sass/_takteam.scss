@@ -1,0 +1,47 @@
+a {
+  color: $theme-color;
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
+.sidebar-wrapper {
+  .profile-container {
+    background: $theme-color;
+    border-bottom: 4px solid $takteam-yellow;
+  }
+
+  .name,
+  .container-block-title {
+    color: $takteam-yellow;
+  }
+
+  .tagline,
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $takteam-yellow;
+  }
+}
+
+.main-wrapper {
+  .section-title,
+  .project-title {
+    color: $theme-color;
+  }
+
+  .section-title {
+    border-bottom: 3px solid $takteam-yellow;
+    padding-bottom: 8px;
+  }
+}
+
+.skillset .level-bar-inner {
+  background: $theme-color;
+}
