@@ -46,7 +46,6 @@ sidebar:
     title: Intressen
     info:
       - item: Triathlon (Ironman Finisher)
-        link: https://www.movable-ink-850.com/p/rp/b93e9f68d865fb74/url?mi_u=61436628&mi_ecmp=65854c77-2bf9-452b-b78e-508bbdf4def0&contactid=a3733971-bff3-4a5c-881d-8099f44cd331&utm_campaign=25670808-EMEA%202026%20-%20IM%20%7C%20All%20Races%20-%20AC&utm_medium=email&_hsenc=p2ANqtz-9A3gjOPsXvznC1zJTm2RTTIzzffQYRADnCl5jKWLnVP0rQEQA2qb1Hqshz7VFWdpyqNlko6ODY5-mbNn34T5Ht-9ymig&_hsmi=433939101&utm_content=433939101&utm_source=hs_email&mi_cmp=da27ea647bf68f51&mi_sc=t
 
       - item: Samhällsvetenskap
         link:
@@ -80,13 +79,21 @@ experiences:
 
           **SOS-VIDEO till 112** – Utvecklade delar av en driftskritisk lösning som kompletterar ett pågående 112-samtal med video. Lösningen bygger på Janus, en internt utvecklad SIP-stack och två Quarkus-applikationer. Distributionsflödet automatiserades med GitLab, Ansible och Docker i lokal driftmiljö.
 
-          **Driftorder Demo Application** – Utvecklade integrationen med Form.io i en demonstrationsapplikation för en BPMN-process, byggd med Spring Boot och Flowable.
+          **Driftorder Demo Application** – Utvecklade integrationen med Form.io i en demonstrationsapplikation för en 
+          BPMN-process, byggd med Spring Boot och Flowable.
 
-          **AI Application Modernization POC** – Bidrog till utvecklingen av en AI-baserad applikation som samlar in och analyserar projektdata samt identifierar möjligheter till förbättring och modernisering. Arbetade praktiskt med Python, LangChain, LangGraph, Chainlit, Elasticsearch och Docker Compose.
+          **AI Application Modernization POC** – Bidrog till utvecklingen av en AI-baserad applikation som samlar in och analyserar projektdata 
+          samt identifierar möjligheter till förbättring och modernisering.
+          <br />
+          **Teknikstack:** Python, LangChain, LangGraph, Chainlit, Elasticsearch och Docker Compose.
 
-          **RSS** – Ansvarade för fullstackutveckling, underhåll och integration med Upsales i en AWS-baserad affärsapplikation. Teknikstack: TypeScript, NestJS, Angular, GraphQL, Neo4j och AWS.
+          **RSS** – Ansvarade för fullstackutveckling, underhåll och integration med Upsales i en AWS-baserad affärsapplikation.
+          <br />
+          **Teknikstack:** TypeScript, NestJS, Angular, GraphQL, Neo4j och AWS.
 
-          **Friends MDT** – Utvecklade en molnbaserad fullstacklösning för insamling, analys och rapportering av skolenkäter åt Friends. Teknikstack: Kotlin, Spring Boot, Angular, PostgreSQL, Neo4j, AWS och VMware Tanzu för CI/CD.
+          **Friends MDT** – Utvecklade en molnbaserad fullstacklösning för insamling, analys och rapportering av skolenkäter åt Friends.
+          <br />
+          **Teknikstack:** Kotlin, Spring Boot, Angular, PostgreSQL, Neo4j, AWS och VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
         show: True
@@ -100,6 +107,7 @@ experiences:
           och minska risken för bedrägerier vid betalningar. 
           Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
+          <br />
           **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt Spring Boot-liknande ramverk 
           med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
           vi använde oss av Kubernetes för containerplattform.<br />
@@ -115,13 +123,21 @@ experiences:
           Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I det här projektet
           byggde vi bland annat en CI/CD pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Denna app ökade nöjdheten 
           hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
-          av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.          
+          av våra instanser under högsäsong.
+          <br />
+          **Teknikstack:** Angular, Groovy, Servlets, MongoDB.
+          
           Jag var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
-          transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
+          transaktioner.
+          <br />
+          **Teknikstack:** Angular, Groovy, Servlets, MongoDB. 
+          
+          Jag skrev om och förbättrade 
           ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
           förväntade utfall.
           Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
+          <br />
           **Teknikstack:**  Groovy, MongoDB, Akka, Angular.          
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
 
@@ -130,7 +146,8 @@ experiences:
         show: True
         company: UniCredit Services, Bukarest
         details: |
-         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.           
+         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.
+          
          **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
          till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
          beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
@@ -139,6 +156,7 @@ experiences:
          distribuerades slutligen på Docker.
          **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
          Vi arbetade enligt agil metodik.          
+          
          **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
          och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
@@ -146,7 +164,7 @@ experiences:
          **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
          Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.           
          **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
-         
+
 #         Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
 
       - role: Javautvecklare
@@ -166,6 +184,7 @@ experiences:
           Jag utvecklade och underhöll en applikation för fastighets- och ägarundersökningar genom att integrera nya webbplatser 
           med hjälp av Http Client API, HTML Parser API, reguljära uttryck och XML. Den insamlade informationen från de integrerade webbplatserna sparades sedan i applikationens MySQL-databas för vidare användning.  
           Syftet med Title Search-applikationen var att göra det möjligt för användaren att samla in all tillgänglig information om en fastighet eller en fastighetssäljare, för att göra fastighetsaffären så säker som möjligt och minimera risker som kan påverka köparen.          
+          <br />
           **Teknikstack:** GWT, Servlets, MySQL och Resin.        
           **Teamet**  bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
 
