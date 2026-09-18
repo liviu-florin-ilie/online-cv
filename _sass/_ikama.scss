@@ -1,0 +1,97 @@
+body {
+  font-family: "Noto Sans", Arial, sans-serif;
+  background: #080808;
+  background-image: radial-gradient(ellipse at top left, rgba(123, 3, 163, 0.18), transparent 55%),
+    radial-gradient(ellipse at bottom right, rgba(8, 134, 211, 0.16), transparent 55%);
+}
+
+p {
+  line-height: 1.65;
+}
+
+a {
+  color: #05598d;
+  text-decoration: underline;
+
+  &:hover {
+    color: $text-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
+.wrapper {
+  background: #080808;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-wrapper {
+  background: #080808;
+
+  .profile-container {
+    background: linear-gradient(145deg, #062134, #080808);
+    border-bottom: 2px solid $ikama-gold;
+  }
+
+  .name {
+    font-weight: 700;
+  }
+
+  .tagline,
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc {
+    color: #ccc;
+  }
+
+  .container-block-title {
+    text-transform: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    color: $ikama-gold;
+  }
+}
+
+.main-wrapper {
+  background: $smoky-white;
+
+  .section-title {
+    color: $text-color;
+    text-transform: none;
+    font-weight: 600;
+    border-bottom: 1px solid $divider;
+    padding-bottom: 12px;
+  }
+}
+
+.skillset .level-bar {
+  background: $divider;
+}
+
+.skillset .level-bar-inner {
+  background: $theme-color;
+}
+
+.footer .copyright,
+.footer a {
+  color: #ccc;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .wrapper {
+    box-shadow: none;
+  }
+
+  .main-wrapper {
+    background: #fff;
+  }
+}
