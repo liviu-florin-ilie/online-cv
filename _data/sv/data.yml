@@ -135,10 +135,10 @@ experiences:
           Jag skrev om och förbättrade 
           ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
           förväntade utfall.
-          Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
-          **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
+          Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.
           <br />
-          **Teknikstack:**  Groovy, MongoDB, Akka, Angular.          
+          **Teknikstack:**  Groovy, MongoDB, Akka, Angular.
+          <br />
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
 
       - role: Senior Programvaruutvecklare
@@ -154,6 +154,7 @@ experiences:
          för att bygga Scala-mikrotjänsterna. Vi strävade efter att ge användarna en mer behaglig upplevelse 
          och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
          distribuerades slutligen på Docker.
+         <br />
          **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
          Vi arbetade enligt agil metodik.          
           
@@ -162,8 +163,10 @@ experiences:
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
          Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.          
          **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
-         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.           
-         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
+         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med 
+          Jenkins och använde Docker för moduler.
+          <br />
+          **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
 
 #         Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
 
@@ -186,6 +189,7 @@ experiences:
           Syftet med Title Search-applikationen var att göra det möjligt för användaren att samla in all tillgänglig information om en fastighet eller en fastighetssäljare, för att göra fastighetsaffären så säker som möjligt och minimera risker som kan påverka köparen.          
           <br />
           **Teknikstack:** GWT, Servlets, MySQL och Resin.        
+          <br />
           **Teamet**  bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
 
       - role: Fullstack Java Developer
