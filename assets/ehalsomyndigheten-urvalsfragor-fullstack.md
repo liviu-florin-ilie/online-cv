@@ -112,3 +112,4 @@ testade vi VmWare Tanzus ramverk som motsvarar Openshift.
 **Svar:** Jag har erfarenhet av att bygga, konfigurera och arbeta med CI/CD-pipelines i flera projekt. Hos Dell byggde
 vi en pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Hos UniCredit arbetade jag med Jenkins och Docker samt
 med integration av applikationer i organisationens befintliga CI/CD-miljö.
+
