@@ -255,7 +255,7 @@ skills:
       technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
 
     - name: Test och kvalitetssäkring
-      technologies: [testautomatisering, enhetstester, regressionstestning]
+      technologies: [testautomatisering, enhetstester]
 
     - name: Containrar och molnplattformar
       technologies: [Docker, Docker Compose, Kubernetes, GCP, AWS, Pivotal Cloud Foundry]
@@ -264,7 +264,7 @@ skills:
       technologies: [GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
 
     - name: Tekniskt ledarskap och arbetssätt
-      technologies: [teamledning, arkitektur, agila team, teknisk vägledning, kunskapsdelning]
+      technologies: [agila team, teknisk vägledning, kunskapsdelning, teamledning, arkitektur ]
 
 
 footer: >

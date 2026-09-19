@@ -52,9 +52,9 @@ arbetet.
 
 ### 11. Om ja, beskriv din erfarenhet.
 
-**Svar:** Hos UniCredit(juni 2017-mars 2018) hade jag rollen som teamlead och arkitekt och ansvarade för tre andra utvecklare. Jag bidrog med
-teknisk vägledning, arkitekturella beslut, planering och samordning av arbetet. Som Lead Solutions Consultant på
-Tietoevry har jag också tagit tekniskt ansvar och drivit leveranser för Friends projektet.
+**Svar:** Hos UniCredit (juni 2017-mars 2018) hade jag rollen som teamlead och arkitekt och ansvarade för tre andra
+utvecklare. Jag bidrog med teknisk vägledning, arkitekturella beslut, planering och samordning av arbetet. Som Lead
+Solutions Consultant på Tietoevry har jag också tagit tekniskt ansvar och drivit leveranser för Friends projektet.
 
 ### 12. Har du erfarenhet av Java och/eller Vue.js?
 
@@ -73,9 +73,11 @@ erfarenhet av TypeScript och Angular och är van att snabbt sätta mig in i nya 
 
 ### 15. Om ja, beskriv din erfarenhet.
 
-**Svar:** Jag har erfarenhet av automatiserad testning. Hos Dell skrev jag om och förbättrade ett befintligt automatiserat
-testramverk för verifiering av kod och systemflöden mot förväntade utfall. Jag har däremot begränsad praktisk erfarenhet
-av automatiserad prestandatestning.
+**Svar:** Jag har erfarenhet av automatiserade integrationstester. I projektet SOS-VIDEO till 112 använde vi
+integrationstester för att verifiera samspelet mellan Quarkus-mikrotjänsterna och lösningens övriga komponenter och
+kommunikationsflöden. Hos Dell skrev jag även om och förbättrade ett befintligt automatiserat testramverk för att
+verifiera kod mot förväntade resultat. I de projekt där jag har arbetat har automatiserad prestandatestning inte ingått
+i mitt ansvarsområde. Min praktiska erfarenhet inom detta område är därför begränsad.
 
 ### 16. Har du erfarenhet av Quarkus, Spring Boot eller något motsvarande modernt Java-ramverk för mikrotjänster?
 
@@ -98,8 +100,8 @@ Boot och Spring Batch i lösningar hos UniCredit.
 **Svar:** Jag har arbetat med Docker och Kubernetes i flera produktions- och utvecklingsmiljöer. Hos LeoVegas
 distribuerades våra mikrotjänster i Google Cloud med Kubernetes som containerplattform. På Tietoevry har jag arbetat med
 Docker och Docker Compose, bland annat i SOS-VIDEO till 112 och ett AI-baserat moderniseringsprojekt. Hos UniCredit
-distribuerades mikrotjänster med Docker, och hos Dell arbetade jag med Pivotal Cloud Foundry. I Friends projektet testade
-vi VmWare Tanzus ramverk som motsvarar Openshift.
+distribuerades mikrotjänster med Docker, och hos Dell arbetade jag med Pivotal Cloud Foundry. I Friends projektet
+testade vi VmWare Tanzus ramverk som motsvarar Openshift.
 
 ### 20. Har du erfarenhet av att konfigurera pipelines/CI/CD i exempelvis Jenkins eller GitLab?
 
@@ -107,7 +109,6 @@ vi VmWare Tanzus ramverk som motsvarar Openshift.
 
 ### Beskrivning av erfarenheten av pipelines/CI/CD, om formuläret efterfrågar den
 
-**Svar:** Jag har erfarenhet av att bygga, konfigurera och arbeta med CI/CD-pipelines i flera projekt. Hos Dell byggde vi en
-pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Hos UniCredit arbetade jag med Jenkins och Docker samt med
-integration av applikationer i organisationens befintliga CI/CD-miljö.
-
+**Svar:** Jag har erfarenhet av att bygga, konfigurera och arbeta med CI/CD-pipelines i flera projekt. Hos Dell byggde
+vi en pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Hos UniCredit arbetade jag med Jenkins och Docker samt
+med integration av applikationer i organisationens befintliga CI/CD-miljö.
