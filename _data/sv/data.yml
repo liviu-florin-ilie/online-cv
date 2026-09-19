@@ -7,7 +7,7 @@ sidebar:
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior programvaruutvecklare – Java, Fullstack & Integration
+  tagline: Senior fullstackutvecklare
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -46,7 +46,7 @@ sidebar:
     title: Intressen
     info:
       - item: Triathlon (Ironman Finisher)
-        link: https://www.movable-ink-850.com/p/rp/b93e9f68d865fb74/url?mi_u=61436628&mi_ecmp=65854c77-2bf9-452b-b78e-508bbdf4def0&contactid=a3733971-bff3-4a5c-881d-8099f44cd331&utm_campaign=25670808-EMEA%202026%20-%20IM%20%7C%20All%20Races%20-%20AC&utm_medium=email&_hsenc=p2ANqtz-9A3gjOPsXvznC1zJTm2RTTIzzffQYRADnCl5jKWLnVP0rQEQA2qb1Hqshz7VFWdpyqNlko6ODY5-mbNn34T5Ht-9ymig&_hsmi=433939101&utm_content=433939101&utm_source=hs_email&mi_cmp=da27ea647bf68f51&mi_sc=t
+        link:
 
       - item: Samhällsvetenskap
         link:
@@ -54,17 +54,13 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren programvaruutvecklare med 20+ års erfarenhet och lever efter mottot: **"Gör vad du kan, med vad du har, där du är."**
-  
-    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt arbeta inom JVM-ekosystemet med bland annat Kotlin, Groovy, Spring Boot och Quarkus. Parallellt har jag byggt upp en bred fullstackkompetens inom framför allt TypeScript och Angular genom projekt hos UniCredit, Dell och Tietoevry.
-  
-    Integrationer har varit en återkommande del av min karriär. På LeoVegas arbetade jag inom Payments med integrationer mot externa betalningsleverantörer som Adyen och PCI Proxy i en mikrotjänstarkitektur. På Tietoevry har jag bland annat byggt integration mot Upsales och arbetat med integrations- och kommunikationsflöden inom SOS-VIDEO till 112.
-  
-    Jag har erfarenhet av både GCP och AWS. På LeoVegas distribuerades våra mikrotjänster i Google Cloud med Kubernetes som containerplattform, medan flera av mina projekt hos Tietoevry har byggts och distribuerats på AWS. Jag har även arbetat med Docker, CI/CD och produktionssatta affärskritiska system.
-  
-    Jag har lång erfarenhet av automatiserad testning och olika teststrategier. Hos Dell skrev jag bland annat om och förbättrade ett automatiserat testramverk samtidigt som jag arbetade med Angular-baserade webbapplikationer.
-  
-    Min kombination av Java, TypeScript, integrationer, molnplattformar och erfarenhet från komplexa produktionssystem gör att jag kan arbeta över flera delar av en lösning och snabbt sätta mig in i nya tekniker och arkitekturer.
+    Senior fullstackutvecklare med mer än 20 års erfarenhet av att utveckla och förvalta verksamhetskritiska system i tvärfunktionella och agila team. Jag har över tio års direkt erfarenhet av Java/J2EE och har fortsatt arbeta inom JVM-ekosystemet med Kotlin, Groovy, Scala, Spring Boot och Quarkus. På frontendsidan har jag flerårig erfarenhet av TypeScript och Angular och är van att röra mig mellan backend, frontend, integrationer och leveransmiljöer.
+
+    Integrationer och mikrotjänster är en röd tråd i min karriär. På LeoVegas utvecklade jag betalningsintegrationer mot externa leverantörer i en mikrotjänstarkitektur. På Tietoevry har jag bland annat arbetat med två Quarkus-applikationer och kommunikationsflöden i SOS-VIDEO till 112 samt byggt integrationer mot externa system.
+
+    Jag har erfarenhet av automatiserad testning och kvalitetssäkring av systemflöden. Hos Dell skrev jag om och förbättrade ett automatiserat testramverk för verifiering av kod mot förväntade utfall. Min praktiska erfarenhet av renodlad prestandatestautomatisering är mer begränsad, men jag är van vid att utveckla, felsöka och kvalitetssäkra integrationer i komplexa produktionsmiljöer.
+
+    Jag har arbetat med Docker, Kubernetes, GCP och AWS samt bygg- och distributionsflöden med bland annat GitLab, Jenkins och Artifactory. Som teamlead och arkitekt har jag ansvarat för tre utvecklare, gett teknisk vägledning och drivit arkitekturella beslut. Jag bidrar aktivt till samarbete, kunskapsdelning och gemensamt kvalitetsansvar i teamet.
 
 education:
   title: Utbildning
@@ -83,23 +79,27 @@ experiences:
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
-          Jag har varit involverad i flera projekt.<br />
           **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
           SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
           Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
           som sitter högst upp i flödet.
-          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
+          Jag arbetade med utveckling, integrationer och kvalitetssäkring av de sammanhängande kommunikationsflödena.
+          Distributionspipelinen automatiserades med GitLab, Ansible och Docker i en lokal driftmiljö.
+          <br /><br />
           **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
           Jag byggde integration till Form.io.
+          <br /><br />
           **AI Application Modernization POC** – är an AI-app för att hjälpa utvecklare för att 
           samla projektdata, erbjuda lösningar för förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.         
+          Docker Compose och Python.
+          <br /><br />
           **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
           som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
           ett annat system, Upsales.          
-          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.      
+          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.
+          <br /><br />
           **Friends MDT** – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
           Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
           och analysera resultaten.
@@ -131,14 +131,16 @@ experiences:
         details: |
           Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
           Jag var involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
+          <br />
           Byggde en webbapp som automatiserade övervakning och distribution av våra 20+ Blaze-inställningar. I det här projektet
           byggde vi bland annat en CI/CD pipeline med GitLab, Artifactory och Pivotal Cloud Foundry. Denna app ökade nöjdheten 
           hos våra kollegor som ansvarar för att släppa nya versioner och underlättade övervakningen
           av våra instanser under högsäsong. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB.          
+          <br />
           Jag var involverad i att skapa en webbapp som hjälper våra kollegor att granska och verifiera misstänkta 
           transaktioner. Teknikstack för denna app: Angular, Groovy, Servlets, MongoDB. Jag skrev om och förbättrade 
-          ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
-          förväntade utfall.
+          ett befintligt automatiserat testramverk som gjorde det möjligt för utvecklarna att verifiera kod och systemflöden mot
+          förväntade utfall och upptäcka regressioner tidigare i utvecklingsprocessen.
           Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
           **Teknikstack:**  Groovy, MongoDB, Akka, Angular.          
@@ -150,6 +152,7 @@ experiences:
         company: UniCredit Services, Bukarest
         details: |
          Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.           
+         <br />
          **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
          till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
          beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
@@ -158,13 +161,15 @@ experiences:
          distribuerades slutligen på Docker.
          **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
          Vi arbetade enligt agil metodik.          
+         <br />
          **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
          och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
          Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.          
+         <br />
          **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
          Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.           
-         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
+         **Ledarskap:** Jag agerade som teamlead och arkitekt och ansvarade för tre andra utvecklare. Jag gav teknisk vägledning, samordnade utvecklingsarbetet och drev arkitekturella beslut tillsammans med teamet.
          
 #         Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
 
@@ -237,33 +242,29 @@ experiences:
 
 
 skills:
-  title: Färdigheter & Kompetens
+  title: Teknisk kompetens
 
   toolset:
-    - name: Java
-      level: 80%
+    - name: Java och objektorienterad utveckling
+      technologies: [Java, Kotlin, Groovy, Scala, objektorienterad programmering]
 
-    - name: Typescript
-      level: 60%
+    - name: Mikrotjänster och backend
+      technologies: [Quarkus, Spring Boot, NestJS, REST API, GraphQL, integrationer]
 
-    - name: Programvarudesign
-      level: 80%
+    - name: Frontend och fullstackutveckling
+      technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
 
-    - name: Anpassningsbar
-      level: 90%
+    - name: Test och kvalitetssäkring
+      technologies: [testautomatisering, enhetstester, regressionstestning]
 
-    - name: Kreativ
-      level: 80%
+    - name: Containrar och molnplattformar
+      technologies: [Docker, Docker Compose, Kubernetes, GCP, AWS, Pivotal Cloud Foundry]
 
-    - name: Öppen
-      level: 85%
+    - name: CI/CD och leverans
+      technologies: [GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
 
-    - name: Hårt arbetande
-      level: 95%
-
-    - name: Villig att lära sig både tekniskt och affärsmässigt
-      level: 90%
+    - name: Tekniskt ledarskap och arbetssätt
+      technologies: [teamledning, arkitektur, agila team, teknisk vägledning, kunskapsdelning]
 
 
 footer: >
-    Designed med <i class="fas fa-heart"></i> av <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

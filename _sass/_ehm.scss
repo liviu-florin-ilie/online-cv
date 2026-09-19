@@ -1,0 +1,175 @@
+body {
+  font-family: "Noto Sans", Arial, sans-serif;
+}
+
+p {
+  line-height: 1.65;
+}
+
+a {
+  color: $ehm-link;
+  text-decoration: underline;
+
+  &:hover {
+    color: $theme-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
+.sidebar-wrapper {
+  .profile-container {
+    background: $ehm-profile;
+    border-bottom: 4px solid $ehm-accent;
+  }
+
+  .name,
+  .container-block-title {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .tagline,
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $ehm-accent;
+  }
+}
+
+.main-wrapper {
+  .section-title {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: 600;
+    text-transform: none;
+    color: $theme-color;
+    border-bottom: 3px solid $ehm-accent;
+    padding-bottom: 10px;
+  }
+
+  .project-title {
+    color: $theme-color;
+  }
+}
+
+.skillset .level-bar {
+  background: $divider;
+}
+
+.skillset .level-bar-inner {
+  background: $theme-color;
+}
+
+// Dark presentation matched to the supplied E-hälsomyndigheten screenshot.
+// Keep the light palette above for printing.
+@media screen {
+  body {
+    background: #16171b;
+    color: #d0d0d0;
+    color-scheme: dark;
+  }
+
+  .wrapper,
+  .sidebar-wrapper {
+    background: #16171b;
+  }
+
+  .sidebar-wrapper .profile-container {
+    background: #1e222e;
+    border-bottom-color: #f0f45b;
+  }
+
+  .main-wrapper {
+    background: #1e222e;
+
+    .section-title {
+      color: #fff;
+      border-bottom: 1px solid #383c47;
+      font-size: 24px;
+
+      .fa-circle {
+        color: #f0f45b;
+      }
+
+      .fa-inverse {
+        color: #16171b;
+      }
+    }
+
+    .job-title,
+    .degree,
+    .project-title,
+    .publication-title {
+      color: #fff;
+    }
+
+    .time,
+    .company,
+    .university,
+    .publication-authors {
+      color: #c1c4ce;
+    }
+
+    .upper-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 4px 16px;
+    }
+
+    .time {
+      position: static;
+      flex-shrink: 0;
+    }
+  }
+
+  a,
+  .sidebar-wrapper a {
+    color: #fff;
+
+    &:hover {
+      color: #f0f45b;
+    }
+  }
+
+  .skillset {
+    .skill-group-title {
+      color: #fff;
+    }
+
+    .level-bar {
+      background: #383c47;
+    }
+
+    .level-bar-inner {
+      background: #4d68c3;
+    }
+  }
+
+  .footer .copyright {
+    color: #c1c4ce;
+  }
+
+  .footer .fa-heart {
+    color: #f0f45b;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .wrapper {
+    box-shadow: none;
+  }
+}
