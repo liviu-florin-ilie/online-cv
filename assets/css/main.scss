@@ -10,3 +10,9 @@
 {% if site.theme_skin == 'ehm' %}
 @import "ehm";
 {% endif %}
+
+@import "ats";
+
+{% if site.theme_skin == 'ehm' %}
+@import "ehm-ats";
+{% endif %}

@@ -1,0 +1,153 @@
+// One reading order for the web page and text-based PDF exports.
+body.ats-layout {
+  background: #fff;
+  color: #222;
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  .wrapper {
+    display: block;
+    max-width: 850px;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .resume-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+  }
+
+  .name {
+    margin: 0 0 8px;
+    font-size: 30px;
+  }
+
+  .tagline {
+    margin: 0 0 12px;
+    font-size: 18px;
+  }
+
+  .main-wrapper {
+    padding: 24px 0 0;
+    background: #fff;
+  }
+
+  .section,
+  .container-block {
+    margin-bottom: 24px;
+    padding: 0;
+  }
+
+  .section-title,
+  .container-block-title {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+    color: #111;
+    margin: 0 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .fa-stack,
+  .contact-list i,
+  .level-bar,
+  .contact-list .pdf {
+    display: none;
+  }
+
+  a,
+  a:hover {
+    color: #222;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-container {
+    margin: 0;
+  }
+
+  .contact-list {
+    margin: 0;
+    li { margin-bottom: 3px; }
+  }
+
+  .upper-row {
+    display: block;
+    overflow: visible;
+  }
+
+  .time {
+    position: static;
+    float: none;
+    margin: 4px 0;
+    color: #444;
+  }
+
+  .job-title,
+  .degree,
+  .project-title,
+  .publication-title,
+  .skill-group-title,
+  .level-title {
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .company,
+  .university,
+  .publication-authors {
+    color: #444;
+  }
+
+  .skillset .level-title {
+    display: block;
+    float: none;
+    width: auto;
+  }
+
+  .skillset .item { overflow: visible; }
+  p { line-height: 1.5; }
+
+  @media screen {
+    background: $smoky-white;
+    color: $text-color-secondary;
+    padding: 30px;
+
+    .wrapper { padding: 32px; }
+    .resume-header { border-bottom: 3px solid $theme-color; }
+    .name,
+    .section-title,
+    .container-block-title { color: $theme-color; }
+    a { color: darken($theme-color, 10%); }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 0;
+    .wrapper { padding: 24px; }
+  }
+
+  @media print {
+    padding: 0;
+    font-size: 11pt;
+
+    .wrapper { max-width: none; }
+    .name { font-size: 22pt; }
+    .tagline { font-size: 12pt; }
+    .section-title,
+    .container-block-title { font-size: 14pt; }
+    .skill-group { font-size: 11pt; }
+    h1, h2, h3, .meta { break-after: avoid; }
+    p { orphans: 3; widows: 3; }
+    .skillset .item { break-inside: avoid; }
+    a[href]::after { content: none !important; }
+  }
+}
+
+@page {
+  size: A4;
+  margin: 15mm;
+}

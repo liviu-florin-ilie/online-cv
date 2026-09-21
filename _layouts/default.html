@@ -1,25 +1,22 @@
 ---
-#Add "layout: compress" here to compress the html code
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="{{ page.lang | default: 'sv' }}">
 {% include head.html %}
-
-<body>
+<body class="ats-layout">
   <div class="wrapper">
-    {% include sidebar.html %}
-
-    <div class="main-wrapper">
-        {{ content }}
-    </div>
+    {% assign sidebar = site.data[page.lang].data.sidebar %}
+    <header class="resume-header">
+      <h1 class="name">{{ sidebar.name }}</h1>
+      {% if sidebar.tagline %}<p class="tagline">{{ sidebar.tagline }}</p>{% endif %}
+      {% include contact.html %}
+    </header>
+    <main class="main-wrapper">
+      {{ content }}
+      {% include education.html main=true %}
+      {% include language.html %}
+      {% include interests.html %}
+    </main>
   </div>
-
-  {% include footer.html %}
-
-{% include scripts.html %}
 </body>
-
 </html>
-

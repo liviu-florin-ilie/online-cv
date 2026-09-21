@@ -11,14 +11,14 @@ sidebar:
 
     # Profile information
     name: Liviu Florin Ilie
-    tagline: Software Developer with focus on Java like languages
+    tagline: Senior Fullstack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: ilie.liviu@gmail.com
     phone: +46767657704
-    timezone: CET Timezone
-    citizenship: Romanian
+    location: Kalmar, Sweden
+    citizenship: Romanian citizen (EU)
 #     website: blog.webjeda.com #do not add http://
     linkedin: liviu-florin-i-a094367/
     xing:
@@ -30,12 +30,6 @@ sidebar:
     stack-overflow: 2285846/liviu-florin-ilie # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
-      link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_en.pdf
-      label: Resume PDF
-    otherlanguage:
-      link: https://liviu-florin-ilie.github.io/online-cv/sv/index.html
-      label: Mitt CV på Svenska
     languages:
       title: Languages
       info:
@@ -49,41 +43,22 @@ sidebar:
       title: Interests
       info:
         - item: Triathlon (Ironman Finisher)
-          link: https://www.movable-ink-850.com/p/rp/b93e9f68d865fb74/url?mi_u=61436628&mi_ecmp=65854c77-2bf9-452b-b78e-508bbdf4def0&contactid=a3733971-bff3-4a5c-881d-8099f44cd331&utm_campaign=25670808-EMEA%202026%20-%20IM%20%7C%20All%20Races%20-%20AC&utm_medium=email&_hsenc=p2ANqtz-9A3gjOPsXvznC1zJTm2RTTIzzffQYRADnCl5jKWLnVP0rQEQA2qb1Hqshz7VFWdpyqNlko6ODY5-mbNn34T5Ht-9ymig&_hsmi=433939101&utm_content=433939101&utm_source=hs_email&mi_cmp=da27ea647bf68f51&mi_sc=t
+          link:
 
         - item: Social Sciences
           link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I am a  seasoned (20+ years) Software Developer who lives by this: 
-      \"Do what you can, with what you have, where you are\". 
-      This allowed me to perform in different company cultures, different team setups 
-      and also ever changing tech-stacks. Worked as a full-stack developer developing 
-      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher.
-      Built production ready software for various industries and end users:
-        - experience with building, improving and using CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
-        - Procurement and resale
-        - Mobile Gaming in the Payments Area
-        - Financial Sector
-        - eLearning
-        - Task Management
-      I was also involved in configuration of CI pipelines involving WebSphere application
-      servers and internal CI tools. I am a creative, resilient, open and helpful person.
-      I worked with great people who helped me grow both my technical and soft skills.
-      
-      This is my take on software development:
-      The software developer nowadays has to fill in different roles:
-        - assess and take care of the most important tasks
-        - one can be a fireman when something \"catches fire\",         
-        - one can be an archaeologist when there is no handover 
-        - or even a private detective when there are things he needs to accomplish ones tasks 
-          and has to look for the people that can provide help,
-        - sometimes one can act as a translator as there are things that not all people can understand, 
-        - one can even be the housekeeping lady when no one else dares doing the dirty work, 
-        - one must be a teacher in order to share what he has acquired,
-        - and sometimes one can be what he is destined to be: an architect and a builder.
+  title: Career Profile
+  summary: |
+    Senior fullstack developer with more than 20 years of experience developing and maintaining business-critical systems in cross-functional, agile teams. I have over ten years of direct Java/J2EE experience and have continued working in the JVM ecosystem with Kotlin, Groovy, Scala, Spring Boot and Quarkus. On the frontend, I have several years of experience with TypeScript and Angular and am comfortable working across backend, frontend, integrations and delivery environments.
+
+    Integrations and microservices have been a recurring focus throughout my career. At LeoVegas, I developed payment integrations with external providers in a microservices architecture. At Tietoevry, I worked on two Quarkus applications and communication flows for SOS-VIDEO for 112, as well as integrations with external systems.
+
+    I have experience in automated testing and quality assurance of system flows. At Dell, I rewrote and improved an automated testing framework to verify code against expected outcomes. My practical experience with dedicated performance-test automation is more limited, but I am used to developing, troubleshooting and assuring the quality of integrations in complex production environments.
+
+    I have worked with Docker, Kubernetes, GCP and AWS, as well as build and deployment pipelines using GitLab, Jenkins and Artifactory. As a team lead and architect, I was responsible for three developers, provided technical guidance and drove architectural decisions. I actively contribute to collaboration, knowledge sharing and shared responsibility for quality within the team.
+
 education:
     title: Education
     info:
@@ -98,140 +73,75 @@ experiences:
     title: Experiences
     info:
       - role: Lead Solutions Consultant
-        time: 2023/05 - 2023/08
+        show: True
+        time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sweden
         details: |
-          Was involved in several projects.
-          
-          SOS-VIDEO for 112 Emergency Services - The purpose of the project was to add video capabilities to existing 112 emergency calls by sending a 
-          SMS containing a link that the caller can open to establish a video connection with the operator handling the call.
-          This was achieved using an open-source technology stack consisting of Janus as the video server, an internally developed SIP stack, and two Quarkus applications 
-          at the top of the processing flow.
-          The deployment pipeline was fully automated using GitLab, Ansible, and Docker.
-
-          BPMN process runner Demo Application - A demo application for the handling BPMN processes built with Spring Boot and Flowable. I was responsible for 
-          implementing the integration with Form.io.
-
-          AI Application Modernization POC - AI app to assist devs.
-          gather project data, offer solutions for improvement and modernization.
-          Got a first contact with an AI project and got some hands on experience with tools like 
-          Chainlit, LangGraph, LangChain, Elasticsearch and refreshed some other
-          Docker Compose och Python.
-          
-          RSS - I worked with full-stack development for an application hosted on AWS, that is meant 
-          to support the activities of a company that works in a niche market of dealing micro-components 
-          used in different industries and objects for a profit. 
-          I have been responsible for development and maintenance. 
-          Did an integration with another system, Upsales.
-          Some of the tech stack used here involved Neo4j, Cypher, Typescript with NestJS and Angular and also 
-          got more familiar with GraphQL and the AWS stack.
-
-          Friends MDT- Development of digital tools for the Friends foundation to assist them in 
-          their work against bullying and harassment. 
-          Includes creating a new tool for collecting, visualizing, and analyzing inquiries done in
-          schools. After the collection of the inquiries a complex report was generated. The report was 
-          bases on research meant to show the actual feeling of the children in a school.
-          The application had this stack Postgres, Neo4j, SpringBoot with Kotlin, Angular and all
-          was deployed on AWS. In the first phase of the project we experimented with VmWares Tanzu
-          platform.
+          **SOS-VIDEO for 112** – Added video to an existing emergency call by sending an SMS link that establishes a video connection between the caller and the operator. The solution used Janus as the video server, an internal SIP stack and two Quarkus applications. I worked on development, integrations and quality assurance of the connected communication flows. The deployment pipeline was automated with GitLab, Ansible and Docker in an on-premises environment.
+          <br /><br />
+          **Driftorder Demo Application** – A demonstration application for the Driftorder BPMN process, built with Spring Boot and Flowable. I built the integration with Form.io.
+          <br /><br />
+          **AI Application Modernization POC** – An AI application to help developers collect project data and identify opportunities for improvement and modernisation. This was my first AI project and gave me hands-on experience with Chainlit, LangGraph, LangChain and Elasticsearch, while refreshing my Docker Compose and Python skills.
+          <br /><br />
+          **RSS** – Fullstack development of an AWS application supporting a business trading in small electronic components. I was responsible for development, maintenance and integration with Upsales.
+          **Technology stack:** Neo4j/Cypher, TypeScript, NestJS, Angular, GraphQL and AWS.
+          <br /><br />
+          **Friends MDT** – Development of digital survey tools for the Friends foundation's work against bullying and harassment. The application collected, visualised and analysed school survey data, generating a complex research-based report on children's wellbeing at school. It used PostgreSQL, Neo4j, Spring Boot with Kotlin and Angular, deployed on AWS. In the initial phase, we used VMware Tanzu for CI/CD.
 
       - role: Software Developer @Payments
+        show: True
         time: 2021/05 - 2023/05
         company: Leovegas, Remote-Sweden
         details: |
-          The team in the Payments department builds and maintains payment integrations 
-          between our core systems and different payment providers and payment methods 
-          which enables the player to deposit and withdraw his money in a smooth way. 
-          My role lies within the cards stream which deals specifically with the card 
-          payments integrations. Our aim is to lower the cost of the price per payment, 
-          expand our current payment methods and lower the fraud risk for the payments. 
-          As a member of the Card stream I was involved in building one of our integrations 
-          and the rule engine used to build rules for risk and fraud mitigation.
-          
-          Tech Stack: A microservices architecture built over an inhouse SpringBoot-ish framework 
-          over Kotlin and MySql as a database.
-          
-          Team: 3-5 stream members, 30+ extended team
+          The Payments team built and maintained integrations between our core systems and payment providers, enabling players to deposit and withdraw funds smoothly. I worked in the card payments stream, aiming to reduce payment costs, expand payment methods and lower fraud risk. I helped build a payment integration and the rule engine for risk and fraud prevention.
+          **Technology stack:** A microservices architecture using an internal Spring Boot-like framework, Kotlin and MySQL. We deployed the microservices on Google Cloud and used Kubernetes as the container platform.<br />
+          **Team:** 3–5 stream members, with an extended team of over 30.
+
       - role: Principal Software Engineer
+        show: True
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Romania
         details: |
-          Our department’s aim is to mitigate risk when a loan is requested by a customer.
-          I am involved in building tools that help automate certain tasks in our department.
-          Built a web app that automated the monitoring and deployment of our 20+ Blaze instances 
-          by building a CI/CD pipeline with GitLab and Artifactory and Pivotal Cloud Foundry. 
-          This app increased the happiness of our colleagues in charge of the release of new versions and eased the process of monitoring
-          our instances during high season. Tech stack for this app: Angular, Groovy, Servlets, MongoDB.
-          All of this was deployed in Pivotal Cloud 
+          Our department aimed to reduce risk when customers applied for loans. I helped build tools to automate departmental tasks.
+          <br />
+          I built a web application to automate monitoring and deployment of over 20 Blaze instances, including a CI/CD pipeline with GitLab, Artifactory and Pivotal Cloud Foundry. This improved the release process and made monitoring easier during peak periods. Technology stack: Angular, Groovy, Servlets and MongoDB.
+          <br />
+          I helped develop a web application for reviewing suspicious transactions, using Angular, Groovy, Servlets and MongoDB. I rewrote and improved an automated testing framework so developers could verify code and system flows against expected outcomes and detect regressions earlier. I also integrated SSO into our web applications using Waffle.
+          <br />
+          **Technology stack:** Groovy, MongoDB, Akka and Angular.<br />
+          **Team:** A team lead and one or two developers per project.
 
-          Was involved in creating a web-app that would help our colleagues overview and verify the suspect 
-          transactions. Tech stack for this app: Angular, Groovy, Servlets, MongoDB. I rewrote and enhanced 
-          an existing automated testing framework that allows our developers to test their code against 
-          expected results.
-          Also managed to integrate SSO functionality into our webapps using Waffle.
-          The team for a project consists of team-lead and one or two developers
-          
-          Tech Stack: Groovy, MongoDB, Akka, Angular.
-          
-          Team: The team for a project consists of team-lead and one or two developers.          
       - role: Senior Software Developer
+        show: True
         time: 2015/03 - 2018/03
         company: UniCredit Services, Bucharest
         details: |
-          Worked on different "Pricing engines" for our Unicredit colleagues from Italy. The most 
-          important one was GPT (Global Pricing Tool) which we rewrote from a monolith build on a Java 
-          tech stack to a microservice infrastructure with Scala for the microservices, Python for 
-          the calculation engine, Hazelcast for caching data, and Angular for the frontend. We also used SBT 
-          for building the Scala microservices. We aimed to provide the users with a more pleasant experience 
-          and we fully realized that by increasing the webapps speed and resilience. The microservices were 
-          eventually deployed on Docker.
-          
-          The team for this project consisted of a technical analyst, business analyst and six developers. 
-          We worked in an Agile way.  
+          I worked on pricing engines for UniCredit colleagues in Italy.
+          <br />
+          **GPT (Global Pricing Tool)** – We rebuilt a Java monolith as microservices using Scala, Python for the calculation engine, Hazelcast for caching and Angular for the frontend. We used SBT to build the Scala microservices and deployed them with Docker, improving application speed and resilience.
+          **Team:** A technical analyst, a business analyst and six developers, working with agile methods.
+          <br />
+          **BUL batch platform/calculation engine** – For four months, I contributed to migrating a critical application to new server infrastructure and integrating it with company servers and CI/CD pipelines. I coordinated with the WebSphere and Gandalf CI/CD teams. The stack included EJB 2.0, JMS, and WebSphere 5 and 8.
+          <br />
+          **Fund Transfer Price** – I built a proof of concept for a batch platform/calculation engine using Spring Batch, Spring Boot, MyBatis and Vaadin, retaining the existing Teradata database. We built CI/CD with Jenkins and used Docker for the modules.
+          **Leadership:** As team lead and architect, I was responsible for three other developers, provided technical guidance, coordinated development and drove architectural decisions with the team.
 
-          For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
-          engine to a new server infrastructure. One of the important parts of the job was integrating the application 
-          into the company’s servers and CI/CD pipelines. This involved coordinating with the team responsible for the
-          WebSphere servers, as well as the team managing the CI/CD software (Gandalf), since some of the configurations 
-          could not be done independently.
-          The tech-stack had EJB2.0, JMS, WebSphere 5 and 8. 
-          
-          I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
-          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
-          We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
-          
-          Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
       - role: Java Developer
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bucharest
         details: |
-          I worked on different projects in eLearning area. The projects I worked on, were LMS (Learning 
-          Management Systems)/LCMS (Learning Content Management Systems). Their aim was to help students and 
-          professionals to acquire new knowledge and skills in certain areas. The platforms supported going 
-          through online courses, they could measure the progress and also assess their knowledge. There were 
-          three different kind of frameworks that I worked on, which had different tech-stacks:
-           - Hibernate, Spring, Struts 1, MySQL, BIRT, Tomcat
-           - Hibernate, Spring, Spring MVC, MySQL, JSP and jQuery, Tomcat
-           - Struts, Hibernate, MySQL, JBoss
-           - JIRA for task/ bug tracking
-           
-          We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
-          supervised by a team manager and a project manager. The QA department helped us with the testing.
+          I worked on e-learning projects using LMS (Learning Management Systems) and LCMS (Learning Content Management Systems). These platforms helped students and professionals acquire knowledge and skills through online courses, progress tracking and knowledge assessment.
+
       - role: Java Developer
+        show: True
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bucharest
         details: |
-          Developed and maintained the Title-Search Application by integrating new sites 
-          into it with the help of Http  Client API, Html Parser API, regular expressions and XML. 
-          The harvested data from the implemented site is then saved into the application\'s MySQL database, for later use.
-          The purpose of Title search app is to enable the user to gather all the data available regarding a property or a property 
-          seller in order for the selling to be as "safe" as possible in terms of risks that can affect the buyer. 
-          
-          Tech stack: GWT, Servlets, MySQL, Resin.
-          
-          Team consisted of 8 developers, 3 testers, and one dev lead.
+          I developed and maintained an application for property and ownership research, integrating external websites using the HTTP Client API, HTML Parser API, regular expressions and XML. The collected data was stored in MySQL. The application helped users gather information about properties and sellers to identify risks affecting buyers.
+          **Technology stack:** GWT, Servlets, MySQL and Resin.<br />
+          **Team:** Eight developers, three testers and one development lead.
 
-      - role: Java Developer
+      - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
         company: Concept Data, Bucharest
 
@@ -279,33 +189,29 @@ experiences:
 #         conference:
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Technical Skills
 
-    toolset:
-      - name: Java
-        level: 80%
-        
-      - name: Typescript
-        level: 60%
+  toolset:
+    - name: Java and object-oriented development
+      technologies: [Java, Kotlin, Groovy, Scala, object-oriented programming]
 
-      - name: Software design
-        level: 70%
+    - name: Microservices and backend
+      technologies: [Quarkus, Spring Boot, NestJS, REST API, GraphQL, integrations]
 
-      - name: Adaptable
-        level: 90%
+    - name: Frontend and fullstack development
+      technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
 
-      - name: Creative
-        level: 80%
-      
-      - name: Open
-        level: 85%
-        
-      - name: Hard worker
-        level: 95%
-      
-      - name: Willing to learn both technically and business wise
-        level: 90%
-        
-        
+    - name: Testing and quality assurance
+      technologies: [test automation, unit testing]
+
+    - name: Containers and cloud platforms
+      technologies: [Docker, Docker Compose, Kubernetes, GCP, AWS, Pivotal Cloud Foundry]
+
+    - name: CI/CD and delivery
+      technologies: [GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
+
+    - name: Technical leadership and ways of working
+      technologies: [agile teams, technical guidance, knowledge sharing, team leadership, architecture]
+
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
