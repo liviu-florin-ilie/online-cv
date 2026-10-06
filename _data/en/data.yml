@@ -126,33 +126,78 @@ experiences:
           **Fund Transfer Price** – I built a proof of concept for a batch platform/calculation engine using Spring Batch, Spring Boot, MyBatis and Vaadin, retaining the existing Teradata database. We built CI/CD with Jenkins and used Docker for the modules.
           **Leadership:** As team lead and architect, I was responsible for three other developers, provided technical guidance, coordinated development and drove architectural decisions with the team.
 
-      - role: Java Developer
+      - role: Fullstack Java Developer
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bucharest
         details: |
-          I worked on e-learning projects using LMS (Learning Management Systems) and LCMS (Learning Content Management Systems). These platforms helped students and professionals acquire knowledge and skills through online courses, progress tracking and knowledge assessment.
+          I worked on several eLearning projects involving LMS (Learning Management Systems) and LCMS
+          (Learning Content Management Systems). These platforms helped students and professionals acquire new
+          knowledge and skills through online courses, progress tracking, and knowledge assessment. I worked with
+          several technology stacks:
+            - Hibernate, Spring, Struts 1, MySQL, BIRT, and Tomcat
+            - Hibernate, Spring, Spring MVC, MySQL, JSP, jQuery, and Tomcat
+            - Struts, Hibernate, MySQL, and JBoss
+            - Jira for task and bug tracking
 
-      - role: Java Developer
-        show: True
+          We followed a Waterfall methodology, typically with two to four developers per project. The work was
+          overseen by a team manager and a project manager, while the QA department supported testing and quality
+          assurance.
+
+      - role: Fullstack Java Developer
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bucharest
         details: |
-          I developed and maintained an application for property and ownership research, integrating external websites using the HTTP Client API, HTML Parser API, regular expressions and XML. The collected data was stored in MySQL. The application helped users gather information about properties and sellers to identify risks affecting buyers.
-          **Technology stack:** GWT, Servlets, MySQL and Resin.<br />
-          **Team:** Eight developers, three testers and one development lead.
+          I developed and maintained the Title Search application by integrating new websites using the HttpClient
+          API, an HTML parser API, regular expressions, and XML. Information collected from the integrated websites
+          was stored in the application's MySQL database for later use.
+
+          The application enabled users to collect available information about properties and property sellers,
+          helping reduce risks to buyers during real-estate transactions.
+
+          Tech stack: GWT, Servlets, MySQL, and Resin.
+          The team consisted of eight developers, three testers, and one development lead.
 
       - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
         company: Concept Data, Bucharest
+        details: |
+          We developed a task-management system using Hibernate, Swing, several Java APIs, the embedded Jetty server,
+          and a PostgreSQL database. I was responsible for developing reporting tools used in communications with
+          Romanian public authorities.
+
+          I also contributed to a flexible reporting module by extending the functionality of JasperReports.
+
+          Tech stack: Java, Hibernate, Swing, iText, JasperReports, JFreeChart, Jetty, and PostgreSQL.
+          Tools: Eclipse.
 
       - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
+        details: |
+          The company developed a web-based CRM system using JSF and Ajax, together with an SWT administration tool.
+          The web client and administration tool were connected to a SQL Server database. I implemented features in
+          the system's tree-based navigation menu.
+
+          I also rebuilt a web-based ticketing application used to register and manage complaints about streetlights.
+
+          Technologies and tools: JSF, Ajax, SWT, SQL Server, Eclipse, and TOAD.
 
       - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bucharest
-          
+        details: |
+          The company developed financial web applications using J2EE technologies for major Romanian clients. I
+          worked on a prescoring application for a major Romanian bank. The system was developed using Struts, Java,
+          Oracle Database, and PL/SQL.
+
+          The project was large and the client had demanding requirements. At one point, I had to modify core parts
+          of the application and completed the work within a tight deadline. Because the system supported many user
+          categories, I was assigned responsibility for designing and implementing user and role administration. I
+          designed an efficient solution inspired by Unix IP-filtering principles, without noticeable performance
+          overhead.
+
+          Tech stack: Oracle Database, PL/SQL, Java, Servlets, JSP, and Struts.
+          Tools: Eclipse and TOAD.
 
 # projects:
 #     title: Projects
