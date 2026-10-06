@@ -208,64 +208,74 @@ experiences:
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bucharest
         details: |
-          I worked on different projects in eLearning area. The projects I worked on, were LMS (Learning 
-          Management Systems)/LCMS (Learning Content Management Systems). Their aim was to help students and 
-          professionals to acquire new knowledge and skills in certain areas. The platforms supported going 
-          through online courses, they could measure the progress and also assess their knowledge. There were 
-          three different kind of frameworks that I worked on, which had different tech-stacks:
-           - Hibernate, Spring, Struts 1, MySQL, BIRT, Tomcat
-           - Hibernate, Spring, Spring MVC, MySQL, JSP and jQuery, Tomcat
-           - Struts, Hibernate, MySQL, JBoss
-           - JIRA for task/ bug tracking
-           
-          We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
-          supervised by a team manager and a project manager. The QA department helped us with the testing.
+          I worked on several eLearning projects involving LMS (Learning Management Systems) and LCMS
+          (Learning Content Management Systems). These platforms helped students and professionals acquire new
+          knowledge and skills through online courses, progress tracking, and knowledge assessment. I worked with
+          several technology stacks:
+            - Hibernate, Spring, Struts 1, MySQL, BIRT, and Tomcat
+            - Hibernate, Spring, Spring MVC, MySQL, JSP, jQuery, and Tomcat
+            - Struts, Hibernate, MySQL, and JBoss
+            - Jira for task and bug tracking
+
+          We followed a Waterfall methodology, typically with two to four developers per project. The work was
+          overseen by a team manager and a project manager, while the QA department supported testing and quality
+          assurance.
+
       - role: Fullstack Java Developer
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bucharest
         details: |
-          Developed and maintained the Title-Search Application by integrating new sites 
-          into it with the help of Http  Client API, Html Parser API, regular expressions and XML. 
-          The harvested data from the implemented site is then saved into the application\'s MySQL database, for later use.
-          The purpose of Title search app is to enable the user to gather all the data available regarding a property or a property 
-          seller in order for the selling to be as "safe" as possible in terms of risks that can affect the buyer. 
-          
-          Tech stack: GWT, Servlets, MySQL, Resin.
-          
-          Team consisted of 8 developers, 3 testers, and one dev lead.
+          I developed and maintained the Title Search application by integrating new websites using the HttpClient
+          API, an HTML parser API, regular expressions, and XML. Information collected from the integrated websites
+          was stored in the application's MySQL database for later use.
+
+          The application enabled users to collect available information about properties and property sellers,
+          helping reduce risks to buyers during real-estate transactions.
+
+          Tech stack: GWT, Servlets, MySQL, and Resin.
+          The team consisted of eight developers, three testers, and one development lead.
 
       - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
-        company: Concept data, Bucharest
-          We developed a Task Management software using Hibernate, Swing and other different api’s (Itext, Jasper reports,JFreeChart) an embedded server(Jetty)
-          with a  Postgres SQL database. I had responssabilities in building reporting tools to be used in the relation of 
-          Romanian authorithies. 
-          I was also involved in building a flexible reporting module in the app by extending functionality of the Jasper Reports library.
+        company: Concept Data, Bucharest
+        details: |
+          We developed a task-management system using Hibernate, Swing, several Java APIs, the embedded Jetty server,
+          and a PostgreSQL database. I was responsible for developing reporting tools used in communications with
+          Romanian public authorities.
 
-          Tech stack:  Java, Hibernate, Swing, Itext, Jasper reports,JFreeChart, PostresSQL
-          Tools: Eclipse
+          I also contributed to a flexible reporting module by extending the functionality of JasperReports.
+
+          Tech stack: Java, Hibernate, Swing, iText, JasperReports, JFreeChart, Jetty, and PostgreSQL.
+          Tools: Eclipse.
 
       - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
-          The company develops a web-based CRM using JSF, Ajax and had a SWT administration tool. The web client and 
-          the administration tool were connected to a SQL server database. 
-          I implemented features in tree menu.          
-          Rebuilt a ticketing webapp that gathered and managed complaints about street lightpoles.
-          Tools: Eclipse, TOAD.
+        details: |
+          The company developed a web-based CRM system using JSF and Ajax, together with an SWT administration tool.
+          The web client and administration tool were connected to a SQL Server database. I implemented features in
+          the system's tree-based navigation menu.
+
+          I also rebuilt a web-based ticketing application used to register and manage complaints about streetlights.
+
+          Technologies and tools: JSF, Ajax, SWT, SQL Server, Eclipse, and TOAD.
 
       - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bucharest
-          The company develops financial web applications  using J2EE technologies for important clients in Romania. 
-          The project I was involved in was a prescoring application developed with Struts and Oracle, PL/SQL developed 
-          for an important bank in Romania. The project was challenging because it was quite large and the client was 
-          very demanding. At some point I had to modify the core of the application and I managed to do that respecting 
-          the tight deadline that the client imposed us. Because the application had many users categories I was 
-          designated to design and implement the user-role administration. I managed to do that in an elegant manner 
-          and without performance overhead by inspiring myself from  UNIX ip filtering policies.
-          Tech stack: Oracle database, PL/SQL, Java, Servlets & JSP, Struts.
-          Tools: Eclipse, TOAD.
+        details: |
+          The company developed financial web applications using J2EE technologies for major Romanian clients. I
+          worked on a prescoring application for a major Romanian bank. The system was developed using Struts, Java,
+          Oracle Database, and PL/SQL.
+
+          The project was large and the client had demanding requirements. At one point, I had to modify core parts
+          of the application and completed the work within a tight deadline. Because the system supported many user
+          categories, I was assigned responsibility for designing and implementing user and role administration. I
+          designed an efficient solution inspired by Unix IP-filtering principles, without noticeable performance
+          overhead.
+
+          Tech stack: Oracle Database, PL/SQL, Java, Servlets, JSP, and Struts.
+          Tools: Eclipse and TOAD.
 
 # projects:
 #     title: Projects
