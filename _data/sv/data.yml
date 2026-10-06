@@ -58,6 +58,8 @@ career-profile:
 
     Integrationer och mikrotjänster är en röd tråd i min karriär. På LeoVegas utvecklade jag betalningsintegrationer mot externa leverantörer i en mikrotjänstarkitektur. På Tietoevry har jag bland annat arbetat med två Quarkus-applikationer och kommunikationsflöden i SOS-VIDEO till 112 samt byggt integrationer mot externa system.
 
+    Jag har arbetat med flera databastekniker, bland annat PostgreSQL, MySQL, Oracle, Neo4j och MongoDB. Tidigare i karriären utvecklade jag även lagrade procedurer i Oracle.
+
     Jag har erfarenhet av automatiserad testning och kvalitetssäkring av systemflöden. Hos Dell skrev jag om och förbättrade ett automatiserat testramverk för verifiering av kod mot förväntade utfall. Min praktiska erfarenhet av renodlad prestandatestautomatisering är mer begränsad, men jag är van vid att utveckla, felsöka och kvalitetssäkra integrationer i komplexa produktionsmiljöer.
 
     Jag har arbetat med Docker, Kubernetes, GCP och AWS samt bygg- och distributionsflöden med bland annat GitLab, Jenkins och Artifactory. Som teamlead och arkitekt har jag ansvarat för tre utvecklare, gett teknisk vägledning och drivit arkitekturella beslut. Jag bidrar aktivt till samarbete, kunskapsdelning och gemensamt kvalitetsansvar i teamet.
@@ -70,6 +72,7 @@ education:
       details: |
         Cybernetik, Statistik och Ekonomisk Informatik
         Institution: Ekonomisk Informatik;
+        Java-certifierad programmerare (2006)
 
 experiences:
     title: Erfarenheter
@@ -83,7 +86,7 @@ experiences:
           SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
           Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
           som sitter högst upp i flödet.
-          Jag arbetade med utveckling, integrationer och kvalitetssäkring av de sammanhängande kommunikationsflödena.
+          Jag arbetade med Javautveckling, integrationer och kvalitetssäkring av de sammanhängande kommunikationsflödena.
           Distributionspipelinen automatiserades med GitLab, Ansible och Docker i en lokal driftmiljö.
           <br /><br />
           **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
@@ -104,7 +107,7 @@ experiences:
           Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
           och analysera resultaten.
           Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
-          Applikationen använde Postgres, Neo4j, SpringBoot med Kotlin, Angular och distribuerades via AWS.
+          Applikationen använde PostgreSQL, Neo4j, JPA, Spring Boot med Java och Kotlin samt Angular och distribuerades via AWS.
           I den första fasen använde vi VMware Tanzu för CI/CD.
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
@@ -119,8 +122,8 @@ experiences:
           och minska risken för bedrägerier vid betalningar. 
           Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
-          **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt SpringBoot-liknande ramverk 
-          med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
+          **Teknikstack:** En mikrotjänstarkitektur byggd med Java och Kotlin ovanpå ett internt Spring Boot-liknande ramverk,
+          med JPA för persistens och MySQL som databas. Vi distribuerade våra mikrotjänster i Google Cloud och
           vi använde oss av Kubernetes för containerplattform.<br />
           **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
 
@@ -249,7 +252,10 @@ skills:
       technologies: [Java, Kotlin, Groovy, Scala, objektorienterad programmering]
 
     - name: Mikrotjänster och backend
-      technologies: [Quarkus, Spring Boot, NestJS, REST API, GraphQL, integrationer]
+      technologies: [Quarkus, Spring Boot, Java EE, JPA, NestJS, REST API, GraphQL, integrationer]
+
+    - name: Databaser och persistens
+      technologies: [PostgreSQL, MySQL, Oracle, Neo4j, MongoDB, JPA, lagrade procedurer]
 
     - name: Frontend och fullstackutveckling
       technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
