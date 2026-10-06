@@ -54,11 +54,17 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Senior fullstackutvecklare med mer än 20 års erfarenhet av att utveckla och förvalta verksamhetskritiska system i tvärfunktionella och agila team. Jag har över tio års direkt erfarenhet av Java/J2EE och har fortsatt arbeta inom JVM-ekosystemet med Kotlin, Groovy, Scala, Spring Boot och Quarkus. På frontendsidan har jag flerårig erfarenhet av TypeScript och Angular och är van att röra mig mellan backend, frontend, integrationer och leveransmiljöer.
+    Senior system- och fullstackutvecklare med mer än 20 års erfarenhet av systemutveckling, systemdesign och förvaltning av verksamhetskritiska system. Jag har över tio års direkt erfarenhet av Java/J2EE och har fortsatt arbeta inom JVM-ekosystemet med Kotlin, Groovy, Scala, Spring Boot och Quarkus. På frontendsidan har jag flerårig erfarenhet av TypeScript och Angular och är van att röra mig mellan backend, frontend, integrationer och leveransmiljöer.
 
     Integrationer och mikrotjänster är en röd tråd i min karriär. På LeoVegas utvecklade jag betalningsintegrationer mot externa leverantörer i en mikrotjänstarkitektur. På Tietoevry har jag bland annat arbetat med två Quarkus-applikationer och kommunikationsflöden i SOS-VIDEO till 112 samt byggt integrationer mot externa system.
 
-    Jag har arbetat med flera databastekniker, bland annat PostgreSQL, MySQL, Oracle, Neo4j och MongoDB. Tidigare i karriären utvecklade jag även lagrade procedurer i Oracle.
+    Jag har professionell erfarenhet av Oracle Database, PL/SQL och TOAD från utvecklingen av en verksamhetskritisk prescoring-applikation för en större bank. Arbetet omfattade utveckling av databasnära funktionalitet, lagrade procedurer samt design och implementation av en prestandaeffektiv modell för administration av användare och roller. Jag har även arbetat med relationsdatabaser som PostgreSQL och MySQL samt datamodellering och persistenslösningar med bland annat SQL, JPA och Hibernate.
+
+    Sedan 2015 har jag kontinuerligt arbetat enligt agila principer i tvärfunktionella team, bland annat med iterativ utveckling, prioriterade arbetsflöden, teamplanering, återkoppling och kontinuerliga förbättringar.
+
+    Jag har genomfört kurser i IBM DataStage och arbetat i avdelningar där ETL och databaserade informationsflöden var centrala delar av verksamheten. Jag har även utvecklat export- och rapportmoduler, bland annat med CSV-format, BIRT och JasperReports. Min DataStage-erfarenhet är utbildningsbaserad snarare än från egen utveckling av produktionsflöden.
+
+    Under min karriär har jag arbetat med flera versionshanteringssystem, däribland CVS, SVN och Git, samt plattformarna GitHub och GitLab. Jag har använt versionshantering i det löpande utvecklingsarbetet med bland annat applikationskod, exportfunktioner och rapportmoduler.
 
     Jag har erfarenhet av automatiserad testning och kvalitetssäkring av systemflöden. Hos Dell skrev jag om och förbättrade ett automatiserat testramverk för verifiering av kod mot förväntade utfall. Min praktiska erfarenhet av renodlad prestandatestautomatisering är mer begränsad, men jag är van vid att utveckla, felsöka och kvalitetssäkra integrationer i komplexa produktionsmiljöer.
 
@@ -163,7 +169,7 @@ experiences:
          och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
          distribuerades slutligen på Docker.
          **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
-         Vi arbetade enligt agil metodik.          
+         Vi arbetade enligt agil metodik. Sedan denna roll 2015 har jag kontinuerligt arbetat agilt i tvärfunktionella utvecklingsteam.
          <br />
          **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
          och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
@@ -215,6 +221,7 @@ experiences:
           som användes i kommunikationen med rumänska myndigheter.
 
           Jag deltog även i utvecklingen av en flexibel rapportmodul genom att utöka funktionaliteten i JasperReports.
+          Arbetet omfattade även exportfunktioner och rapportflöden med CSV-data.
 
           Teknikstack: Java, Hibernate, Swing, iText, JasperReports, JFreeChart, Jetty och PostgreSQL.
           Verktyg: Eclipse.
@@ -234,15 +241,17 @@ experiences:
 
       - role: Fullstack Javautvecklare
         time: 2005/04 - 2007/02
+        show: True
         company: INGENIO-UCS, Bukarest
         details: |
           Företaget utvecklade finansiella webbapplikationer med J2EE-teknik för stora kunder i Rumänien. Jag arbetade
           med en prescoring-applikation för en större rumänsk bank. Systemet utvecklades med Struts, Java, Oracle
-          Database och PL/SQL.
+          Database och PL/SQL. Jag utvecklade databasnära funktionalitet och lagrade procedurer och arbetade med den
+          relationella datamodellen bakom applikationen.
 
           Projektet var omfattande och hade höga krav från kunden. Vid ett tillfälle behövde jag ändra centrala delar
           av applikationen och genomförde arbetet inom en snäv tidsfrist. Eftersom systemet hade många användarkategorier
-          fick jag ansvar för att designa och implementera administrationen av användare och roller. Lösningen utformades
+          fick jag ansvar för systemdesign och implementation av administrationen av användare och roller. Lösningen utformades
           med inspiration från Unix principer för IP-filtrering och utan märkbar negativ påverkan på prestandan.
 
           Teknikstack: Oracle Database, PL/SQL, Java, Servlets, JSP och Struts.
@@ -294,7 +303,10 @@ skills:
       technologies: [Quarkus, Spring Boot, Java EE, JPA, NestJS, REST API, GraphQL, integrationer]
 
     - name: Databaser och persistens
-      technologies: [PostgreSQL, MySQL, Oracle, Neo4j, MongoDB, JPA, lagrade procedurer]
+      technologies: [Oracle Database, PL/SQL, TOAD, relationsdatamodellering, lagrade procedurer, PostgreSQL, MySQL, Neo4j, MongoDB, JPA, Hibernate]
+
+    - name: Business Intelligence, ETL och rapportering
+      technologies: [ETL, IBM DataStage-kurser, CSV-exporter, BIRT, JasperReports, rapportmoduler]
 
     - name: Frontend och fullstackutveckling
       technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
@@ -306,10 +318,10 @@ skills:
       technologies: [Docker, Docker Compose, Kubernetes, GCP, AWS, Pivotal Cloud Foundry]
 
     - name: CI/CD och leverans
-      technologies: [GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
+      technologies: [CVS, SVN, Git, GitHub, GitLab, GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
 
     - name: Tekniskt ledarskap och arbetssätt
-      technologies: [agila team, teknisk vägledning, kunskapsdelning, teamledning, arkitektur ]
+      technologies: [agila arbetssätt sedan 2015, systemdesign, teknisk vägledning, kunskapsdelning, teamledning, arkitektur]
 
 
 footer: >

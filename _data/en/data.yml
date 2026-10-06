@@ -7,7 +7,7 @@ sidebar:
     # where some switches can be turned on or off
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    details-project: False # when set to False it will not show the project details from experience.details
+    details-project: True # when set to False it will not show the project details from experience.details
 
     # Profile information
     name: Liviu Florin Ilie
@@ -51,9 +51,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior fullstack developer with more than 20 years of experience developing and maintaining business-critical systems in cross-functional, agile teams. I have over ten years of direct Java/J2EE experience and have continued working in the JVM ecosystem with Kotlin, Groovy, Scala, Spring Boot and Quarkus. On the frontend, I have several years of experience with TypeScript and Angular and am comfortable working across backend, frontend, integrations and delivery environments.
+    Senior systems and fullstack developer with more than 20 years of experience in software development, system design and maintenance of business-critical systems. I have over ten years of direct Java/J2EE experience and have continued working in the JVM ecosystem with Kotlin, Groovy, Scala, Spring Boot and Quarkus. On the frontend, I have several years of experience with TypeScript and Angular and am comfortable working across backend, frontend, integrations and delivery environments.
 
     Integrations and microservices have been a recurring focus throughout my career. At LeoVegas, I developed payment integrations with external providers in a microservices architecture. At Tietoevry, I worked on two Quarkus applications and communication flows for SOS-VIDEO for 112, as well as integrations with external systems.
+
+    I have professional experience with Oracle Database, PL/SQL and TOAD from developing a business-critical prescoring application for a major bank. The work included database-oriented functionality, stored procedures, and the design and implementation of a performance-efficient user and role administration model. I have also worked with relational databases such as PostgreSQL and MySQL, including data modelling and persistence solutions using SQL, JPA and Hibernate.
+
+    Since 2015, I have continuously worked according to agile principles in cross-functional teams, including iterative development, prioritised workflows, team planning, feedback and continuous improvement.
+
+    I have completed courses in IBM DataStage and worked in departments where ETL and database-driven information flows were central activities. I have also developed export and reporting modules using formats and tools including CSV, BIRT and JasperReports. My DataStage experience is training-based rather than hands-on development of production flows.
+
+    Throughout my career, I have worked with several version-control systems, including CVS, SVN and Git, as well as the GitHub and GitLab platforms. I have used version control in day-to-day development involving application code, export functionality and reporting modules.
 
     I have experience in automated testing and quality assurance of system flows. At Dell, I rewrote and improved an automated testing framework to verify code against expected outcomes. My practical experience with dedicated performance-test automation is more limited, but I am used to developing, troubleshooting and assuring the quality of integrations in complex production environments.
 
@@ -119,7 +127,7 @@ experiences:
           I worked on pricing engines for UniCredit colleagues in Italy.
           <br />
           **GPT (Global Pricing Tool)** – We rebuilt a Java monolith as microservices using Scala, Python for the calculation engine, Hazelcast for caching and Angular for the frontend. We used SBT to build the Scala microservices and deployed them with Docker, improving application speed and resilience.
-          **Team:** A technical analyst, a business analyst and six developers, working with agile methods.
+          **Team:** A technical analyst, a business analyst and six developers, working with agile methods. Since this role in 2015, I have continuously worked in agile, cross-functional development teams.
           <br />
           **BUL batch platform/calculation engine** – For four months, I contributed to migrating a critical application to new server infrastructure and integrating it with company servers and CI/CD pipelines. I coordinated with the WebSphere and Gandalf CI/CD teams. The stack included EJB 2.0, JMS, and WebSphere 5 and 8.
           <br />
@@ -166,6 +174,7 @@ experiences:
           Romanian public authorities.
 
           I also contributed to a flexible reporting module by extending the functionality of JasperReports.
+          The work also included export functionality and reporting flows using CSV data.
 
           Tech stack: Java, Hibernate, Swing, iText, JasperReports, JFreeChart, Jetty, and PostgreSQL.
           Tools: Eclipse.
@@ -188,11 +197,12 @@ experiences:
         details: |
           The company developed financial web applications using J2EE technologies for major Romanian clients. I
           worked on a prescoring application for a major Romanian bank. The system was developed using Struts, Java,
-          Oracle Database, and PL/SQL.
+          Oracle Database, and PL/SQL. I developed database-oriented functionality and stored procedures and worked
+          with the relational data model supporting the application.
 
           The project was large and the client had demanding requirements. At one point, I had to modify core parts
           of the application and completed the work within a tight deadline. Because the system supported many user
-          categories, I was assigned responsibility for designing and implementing user and role administration. I
+          categories, I was responsible for the system design and implementation of user and role administration. I
           designed an efficient solution inspired by Unix IP-filtering principles, without noticeable performance
           overhead.
 
@@ -243,6 +253,12 @@ skills:
     - name: Microservices and backend
       technologies: [Quarkus, Spring Boot, NestJS, REST API, GraphQL, integrations]
 
+    - name: Databases and persistence
+      technologies: [Oracle Database, PL/SQL, TOAD, relational data modelling, stored procedures, PostgreSQL, MySQL, Neo4j, MongoDB, JPA, Hibernate]
+
+    - name: Business Intelligence, ETL and reporting
+      technologies: [ETL, IBM DataStage courses, CSV exports, BIRT, JasperReports, reporting modules]
+
     - name: Frontend and fullstack development
       technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
 
@@ -253,10 +269,10 @@ skills:
       technologies: [Docker, Docker Compose, Kubernetes, GCP, AWS, Pivotal Cloud Foundry]
 
     - name: CI/CD and delivery
-      technologies: [GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
+      technologies: [CVS, SVN, Git, GitHub, GitLab, GitLab CI/CD, Jenkins, Artifactory, VMware Tanzu]
 
     - name: Technical leadership and ways of working
-      technologies: [agile teams, technical guidance, knowledge sharing, team leadership, architecture]
+      technologies: [agile ways of working since 2015, system design, technical guidance, knowledge sharing, team leadership, architecture]
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
