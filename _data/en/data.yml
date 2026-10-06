@@ -177,7 +177,7 @@ experiences:
           Tech Stack: Groovy, MongoDB, Akka, Angular.
           
           Team: The team for a project consists of team-lead and one or two developers.          
-      - role: Senior Software Developer
+      - role: Senior Software Developer, Lead Developer
         time: 2015/03 - 2018/03
         company: UniCredit Services, Bucharest
         details: |
@@ -204,7 +204,7 @@ experiences:
           We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
           
           Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
-      - role: Java Developer
+      - role: Fullstack Java Developer
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bucharest
         details: |
@@ -220,7 +220,7 @@ experiences:
            
           We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
           supervised by a team manager and a project manager. The QA department helped us with the testing.
-      - role: Java Developer
+      - role: Fullstack Java Developer
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bucharest
         details: |
@@ -233,13 +233,39 @@ experiences:
           Tech stack: GWT, Servlets, MySQL, Resin.
           
           Team consisted of 8 developers, 3 testers, and one dev lead.
-      - role: Java Developer
+
+      - role: Fullstack Java Developer
+        time: 2007/06 - 2009/03
+        company: Concept data, Bucharest
+          We developed a Task Management software using Hibernate, Swing and other different api’s (Itext, Jasper reports,JFreeChart) an embedded server(Jetty)
+          with a  Postgres SQL database. I had responssabilities in building reporting tools to be used in the relation of 
+          Romanian authorithies. 
+          I was also involved in building a flexible reporting module in the app by extending functionality of the Jasper Reports library.
+
+          Tech stack:  Java, Hibernate, Swing, Itext, Jasper reports,JFreeChart, PostresSQL
+          Tools: Eclipse
+
+      - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
-      - role: Java Developer
+          The company develops a web-based CRM using JSF, Ajax and had a SWT administration tool. The web client and 
+          the administration tool were connected to a SQL server database. 
+          I implemented features in tree menu.          
+          Rebuilt a ticketing webapp that gathered and managed complaints about street lightpoles.
+          Tools: Eclipse, TOAD.
+
+      - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bucharest
-          
+          The company develops financial web applications  using J2EE technologies for important clients in Romania. 
+          The project I was involved in was a prescoring application developed with Struts and Oracle, PL/SQL developed 
+          for an important bank in Romania. The project was challenging because it was quite large and the client was 
+          very demanding. At some point I had to modify the core of the application and I managed to do that respecting 
+          the tight deadline that the client imposed us. Because the application had many users categories I was 
+          designated to design and implement the user-role administration. I managed to do that in an elegant manner 
+          and without performance overhead by inspiring myself from  UNIX ip filtering policies.
+          Tech stack: Oracle database, PL/SQL, Java, Servlets & JSP, Struts.
+          Tools: Eclipse, TOAD.
 
 # projects:
 #     title: Projects

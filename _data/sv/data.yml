@@ -4,6 +4,7 @@
 sidebar:
   about: False
   education: True
+  details-project: True
 
   name: Liviu Florin Ilie
   tagline: Programvaruutvecklare med fokus på Java-liknande språk
@@ -201,7 +202,70 @@ experiences:
           Jag arbetade med olika projekt inom eLearning-området. Projekten jag arbetade med var LMS (Learning 
           Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
           yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
-          igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
+          igenom onlinekurser, mäta framsteg och bedöma kunskap. Jag arbetade med flera olika teknikstackar:
+            - Hibernate, Spring, Struts 1, MySQL, BIRT och Tomcat
+            - Hibernate, Spring, Spring MVC, MySQL, JSP, jQuery och Tomcat
+            - Struts, Hibernate, MySQL och JBoss
+            - Jira för hantering av arbetsuppgifter och felrapporter
+
+          Vi arbetade enligt vattenfallsmetoden, vanligtvis med två till fyra utvecklare per projekt. Arbetet följdes
+          upp av en teamchef och en projektledare, och QA-avdelningen ansvarade för kvalitetssäkring och testning.
+
+      - role: Fullstack Javautvecklare
+        time: 2009/04 - 2011/08
+        company: Advantage Title Solutions, Bukarest
+        details: |
+          Jag utvecklade och förvaltade applikationen Title Search genom att integrera nya webbplatser med hjälp av
+          HttpClient API, HTML Parser API, reguljära uttryck och XML. Informationen som hämtades från webbplatserna
+          sparades i applikationens MySQL-databas för senare användning.
+
+          Syftet med applikationen var att samla tillgänglig information om fastigheter och fastighetssäljare och
+          därigenom minska köparens risker vid fastighetsaffärer.
+
+          Teknikstack: GWT, Servlets, MySQL och Resin.
+          Teamet bestod av åtta utvecklare, tre testare och en utvecklingsledare.
+
+      - role: Fullstack Javautvecklare
+        time: 2007/06 - 2009/03
+        company: Concept Data, Bukarest
+        details: |
+          Vi utvecklade ett system för uppgiftshantering med Hibernate, Swing, ett antal Java-API:er samt den
+          inbäddade servern Jetty och en PostgreSQL-databas. Jag ansvarade bland annat för att utveckla rapportverktyg
+          som användes i kommunikationen med rumänska myndigheter.
+
+          Jag deltog även i utvecklingen av en flexibel rapportmodul genom att utöka funktionaliteten i JasperReports.
+
+          Teknikstack: Java, Hibernate, Swing, iText, JasperReports, JFreeChart, Jetty och PostgreSQL.
+          Verktyg: Eclipse.
+
+      - role: Fullstack Javautvecklare
+        time: 2007/02 - 2007/06
+        company: Genesys, Bukarest
+        details: |
+          Företaget utvecklade ett webbaserat CRM-system med JSF och Ajax samt ett administrationsverktyg byggt med
+          SWT. Webbklienten och administrationsverktyget var anslutna till en SQL Server-databas. Jag implementerade
+          bland annat funktionalitet i systemets trädmeny.
+
+          Jag byggde även om en webbaserad ärendehanteringsapplikation för registrering och hantering av klagomål
+          rörande gatubelysning.
+
+          Teknik och verktyg: JSF, Ajax, SWT, SQL Server, Eclipse och TOAD.
+
+      - role: Fullstack Javautvecklare
+        time: 2005/04 - 2007/02
+        company: INGENIO-UCS, Bukarest
+        details: |
+          Företaget utvecklade finansiella webbapplikationer med J2EE-teknik för stora kunder i Rumänien. Jag arbetade
+          med en prescoring-applikation för en större rumänsk bank. Systemet utvecklades med Struts, Java, Oracle
+          Database och PL/SQL.
+
+          Projektet var omfattande och hade höga krav från kunden. Vid ett tillfälle behövde jag ändra centrala delar
+          av applikationen och genomförde arbetet inom en snäv tidsfrist. Eftersom systemet hade många användarkategorier
+          fick jag ansvar för att designa och implementera administrationen av användare och roller. Lösningen utformades
+          med inspiration från Unix principer för IP-filtrering och utan märkbar negativ påverkan på prestandan.
+
+          Teknikstack: Oracle Database, PL/SQL, Java, Servlets, JSP och Struts.
+          Verktyg: Eclipse och TOAD.
 
 # projects:
 #     title: Projects
