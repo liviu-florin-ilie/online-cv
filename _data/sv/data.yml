@@ -55,8 +55,8 @@ career-profile:
   title: Karriärprofil
   summary: |
     Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att utveckla och vidareutveckla affärskritiska system. 
-    Min bakgrund ligger framför allt inom backendutveckling, men under min karriär har jag även arbetat med lösningsarkitektur, 
-    integrationer, tekniska plattformar och tekniskt ledarskap.
+    Min bakgrund ligger framför allt inom backendutveckling och kompletteras av erfarenhet inom lösningsarkitektur, systemintegrationer,
+    moln- och containerplattformar, CI/CD och tekniskt ledarskap.
   
     Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat 
     Kotlin, Groovy, Spring Boot och Quarkus. Jag har arbetat med distribuerade system, mikrotjänster, API och integrationsarkitektur 
@@ -67,10 +67,6 @@ career-profile:
     
     På Tietoevry har jag arbetat med både molnbaserade och on-premise-lösningar. Inom SOS-VIDEO till 112 arbetade 
     jag med integrations- och kommunikationsflöden i en lösning baserad på bland annat SIP, Janus, Quarkus, Docker, GitLab.
-    
-    Jag har erfarenhet av både molnbaserade och on-premise-lösningar. I Friends MDT arbetade jag med en AWS-baserad arkitektur 
-    där Amazon Cognito användes för användar- och identitetshantering. Inom SOS-VIDEO till 112 arbetade jag med integrations- och kommunikationsflöden 
-    i en on-premise-miljö med bland annat SIP, Janus, Quarkus, Docker, GitLab och Ansible.
     
     Min långa utvecklarbakgrund gör att jag kan kombinera ett arkitekturperspektiv med förståelse för hur tekniska beslut påverkar implementation, integration, 
     driftsättning och långsiktig förvaltning. Jag trivs med att se helheten, diskutera tekniska alternativ och bidra till lösningar som är robusta, säkra och hållbara över tid.
@@ -92,22 +88,25 @@ experiences:
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
         details: |
-          Jag har varit involverad i flera projekt.<br />
+          Jag har varit involverad i flera projekt.<br /><br />
           **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
           SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
           Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
           som sitter högst upp i flödet.
-          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.          
+          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.
+          **Teknikstack:** Java, Quarkus, SIP, Janus, Docker, GitLab CI/CD och Ansible.<br /><br />
           **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
           Jag utvecklade integrationen med Form.io.
+          **Teknikstack:** Java, Spring Boot, Flowable, BPMN och Form.io.<br /><br />
           **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
           Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
           Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.         
+          Docker Compose och Python.
+          **Teknikstack:** Python, Chainlit, LangGraph, LangChain, Elasticsearch och Docker Compose.<br /><br />
           **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
           som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
           ett annat system, Upsales.          
-          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.      
+          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.<br /><br />
           **Friends MDT** – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
           Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
           och analysera resultaten.
@@ -126,7 +125,7 @@ experiences:
           Min roll låg inom kortströmmen som specifikt hanterar kortbetalningsintegrationer. 
           Vårt mål är att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
           och minska risken för bedrägerier vid betalningar. 
-          Som medlem i kortströmmen var jag involverad i att bygga en av våra integrationer 
+          Som medlem i kortströmmen var jag involverad i att bygga två integrationer med betalningsleverantörer
           och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
           **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt Spring Boot-liknande ramverk 
           med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
@@ -151,7 +150,7 @@ experiences:
           förväntade utfall.
           Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
-          **Teknikstack:**  Groovy, MongoDB, Akka, Angular.          
+          **Teknikstack:** Groovy, MongoDB, Akka, Angular, Servlets, GitLab CI/CD, Artifactory, Pivotal Cloud Foundry och Waffle SSO.
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
 
       - role: Senior Programvaruutvecklare
@@ -159,7 +158,7 @@ experiences:
         show: True
         company: UniCredit Services, Bukarest
         details: |
-         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.           
+         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.<br /><br />
          **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
          till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
          beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
@@ -167,25 +166,35 @@ experiences:
          och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
          distribuerades slutligen på Docker.
          **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
-         Vi arbetade enligt agil metodik.          
+         Vi arbetade enligt agil metodik.
+         **Teknikstack:** Java, Scala, Play Framework, SBT, Python, AngularJS, JavaScript, Hazelcast, Teradata SQL, Spring Batch, Maven, WebSphere, JasperReports, Jenkins, Jira, Docker och mikrotjänster.<br /><br />
          **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
          och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
          hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
-         Teknikstacken innehöll EJB2.0, JMS, WebSphere 5 och 8.          
+         **Teknikstack:** EJB 2.0, JMS, WebSphere 5 och 8 samt interna CI/CD-verktyg.<br /><br />
+         **BUL-CT1** – Jag ansvarade för övertagandet av applikationen från en annan avdelning och samordnade överföringen av teknisk kunskap och operativt ansvar.
+         **Teknikstack:** EJB 2.0, JMS, WebSphere 6 och 8 samt interna CI/CD-verktyg.<br /><br />
          **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
-         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen.Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.           
-         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.  
-         
-         Hade även en mindre roll i Exonus-projektet som byggdes med Spring Cloud-infrastruktur.
+         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.
+         **Teknikstack:** Java, Spring Batch, Spring Boot, MyBatis, Vaadin, Teradata, Jenkins och Docker.
+         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.<br /><br />
+         **Exonus** – Jag hade även en mindre roll i detta extraherings-, laddnings- och rapporteringsprojekt som senior utvecklare och arkitekturrådgivare.
+         **Teknikstack:** Spring Boot, Spring Cloud, MongoDB, SQL-databaser, BIRT och Angular 2.
 
       - role: Javautvecklare
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bukarest
         details: |
-          Jag arbetade med olika projekt inom eLearning-området. Projekten jag arbetade med var LMS (Learning 
-          Management Systems)/LCMS (Learning Content Management Systems). Deras syfte var att hjälpa studenter och 
-          yrkesverksamma att förvärva ny kunskap och färdigheter inom vissa områden. Plattformarna stödde att gå 
-          igenom onlinekurser, kunde mäta framsteg och även bedöma kunskap. Det fanns tre olika typer av ramverk 
+          Jag arbetade med LMS-, LCMS- och utvärderingsplattformar som hjälpte studenter och yrkesverksamma att tillägna sig kunskap,
+          genomföra onlinekurser, mäta framsteg och utvärdera läranderesultat.<br /><br />
+          **INSAM** – En utvärderingsplattform för rumänska gymnasieelever. Jag utvecklade funktioner och åtgärdade fel.
+          **Teknikstack:** Java, Hibernate, Spring, Struts 1, MySQL, BIRT och Tomcat.<br /><br />
+          **ISMB-SIND, CMBRAE och FORCAD-VN** – Jag anpassade befintliga moduler och utvecklade ny funktionalitet enligt kundernas krav.
+          **Teknikstack:** Java, MySQL, Hibernate, Spring, Spring MVC, JSP, jQuery och Tomcat.<br /><br />
+          **Matematici och PREVINS** – Jag utvecklade och underhöll funktionalitet för lärande och utvärdering.
+          **Teknikstack:** Java, Spring MVC, Maven, jQuery, Hibernate, Spring, PostgreSQL och Tomcat.<br /><br />
+          **Alpha Bank och ING:s e-learningplattformar** – SCORM-baserade lärplattformar som jag utvecklade och underhöll.
+          **Teknikstack:** Java, Struts, Hibernate, MySQL, SCORM och JBoss.
 
       - role: Java Developer
         show: False
@@ -195,7 +204,7 @@ experiences:
           Jag utvecklade och underhöll en applikation för fastighets- och ägarundersökningar genom att integrera nya webbplatser 
           med hjälp av Http Client API, HTML Parser API, reguljära uttryck och XML. Den insamlade informationen från de integrerade webbplatserna sparades sedan i applikationens MySQL-databas för vidare användning.  
           Syftet med Title Search-applikationen var att göra det möjligt för användaren att samla in all tillgänglig information om en fastighet eller en fastighetssäljare, för att göra fastighetsaffären så säker som möjligt och minimera risker som kan påverka köparen.          
-          **Teknikstack:** GWT, Servlets, MySQL och Resin.        
+          **Teknikstack:** Java, GWT, JSP, Servlets, MySQL, HTML Parser, HTTP Client, XML, reguljära uttryck och Resin.
           **Teamet**  bestod av 8 utvecklare, 3 testare och en utvecklingsledare.
 
       - role: Fullstack Java Developer
@@ -203,18 +212,25 @@ experiences:
         company: Concept Data, Bukarest
         details: |
           TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
-          Teknologier: Java, Swing, Hibernate, Oracle, Postgres, Ant, JUnit, Java Web Start, Spring, JSF, RMI och Maven.
+          **Teknikstack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText och JasperReports.
           Team hade 5 utvecklare och en testare.
 
       - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
+        details: |
+          **Gesy Framework** – Jag underhöll och vidareutvecklade ett internt applikationsramverk.
+          **Teknikstack:** Java, JSF, Ajax, SWT och Microsoft SQL Server.
 
       - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bukarest
         details: |
-          Utvecklade applikationer för kreditbedömning och låneberäkning för rumänska banker med Java ramverk Struts, JSP, jquery, Servlets samt Oracle som databas.
+          Jag utvecklade och gav support för interna och kundinriktade applikationer, inklusive lösningar för kreditbedömning och låneberäkning för rumänska banker.<br /><br />
+          **Allia Intranet** – Jag utvecklade ny funktionalitet och åtgärdade fel i en intern webbapplikation.
+          **Teknikstack:** Java, Struts, JSP, Servlets, jQuery och MySQL.<br /><br />
+          **Neural-BCR** – Jag underhöll en applikation för kreditbedömning och låneberäkning för BCR.
+          **Teknikstack:** Java, Struts, JSP, Servlets, Oracle och PL/SQL.
 
 # projects:
 #     title: Projects
@@ -259,16 +275,22 @@ skills:
       technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
 
     - name: Backend
-      technologies: [Java, Kotlin, Spring Boot, Quarkus, REST, Microservices]
+      technologies: [Java, Kotlin, Groovy, Scala, Python, Spring Boot, Spring MVC, Quarkus, NestJS, Play Framework, REST, GraphQL, Microservices, EJB, JMS]
 
     - name: Frontend
-      technologies: [TypeScript, Angular]
+      technologies: [TypeScript, JavaScript, Angular, AngularJS, HTML, CSS, jQuery, GWT, Swing]
 
     - name: Cloud & DevOps
-      technologies: [AWS, GCP, Docker, Kubernetes, CI/CD]
+      technologies: [AWS, GCP, Docker, Kubernetes, VMware Tanzu, Pivotal Cloud Foundry, GitLab CI/CD, Jenkins, Ansible, Maven, SBT]
 
     - name: Data
-      technologies: [PostgreSQL, MySQL, Neo4j, Elasticsearch]
+      technologies: [PostgreSQL, MySQL, Oracle, Teradata, Microsoft SQL Server, MongoDB, Neo4j, Hazelcast, Elasticsearch, Cypher]
+
+    - name: Applikations- & integrationsplattformar
+      technologies: [WebSphere, Tomcat, JBoss, Resin, SIP, Janus, Flowable, BPMN, Form.io]
+
+    - name: Testning & rapportering
+      technologies: [JUnit, JasperReports, BIRT, iText]
 
 
 footer: >
