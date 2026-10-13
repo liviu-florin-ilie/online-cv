@@ -196,10 +196,6 @@ p {
     font-weight: 500;
   }
 
-  .job-title {
-    font-size: 15px;
-    padding-right: 125px;
-  }
   .time {
     position: absolute;
     right: 0;
@@ -250,6 +246,17 @@ p {
 }
 
 .skillset {
+  .skill-group-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 6px;
+    color: $text-color;
+  }
+  .skill-group {
+    font-size: 14px;
+    margin: 0;
+  }
   .item {
     margin-bottom: 15px;
     overflow: hidden;
@@ -258,10 +265,6 @@ p {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
-  }
-  .skill-group {
-    font-size: 14px;
-    margin: 0;
   }
   .level-bar {
     height: 12px;

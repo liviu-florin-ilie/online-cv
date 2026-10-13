@@ -6,3 +6,13 @@
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+{% if site.theme_skin == 'ehm' %}
+@import "ehm";
+{% endif %}
+
+@import "ats";
+
+{% if site.theme_skin == 'ehm' %}
+@import "ehm-ats";
+{% endif %}
