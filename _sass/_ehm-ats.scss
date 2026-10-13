@@ -1,0 +1,38 @@
+// Preserve the selected dark theme on screen and the ATS print layout.
+@media screen {
+  body.ats-layout {
+    background: #16171b;
+    color: #d0d0d0;
+    color-scheme: dark;
+    font-family: "Noto Sans", Arial, sans-serif;
+
+    .wrapper,
+    .main-wrapper { background: #1e222e; }
+    .resume-header { border-bottom-color: #f0f45b; }
+
+    .name,
+    .section-title,
+    .container-block-title {
+      font-family: "Roboto Slab", Georgia, serif;
+      color: #fff;
+    }
+
+    .section-title,
+    .container-block-title { border-bottom-color: #383c47; }
+
+    .job-title,
+    .degree,
+    .project-title,
+    .publication-title,
+    .skill-group-title,
+    .level-title,
+    a { color: #fff; }
+
+    .time,
+    .company,
+    .university,
+    .publication-authors { color: #c1c4ce; }
+
+    a:hover { color: #f0f45b; }
+  }
+}

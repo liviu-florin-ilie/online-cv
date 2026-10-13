@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+/tmp/*
+/.idea/git_toolbox_prj.xml
+/.idea/jsonSchemas.xml
+/output/*
