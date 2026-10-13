@@ -85,9 +85,10 @@ experiences:
   title: Experience
   info:
     - role: Lead Solutions Consultant
-      show: True
+      show: False
       time: 2023/05 - 2026/07
       company: Tietoevry, Kalmar, Sweden
+      summary: Developed emergency-video, workflow, AI modernization, and cloud applications, spanning backend integrations and full-stack delivery.
       details: |
         I was involved in several projects.<br /><br />
         **SOS-VIDEO for 112** – The purpose of the project was to add video to an existing 112 emergency call by sending an
@@ -117,8 +118,9 @@ experiences:
 
     - role: Software Developer @Payments
       time: 2021/05 - 2023/05
-      show: True
+      show: False
       company: Leovegas, Remote-Sweden
+      summary: Built card-payment provider integrations and fraud-prevention rules in Kotlin microservices on Google Cloud.
       details: |
         The team in the Payments department builds and maintains payment integrations
         between our core systems and various payment providers and payment methods,
@@ -138,6 +140,7 @@ experiences:
       show: False
       time: 2018/03 - 2021/05
       company: Dell Financial Services, Remote-Romania
+      summary: Automated decision-platform deployments and built risk-review tools and test infrastructure for financial services.
       details: |
         Our department's objective was to reduce risk when a customer applied for a loan.
         I was involved in building tools that helped automate certain tasks within our department.
@@ -155,8 +158,9 @@ experiences:
 
     - role: Senior Software Developer
       time: 2015/03 - 2018/03
-      show: True
+      show: False
       company: UniCredit Services, Bucharest
+      summary: Modernized pricing and batch platforms, led a Fund Transfer Price proof of concept, and guided solution architecture.
       details: |
         I worked on various pricing engines for our UniCredit colleagues in Italy.<br /><br />
         **GPT (Global Pricing Tool)** – We rebuilt this project from a monolith based on a Java technology stack
@@ -184,6 +188,7 @@ experiences:
     - role: Java Developer
       time: 2011/10 - 2015/03
       company: Intuitext/Softwin, Bucharest
+      summary: Developed and maintained Java learning and assessment platforms for schools, professionals, and banks.
       details: |
         I worked on LMS (Learning Management System), LCMS (Learning Content Management System), and assessment platforms
         that helped students and professionals acquire knowledge, follow online courses, measure progress, and assess learning outcomes.<br /><br />
@@ -200,6 +205,7 @@ experiences:
       show: False
       time: 2009/04 - 2011/08
       company: Advantage Title Solutions, Bucharest
+      summary: Built and maintained a Java title-search application that gathered property information from external websites.
       details: |
         I developed and maintained an application for property and title searches by integrating new websites
         using the HTTP Client API, HTML Parser API, regular expressions, and XML. The information collected from the integrated websites was then stored in the application's MySQL database for later use.
@@ -210,6 +216,7 @@ experiences:
     - role: Full-stack Java Developer
       time: 2007/06 - 2009/03
       company: Concept Data, Bucharest
+      summary: Developed TasKAFE, a Java project-management platform with HR, inventory, accounting, and document modules.
       details: |
         TasKAFE was a project-management application with features for resource allocation, time and cost tracking, and reporting. New modules were developed for HR, inventory, accounting, and document management.
         **Technology stack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText, and JasperReports.
@@ -218,6 +225,7 @@ experiences:
     - role: Full-stack Java Developer
       time: 2007/02 - 2007/06
       company: Genesys, Bucharest
+      summary: Maintained and extended the internal Gesy application framework using Java and JSF.
       details: |
         **Gesy Framework** – I maintained and extended an internal application framework.
         **Technology stack:** Java, JSF, Ajax, SWT, and Microsoft SQL Server.
@@ -225,6 +233,7 @@ experiences:
     - role: Full-stack Java Developer
       time: 2005/04 - 2007/02
       company: INGENIO-UCS, Bucharest
+      summary: Developed intranet and banking applications, including credit-assessment and loan-calculation solutions.
       details: |
         I developed and supported internal and customer-facing applications, including credit-assessment and loan-calculation solutions for Romanian banks.<br /><br />
         **Allia Intranet** – I developed new functionality and resolved defects in an internal web application.

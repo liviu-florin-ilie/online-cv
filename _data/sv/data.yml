@@ -84,9 +84,10 @@ experiences:
     title: Erfarenheter
     info:
       - role: Lead Solutions Consultant
-        show: True
+        show: False
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
+        summary: Utvecklade lösningar för videosamtal till 112, arbetsflöden, AI-baserad applikationsmodernisering och molntjänster med fokus på integrationer och fullstackutveckling.
         details: |
           Jag har varit involverad i flera projekt.<br /><br />
           **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
@@ -116,8 +117,9 @@ experiences:
 
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
-        show: True
+        show: False
         company: Leovegas, Remote-Sverige
+        summary: Byggde integrationer med kortbetalningsleverantörer och regler för bedrägeribekämpning med Kotlin-mikrotjänster i Google Cloud.
         details: |
           Teamet i betalningsavdelningen bygger och underhåller betalningsintegrationer 
           mellan våra kärnsystem och olika betalningsleverantörer och betalningsmetoder 
@@ -137,6 +139,7 @@ experiences:
         show: False
         time: 2018/03 - 2021/05
         company: Dell Financial Services, Remote-Rumänien
+        summary: Automatiserade driftsättningen av beslutsplattformar och utvecklade verktyg för riskgranskning och testning inom finans.
         details: |
           Vårt avdelningsmål är att minska risken när ett lån begärs av en kund.
           Jag var involverad i att bygga verktyg som hjälper till att automatisera vissa uppgifter i vår avdelning.
@@ -155,8 +158,9 @@ experiences:
 
       - role: Senior Programvaruutvecklare
         time: 2015/03 - 2018/03
-        show: True
+        show: False
         company: UniCredit Services, Bukarest
+        summary: Moderniserade pris- och batchplattformar, ledde en konceptstudie för Fund Transfer Price och bidrog med lösningsarkitektur.
         details: |
          Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.<br /><br />
          **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
@@ -184,6 +188,7 @@ experiences:
       - role: Javautvecklare
         time: 2011/10 - 2015/03
         company: Intuitext/Softwin, Bukarest
+        summary: Utvecklade och underhöll Java-baserade lär- och utvärderingsplattformar för skolor, yrkesverksamma och banker.
         details: |
           Jag arbetade med LMS-, LCMS- och utvärderingsplattformar som hjälpte studenter och yrkesverksamma att tillägna sig kunskap,
           genomföra onlinekurser, mäta framsteg och utvärdera läranderesultat.<br /><br />
@@ -200,6 +205,7 @@ experiences:
         show: False
         time: 2009/04 - 2011/08
         company: Advantage Title Solutions, Bukarest
+        summary: Utvecklade och underhöll en Java-applikation för fastighetssökning som samlade in uppgifter från externa webbplatser.
         details: |
           Jag utvecklade och underhöll en applikation för fastighets- och ägarundersökningar genom att integrera nya webbplatser 
           med hjälp av Http Client API, HTML Parser API, reguljära uttryck och XML. Den insamlade informationen från de integrerade webbplatserna sparades sedan i applikationens MySQL-databas för vidare användning.  
@@ -210,6 +216,7 @@ experiences:
       - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
         company: Concept Data, Bukarest
+        summary: Utvecklade TasKAFE, en Java-baserad projekthanteringsplattform med moduler för HR, lager, redovisning och dokumenthantering.
         details: |
           TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
           **Teknikstack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText och JasperReports.
@@ -218,6 +225,7 @@ experiences:
       - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
+        summary: Underhöll och vidareutvecklade det interna applikationsramverket Gesy med Java och JSF.
         details: |
           **Gesy Framework** – Jag underhöll och vidareutvecklade ett internt applikationsramverk.
           **Teknikstack:** Java, JSF, Ajax, SWT och Microsoft SQL Server.
@@ -225,6 +233,7 @@ experiences:
       - role: Fullstack Java Developer
         time: 2005/04 - 2007/02
         company: INGENIO-UCS, Bukarest
+        summary: Utvecklade intranät- och bankapplikationer, bland annat lösningar för kreditbedömning och låneberäkning.
         details: |
           Jag utvecklade och gav support för interna och kundinriktade applikationer, inklusive lösningar för kreditbedömning och låneberäkning för rumänska banker.<br /><br />
           **Allia Intranet** – Jag utvecklade ny funktionalitet och åtgärdade fel i en intern webbapplikation.
