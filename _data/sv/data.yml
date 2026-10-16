@@ -7,7 +7,7 @@ sidebar:
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior programvaruutvecklare – Backend, Integration & AI
+  tagline: Senior mjukvaruutvecklare | Lösningsarkitektur, Java & integration
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -54,22 +54,21 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en erfaren programvaruutvecklare med över 20 års erfarenhet av att utveckla och vidareutveckla affärskritiska system. 
-    Min bakgrund ligger framför allt inom backendutveckling och kompletteras av erfarenhet inom lösningsarkitektur, systemintegrationer,
-    moln- och containerplattformar, CI/CD och tekniskt ledarskap.
-  
-    Jag har över tio års direkt erfarenhet av Java/J2EE och har därefter fortsatt inom JVM-ekosystemet med bland annat 
-    Kotlin, Groovy, Spring Boot och Quarkus. Jag har arbetat med distribuerade system, mikrotjänster, API och integrationsarkitektur 
-    samt med AWS, GCP, Kubernetes, Docker, VMware Tanzu, WebSphere, GitLab CI/CD, Jenkins.
-    
-    På UniCredit agerade jag under en period som team lead/lösningsarkitekt och ansvarade bland annat för en POC för en ny Fund Transfer Price-plattform. 
-    Arbetet omfattade tekniska vägval kring arkitektur, ramverk, batchhantering, databasintegration, containerisering och CI/CD.
-    
-    På Tietoevry har jag arbetat med både molnbaserade och on-premise-lösningar. Inom SOS-VIDEO till 112 arbetade 
-    jag med integrations- och kommunikationsflöden i en lösning baserad på bland annat SIP, Janus, Quarkus, Docker, GitLab.
-    
-    Min långa utvecklarbakgrund gör att jag kan kombinera ett arkitekturperspektiv med förståelse för hur tekniska beslut påverkar implementation, integration, 
-    driftsättning och långsiktig förvaltning. Jag trivs med att se helheten, diskutera tekniska alternativ och bidra till lösningar som är robusta, säkra och hållbara över tid.
+    Jag är en senior mjukvaruutvecklare med över 20 års erfarenhet av affärskritiska system och över tio års direkt erfarenhet av Java/J2EE.
+    Jag har arbetat inom bland annat finans, betalningar, utbildning och kritisk kommunikation.
+
+    På UniCredit agerade jag under cirka sex månader som lösningsarkitekt och team lead för tre utvecklare.
+    Jag analyserade krav, utvärderade teknik och tog fram en lösningsarkitektur och POC för en ny Fund Transfer Pricing-motor.
+    Valen av Spring Batch, Spring Boot och Vaadin utgick från verksamhetens behov, tekniska krav och teamets kompetens.
+    Jag bidrog också till moderniseringen av Global Pricing Tool från en Java-monolit till mikrotjänster.
+
+    På Tietoevry arbetade jag med integrations- och kommunikationsflöden i SOS-VIDEO till 112, med Java, Quarkus, SIP och Janus
+    samt automatiserad driftsättning med GitLab CI/CD, Ansible och Docker. På LeoVegas byggde jag betalningsintegrationer i en
+    mikrotjänstmiljö med Kotlin, Google Cloud och Kubernetes.
+
+    Jag kombinerar praktisk utveckling med ett helhetsperspektiv på design, integration, driftsättning och förvaltning.
+    Jag trivs med att omsätta verksamhetsbehov till tekniska lösningar, förklara avvägningar och hjälpa team att komma framåt.
+    Med Kalmar som bas söker jag nu rollen som mjukvaruarkitekt hos Thalamus, där jag vill bidra till hållbara system i samhällsviktig verksamhet.
 
 education:
   title: Utbildning
@@ -87,7 +86,7 @@ experiences:
         show: False
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
-        summary: Utvecklade lösningar för videosamtal till 112, arbetsflöden, AI-baserad applikationsmodernisering och molntjänster med fokus på integrationer och fullstackutveckling.
+        summary: Utvecklade lösningar för videosamtal till 112, arbetsflöden, AI-baserad applikationsmodernisering och applikationer på AWS, med fokus på integrationer och fullstackutveckling.
         details: |
           Jag har varit involverad i flera projekt.<br /><br />
           **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
@@ -280,8 +279,8 @@ skills:
   title: Färdigheter & Kompetens
 
   toolset:
-    - name: AI
-      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
+    - name: Arkitektur & tekniskt ledarskap
+      technologies: [Lösningsarkitektur, Teknisk design, Kravanalys, Teknikutvärdering, Systemintegration, Mikrotjänster, Applikationsmodernisering, Teamledning]
 
     - name: Backend
       technologies: [Java, Kotlin, Groovy, Scala, Python, Spring Boot, Spring MVC, Quarkus, NestJS, Play Framework, REST, GraphQL, Microservices, EJB, JMS]

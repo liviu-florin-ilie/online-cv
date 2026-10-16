@@ -16,3 +16,7 @@
 {% if site.theme_skin == 'ehm' %}
 @import "ehm-ats";
 {% endif %}
+
+{% if site.theme_skin == 'thalamus' %}
+@import "thalamus";
+{% endif %}

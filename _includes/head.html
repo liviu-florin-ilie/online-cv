@@ -1,5 +1,5 @@
 <head>
-  <title>{{ site.title }}</title>
+  <title>{{ page.title | default: site.title }}</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
@@ -23,6 +23,9 @@
   <!-- Theme CSS -->
   {% if site.theme_skin == 'ehm' %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Roboto+Slab:wght@600&amp;display=swap">
+  {% endif %}
+  {% if site.theme_skin == 'thalamus' %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Oswald:wght@500;600&amp;display=swap">
   {% endif %}
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

@@ -1,0 +1,17 @@
+# Personligt brev – Mjukvaruarkitekt hos Thalamus
+
+Hej Omar och Tilda,
+
+Under mina drygt 20 år inom mjukvaruutveckling har jag ofta känt mig som både arkeolog, byggare och arkitekt. Som arkeolog undersöker jag lager av kod, beroenden och gamla beslut för att förstå varför ett system ser ut som det gör. Som byggare omsätter jag den förståelsen i fungerande lösningar. Som arkitekt behöver jag lyfta blicken, väga alternativ och skapa en riktning som håller även när verksamheten förändras. Det samspelet är en viktig anledning till att jag söker rollen som mjukvaruarkitekt hos Thalamus.
+
+På UniCredit fick jag under cirka sex månader arbeta som lösningsarkitekt och team lead för tre utvecklare. Uppgiften var att ta fram en POC för en ny Fund Transfer Pricing-motor som skulle ersätta en befintlig applikation. Jag analyserade kraven, utvärderade tekniska alternativ och tog fram en lösningsarkitektur. Spring Batch, Spring Boot och Vaadin blev delar av lösningen, med hänsyn till både verksamhetens behov och teamets erfarenhet. Jag deltog också i moderniseringen av Global Pricing Tool från en Java-monolit till mikrotjänster. Där blev sambandet mellan tekniska vägval, genomförbarhet och långsiktig förvaltning konkret.
+
+Min huvudsakliga yrkesbakgrund är som utvecklare, med över tio års direkt erfarenhet av Java/J2EE och fortsatt arbete inom JVM-ekosystemet med Kotlin, Groovy, Spring Boot och Quarkus. På Tietoevry i Kalmar arbetade jag med SOS-VIDEO till 112, där video läggs till ett pågående nödsamtal. Jag arbetade med integrations- och kommunikationsflöden i en lösning med bland annat Quarkus, SIP och Janus samt automatiserad driftsättning med GitLab, Ansible och Docker. Att bidra till en lösning för människor i utsatta situationer gav arbetet en tydlig mening. Därför tilltalar ert fokus på samhällsviktiga verksamheter mig särskilt.
+
+Jag har också behövt vara detektiv och översättare: hitta kunskap hos rätt personer, förstå verksamhetens behov och göra tekniska avvägningar begripliga. Vid övertagandet av BUL-CT1 på UniCredit ansvarade jag för att samordna överföringen av teknisk kunskap och operativt ansvar från en annan avdelning. För mig börjar en hållbar förändring med att förstå det som redan finns och låta den kunskapen forma nästa steg. Jag vill skapa en gemensam förståelse i teamet och vara nära implementationen, så att arkitekturen fungerar i praktiken.
+
+Jag bor i Kalmar och ser tjänsten som ett naturligt nästa steg, där jag kan förena min långa utvecklarerfarenhet med ett större ansvar för teknisk riktning och lösningsdesign. Jag berättar gärna mer om hur jag arbetar och hur min erfarenhet kan bidra i era uppdrag.
+
+Vänliga hälsningar,
+Liviu Florin Ilie
+Kalmar · 0767657704 · ilie.liviu@gmail.com
