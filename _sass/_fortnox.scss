@@ -1,0 +1,78 @@
+// Text palette and typography inspired by https://www.fortnox.se/paket.
+body.ats-layout {
+  font-family: "Exo 2", Arial, sans-serif;
+  color: #595959;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: .009em;
+
+  .name, .section-title, .container-block-title {
+    color: #1a1a1a;
+    font-family: "Exo 2", Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: -.025em;
+    text-transform: none;
+  }
+  .name { font-size: 34px; line-height: 1.15; }
+  .resume-header { border-bottom: 2px solid #007533; }
+  .tagline { color: #1a1a1a; font-weight: 500; }
+  .section-title, .container-block-title {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+  }
+  .job-title, .degree, .skill-group-title, .level-title {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  .company { color: #007533; font-weight: 500; }
+  .time, .university { color: #595959; }
+  a { color: #007533; text-decoration: underline; text-underline-offset: 3px; }
+  a:hover, a:focus-visible { background: #efffef; color: #00522a; }
+  .details strong, .summary strong { color: #1a1a1a; font-weight: 600; }
+  @media screen {
+    .wrapper { max-width: 1050px; }
+    background: #fff;
+    color: #595959;
+    .wrapper { border-top: 5px solid #00522a; }
+  }
+  @media screen and (max-width: 480px) {
+    .resume-header { grid-template-columns: 1fr; }
+    .resume-header .avatar { grid-row: 1; }
+    .name { font-size: 27px; }
+  }
+  @media print {
+    font-size: 11.5pt;
+    line-height: 1.28;
+    color: #1a1a1a;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    p { line-height: 1.28; margin-bottom: 6px; }
+    .wrapper { width: 100%; max-width: none; padding: 0; border-top: 4px solid #007533; }
+    .resume-header { padding: 10px 0; gap: 12px; border-bottom: 2px solid #007533; }
+    .resume-header .avatar { width: 65px; height: 65px; }
+    .name { font-size: 23pt; margin-bottom: 4px; }
+    .tagline { font-size: 12pt; margin-bottom: 6px; }
+    .contact-list { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 9pt; }
+    .contact-list li { margin: 0; }
+    .main-wrapper { padding-top: 12px; }
+    .section, .container-block { margin-bottom: 12px; }
+    .section-title, .container-block-title { font-size: 14pt; margin: 0 0 7px; padding-bottom: 4px; border-bottom: 1px solid #007533; }
+    .experiences-section .item { margin-bottom: 12px; }
+    .upper-row { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+    .time { font-size: 10pt; margin: 0; white-space: nowrap; }
+    .company { margin-bottom: 4px; }
+    .job-title, .degree, .skill-group-title, .level-title { font-size: 11.5pt; margin: 0 0 3px; }
+    .skill-group { font-size: 10.5pt; }
+    .skillset .item { margin-bottom: 5px; }
+    .skills-section { break-before: page; }
+    .meta { break-inside: avoid; break-after: avoid; }
+    .details > p:first-child { break-before: avoid; }
+    .languages-container, .interests-container { break-inside: avoid; }
+    // Bootstrap's print reset forces all text to black without these overrides.
+    .name, .section-title, .container-block-title, .company, a { color: #007533 !important; }
+    .details strong, .summary strong { color: #00522a !important; }
+    .tagline, .job-title { color: #1a1a1a !important; }
+  }
+}
+
+@page { size: A4; margin: 10mm; }

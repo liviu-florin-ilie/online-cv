@@ -45,18 +45,15 @@ async function openWithRetry(page, attempts = 30) {
 
     await openWithRetry(page);
     await page.evaluate(() => document.fonts.ready);
-    await page.emulateMedia({ media: "screen" });
-    // Match the compact two-page Letter export used as the layout reference.
-    await page.addStyleTag({
-      content: "@page { size: Letter; margin: 40pt 66pt; }",
-    });
+    // Use the resume's print typography and page margins at its actual size.
+    await page.emulateMedia({ media: "print" });
 
     await page.pdf({
       path: output,
-      format: "Letter",
-      scale: 0.51,
+      format: "A4",
+      scale: 1,
       printBackground: true,
-      preferCSSPageSize: false,
+      preferCSSPageSize: true,
       tagged: true,
       margin: {
         top: "0",

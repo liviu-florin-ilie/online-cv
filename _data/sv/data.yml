@@ -7,7 +7,7 @@ sidebar:
   details-project: False
 
   name: Liviu Florin Ilie
-  tagline: Senior mjukvaruutvecklare | Lösningsarkitektur, Java & integration
+  tagline: Senior fullstackutvecklare | Java, Kotlin & Spring Boot
   avatar: profile.png
 
   email: ilie.liviu@gmail.com
@@ -54,21 +54,16 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag är en senior mjukvaruutvecklare med över 20 års erfarenhet av affärskritiska system och över tio års direkt erfarenhet av Java/J2EE.
-    Jag har arbetat inom bland annat finans, betalningar, utbildning och kritisk kommunikation.
+    **Senior fullstackutvecklare med över 20 års erfarenhet** av affärskritiska system, varav över tio år med Java/J2EE.
+    Jag vill bidra till Fortnox team Kronos med **Java, Kotlin, Spring Boot, mikrotjänster och SQL**, erfarenhet av betalningar och ett verksamhetsnära arbetssätt.
 
-    På UniCredit agerade jag under cirka sex månader som lösningsarkitekt och team lead för tre utvecklare.
-    Jag analyserade krav, utvärderade teknik och tog fram en lösningsarkitektur och POC för en ny Fund Transfer Pricing-motor.
-    Valen av Spring Batch, Spring Boot och Vaadin utgick från verksamhetens behov, tekniska krav och teamets kompetens.
-    Jag bidrog också till moderniseringen av Global Pricing Tool från en Java-monolit till mikrotjänster.
+    På LeoVegas utvecklade jag betalningsintegrationer med Kotlin. På Tietoevry arbetade jag med Spring Boot, Kotlin, PostgreSQL, TypeScript och Angular samt en **AI-baserad POC för applikationsmodernisering**.
+    På UniCredit moderniserade jag prisplattformar och ledde en POC med Spring Boot och Spring Batch.
 
-    På Tietoevry arbetade jag med integrations- och kommunikationsflöden i SOS-VIDEO till 112, med Java, Quarkus, SIP och Janus
-    samt automatiserad driftsättning med GitLab CI/CD, Ansible och Docker. På LeoVegas byggde jag betalningsintegrationer i en
-    mikrotjänstmiljö med Kotlin, Google Cloud och Kubernetes.
-
-    Jag kombinerar praktisk utveckling med ett helhetsperspektiv på design, integration, driftsättning och förvaltning.
-    Jag trivs med att omsätta verksamhetsbehov till tekniska lösningar, förklara avvägningar och hjälpa team att komma framåt.
-    Med Kalmar som bas söker jag nu rollen som mjukvaruarkitekt hos Thalamus, där jag vill bidra till hållbara system i samhällsviktig verksamhet.
+    För mig innebär utvecklarrollen att vara **detektiv, arkeolog, byggare och arkitekt**.
+    Jag söker ledtrådar i verksamhetens behov, undersöker lager av kod och tidigare beslut, bygger fungerande lösningar och väger tekniska alternativ för att skapa en hållbar riktning.
+    Som **översättare** gör jag tekniska avvägningar begripliga och skapar gemensam förståelse i teamet, nära implementationen.
+    Baserad i Kalmar med professionella kunskaper i svenska och engelska.
 
 education:
   title: Utbildning
@@ -83,56 +78,33 @@ experiences:
     title: Erfarenheter
     info:
       - role: Lead Solutions Consultant
-        show: False
+        show: True
         time: 2023/05 - 2026/07
         company: Tietoevry, Kalmar, Sverige
-        summary: Utvecklade lösningar för videosamtal till 112, arbetsflöden, AI-baserad applikationsmodernisering och applikationer på AWS, med fokus på integrationer och fullstackutveckling.
+        summary: Fullstackutveckling med Kotlin, Spring Boot, PostgreSQL och TypeScript, Java-baserade integrationer till 112 samt en AI-baserad POC för applikationsmodernisering.
         details: |
-          Jag har varit involverad i flera projekt.<br /><br />
-          **SOS-VIDEO till 112** - Syftet med projektet är att lägga till video till ett befintligt nödsamtal till 112 genom att skicka ett 
-          SMS-meddelande med en länk som den hjälpsökande ska öppna för att upprätta en videoförbindelse med operatören som hanterar samtalet.
-          Detta uppnås genom att använda en öppen källkodsstack med Janus som videoserver, en internt inbyggd SIP-stack samt två Quarkus-applikationer 
-          som sitter högst upp i flödet.
-          Distributionspipelinen har automatiserats med GitLab, Ansible och Docker på plats.
-          **Teknikstack:** Java, Quarkus, SIP, Janus, Docker, GitLab CI/CD och Ansible.<br /><br />
-          **Driftorder Demo Application** - En demonstrationsapplikation för Driftorder BPMN-processen byggd med Spring Boot och Flowable.
-          Jag utvecklade integrationen med Form.io.
-          **Teknikstack:** Java, Spring Boot, Flowable, BPMN och Form.io.<br /><br />
-          **AI Application Modernization POC** – En AI-baserad applikation utvecklad för att hjälpa utvecklare att samla in och analysera projektdata samt identifiera möjligheter till förbättring och modernisering.
-          Det var första kontakten med ett AI-projekt och jag fick praktisk erfarenhet med verktyg som
-          Chainlit, LangGraph, LangChain, Elasticsearch samt uppfräschning av
-          Docker Compose och Python.
-          **Teknikstack:** Python, Chainlit, LangGraph, LangChain, Elasticsearch och Docker Compose.<br /><br />
-          **RSS** – Fullstack-utveckling för en applikation på AWS som stödjer ett företag
-          som gör kommersiell handel för småelektronik. Jag var ansvarig för utveckling, underhåll och integration med 
-          ett annat system, Upsales.          
-          **Teknikstack:**  Neo4j med Cypher, Typescript med NestJS och Angular, GraphQL och AWS.<br /><br />
-          **Friends MDT** – Utveckling av digitala enkätverktyg för Friends-stiftelsen i deras arbete mot mobbning och trakasserier.
-          Applikationen användes för insamling av data från skolor genom att genomföra enkäter med syfte att visualisera
-          och analysera resultaten.
-          Efter insamlingen genererades en komplex rapport baserad på forskning som visar barnens välmående i skolan.
-          Teknikstack: PostgreSQL, Neo4j, Spring Boot med Kotlin, Angular, AWS och Amazon Cognito för användar- och identitetshantering. 
-          I projektets första fas använde vi VMware Tanzu för CI/CD.
+          **SOS-VIDEO till 112:** Utvecklade integrations- och kommunikationsflöden för en lösning som lade till ett videosamtal till ett befintligt ljudsamtal till 112. Den hjälpsökande fick ett SMS med en länk för att upprätta en videoförbindelse med operatören som hanterade samtalet. Automatiserade driftsättningen med GitLab CI/CD, Ansible och Docker.
+          **Teknik:** Java, Quarkus, SIP och Janus.
+
+          **Friends MDT:** Utvecklade digitala enkätverktyg som samlade in, analyserade och visualiserade skolors data om barns välmående och genererade forskningsbaserade rapporter.
+          **Teknik:** **Kotlin, Spring Boot, PostgreSQL**, Neo4j, Angular, AWS och Cognito; VMware Tanzu för CI/CD i första fasen.
+
+          **AI Application Modernization POC:** Bidrog till en AI-applikation för insamling och analys av projektdata samt identifiering av förbättrings- och moderniseringsmöjligheter.
+          **Teknik:** Python, Chainlit, **LangGraph, LangChain**, Elasticsearch och Docker Compose.
+
+          **RSS och Driftorder:** Ansvarade för fullstackutveckling, underhåll och Upsales-integration i en AWS-applikation med TypeScript, NestJS, Angular, GraphQL och Neo4j. Utvecklade även Form.io-integrationen i en BPMN-demo med **Java, Spring Boot och Flowable**.
 
       - role: Programvaruutvecklare @Payments
         time: 2021/05 - 2023/05
-        show: False
-        company: Leovegas, Remote-Sverige
+        show: True
+        company: LeoVegas, Remote-Sverige
         summary: Byggde integrationer med kortbetalningsleverantörer och regler för bedrägeribekämpning med Kotlin-mikrotjänster i Google Cloud.
         details: |
-          Teamet i betalningsavdelningen bygger och underhåller betalningsintegrationer 
-          mellan våra kärnsystem och olika betalningsleverantörer och betalningsmetoder 
-          vilket möjliggör för spelaren att sätta in och ta ut pengar på ett smidigt sätt. 
-          Min roll låg inom kortströmmen som specifikt hanterar kortbetalningsintegrationer. 
-          Vårt mål är att sänka kostnaden per betalning, utöka våra nuvarande betalningsmetoder 
-          och minska risken för bedrägerier vid betalningar. 
-          Som medlem i kortströmmen var jag involverad i att bygga två integrationer med betalningsleverantörer
-          och regelmotorn som används för att skapa regler för risk- och bedrägeribekämpning.
-          **Teknikstack:**  En mikrotjänstarkitektur byggd över ett internt Spring Boot-liknande ramverk 
-          med Kotlin och MySql som databas. Vi distribuerade våra mikrotjänster i Google Cloud och 
-          vi använde oss av Kubernetes för containerplattform.<br />
-          **Teamet**: 3–5 strömsmedlemmar, 30+ utökat team
-          <br /><br />
+          Utvecklade och underhöll **affärskritiska betalningsintegrationer** mellan kärnsystem och kortbetalningsleverantörer för insättningar och uttag. Arbetet syftade till smidigare betalningar, lägre transaktionskostnader och minskad bedrägeririsk.
+
+          Bidrog till **två betalningsleverantörsintegrationer** och regelmotorn för risk- och bedrägeribekämpning. Arbetade i en kortbetalningsgrupp med 3–5 personer inom en större betalningsorganisation.
+
+          **Teknik:** **Kotlin, mikrotjänster och MySQL**, ett internt Spring Boot-liknande ramverk samt **Google Cloud och Kubernetes** för driftsättning.
 
       - role: Principal Programvaruingenjör
         show: False
@@ -151,38 +123,23 @@ experiences:
           ett befintligt automatiserat testningsramverk som gör det möjligt för våra utvecklare att testa sin kod mot 
           förväntade utfall.
           Lyckades även integrera SSO-funktionalitet i våra webbappar med hjälp av Waffle.          
-          **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.          
+          **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
           **Teknikstack:** Groovy, MongoDB, Akka, Angular, Servlets, GitLab CI/CD, Artifactory, Pivotal Cloud Foundry och Waffle SSO.
           **Teamet**  för ett projekt består av teamledare och en eller två utvecklare.
 
       - role: Senior Programvaruutvecklare
         time: 2015/03 - 2018/03
-        show: False
+        show: True
         company: UniCredit Services, Bukarest
         summary: Moderniserade pris- och batchplattformar, ledde en konceptstudie för Fund Transfer Price och bidrog med lösningsarkitektur.
         details: |
-         Jag arbetade med olika "prismotorer" för våra Unicredit-kollegor från Italien.<br /><br />
-         **GPT (Global Pricing Tool)**  Vi byggde om den här projekt från en monolit byggd på en Java-teknikstack 
-         till en mikrotjänstinfrastruktur med Scala för mikrotjänsterna, Python för 
-         beräkningsmotorn, Hazelcast för cachelagring av data och Angular för frontend. Vi använde även SBT 
-         för att bygga Scala-mikrotjänsterna. Vi strävade efter att ge användarna en mer behaglig upplevelse 
-         och lyckades med det genom att öka webbappens hastighet och motståndskraft. Mikrotjänsterna 
-         distribuerades slutligen på Docker.
-         **Teamet**  för detta projekt bestod av en teknisk analytiker, affärsanalytiker och sex utvecklare. 
-         Vi arbetade enligt agil metodik.
-         **Teknikstack:** Java, Scala, Play Framework, SBT, Python, AngularJS, JavaScript, Hazelcast, Teradata SQL, Spring Batch, Maven, WebSphere, JasperReports, Jenkins, Jira, Docker och mikrotjänster.<br /><br />
-         **BUL-Batch-plattform/beräkningsmotor**  I 4 månader bidrog jag till migreringen av en viktig applikationill en ny serverinfrastruktur. En viktig del av arbetet var att integrera applikationen i företagets servrar 
-         och CI/CD-pipelines. Detta innebar samarbete med teamet  som ansvarade för WebSphere-servrarna samt teamet  som 
-         hanterade CI/CD-verktyget (Gandalf), eftersom vissa inställningar inte kunde göras av mig själv.
-         **Teknikstack:** EJB 2.0, JMS, WebSphere 5 och 8 samt interna CI/CD-verktyg.<br /><br />
-         **BUL-CT1** – Jag ansvarade för övertagandet av applikationen från en annan avdelning och samordnade överföringen av teknisk kunskap och operativt ansvar.
-         **Teknikstack:** EJB 2.0, JMS, WebSphere 6 och 8 samt interna CI/CD-verktyg.<br /><br />
-         **Fund Transfer Price** Jag byggde en POC för  Fund Transfer Price plattformen - Batch-plattform/beräkningsmotor med en öppen källkodsstack: 
-         Spring Batch, Spring Boot, MyBatis, Vaadin, men använde den tidigare Teradata-databasen. Vi byggde vår CI/CD med Jenkins och använde Docker för moduler.
-         **Teknikstack:** Java, Spring Batch, Spring Boot, MyBatis, Vaadin, Teradata, Jenkins och Docker.
-         **Teamet**: Jag agerade som teamlead/arkitekt i den här roll och var ansvarig för tre andra utvecklare.<br /><br />
-         **Exonus** – Jag hade även en mindre roll i detta extraherings-, laddnings- och rapporteringsprojekt som senior utvecklare och arkitekturrådgivare.
-         **Teknikstack:** Spring Boot, Spring Cloud, MongoDB, SQL-databaser, BIRT och Angular 2.
+         **Global Pricing Tool:** Bidrog till modernisering från en **Java-monolit till mikrotjänster**, med målet att förbättra webbapplikationens hastighet, motståndskraft och användarupplevelse. Samarbetade med teknisk analytiker, affärsanalytiker och sex utvecklare i ett agilt team.
+         **Teknik:** Java, Scala, Play Framework, Python, AngularJS, Hazelcast, Teradata SQL och Docker.
+
+         **Fund Transfer Price:** Agerade under cirka sex månader som **team lead och lösningsarkitekt för tre utvecklare**. Analyserade krav, utvärderade teknik och tog fram arkitektur samt POC för en ny batch- och beräkningsplattform utifrån verksamhetens behov och teamets kompetens.
+         **Teknik:** **Java, Spring Boot, Spring Batch**, MyBatis, Vaadin, Teradata, Jenkins och Docker.
+
+         **BUL och Exonus:** Bidrog till migrering av en beräkningsapplikation och samordnade integration med serverinfrastruktur och CI/CD-team. Ansvarade även för applikationsövertagande och kunskapsöverföring. Gav utvecklings- och arkitekturstöd i ett extraherings- och rapporteringsprojekt med **Spring Boot, Spring Cloud, SQL**, MongoDB, BIRT och Angular 2.
 
       - role: Javautvecklare
         time: 2011/10 - 2015/03
@@ -215,18 +172,19 @@ experiences:
       - role: Fullstack Java Developer
         time: 2007/06 - 2009/03
         company: Concept Data, Bukarest
-        summary: Utvecklade TasKAFE, en Java-baserad projekthanteringsplattform med moduler för HR, lager, redovisning och dokumenthantering.
+        summary: Utvecklade TasKAFE, en Java-baserad projekthanteringsplattform. Nya moduler utvecklades för rapportering till skattemyndigheten, lager och redovisning.
         details: |
-          TasKAFE var en projekthanteringsapp med funktioner som resursallokering, tids- och kostnadsregistrering samt rapporteringsverktyg. Nya moduler utvecklades för HR, lager, redovisning och dokumenthantering.
+          TasKAFE var en projekthanteringsapp med **resursallokering, tids- och kostnadsregistrering samt rapportering**. Jag utvecklade funktionalitet för dessa verksamhetsflöden med Java och SQL-databaser.
+          Nya moduler utvecklades för rapportering till skattemyndigheten, lager och redovisning.
           **Teknikstack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText och JasperReports.
           Team hade 5 utvecklare och en testare.
 
       - role: Fullstack Java Developer
         time: 2007/02 - 2007/06
         company: Genesys, Bucharest
-        summary: Underhöll och vidareutvecklade det interna applikationsramverket Gesy med Java och JSF.
+        summary: Underhöll och vidareutvecklade Gesy, ett Java- och JSF-baserat ramverk som genererade applikationer med CRUD-funktioner utifrån definitioner av entiteter och deras relationer.
         details: |
-          **Gesy Framework** – Jag underhöll och vidareutvecklade ett internt applikationsramverk.
+          **Gesy Framework** – Jag underhöll och vidareutvecklade ett ramverk där entiteter och relationerna mellan dem kunde definieras. Utifrån dessa definitioner genererade ramverket en applikation med CRUD-funktioner för att skapa, läsa, uppdatera och ta bort data.
           **Teknikstack:** Java, JSF, Ajax, SWT och Microsoft SQL Server.
 
       - role: Fullstack Java Developer
@@ -279,26 +237,16 @@ skills:
   title: Färdigheter & Kompetens
 
   toolset:
-    - name: Arkitektur & tekniskt ledarskap
-      technologies: [Lösningsarkitektur, Teknisk design, Kravanalys, Teknikutvärdering, Systemintegration, Mikrotjänster, Applikationsmodernisering, Teamledning]
-
-    - name: Backend
-      technologies: [Java, Kotlin, Groovy, Scala, Python, Spring Boot, Spring MVC, Quarkus, NestJS, Play Framework, REST, GraphQL, Microservices, EJB, JMS]
-
+    - name: Backend & integration
+      technologies: [Java, Kotlin, Spring Boot, Spring Batch, Mikrotjänster, REST, GraphQL, Quarkus]
     - name: Frontend
-      technologies: [TypeScript, JavaScript, Angular, AngularJS, HTML, CSS, jQuery, GWT, Swing]
-
-    - name: Cloud & DevOps
-      technologies: [AWS, GCP, Docker, Kubernetes, VMware Tanzu, Pivotal Cloud Foundry, GitLab CI/CD, Jenkins, Ansible, Maven, SBT]
-
-    - name: Data
-      technologies: [PostgreSQL, MySQL, Oracle, Teradata, Microsoft SQL Server, MongoDB, Neo4j, Hazelcast, Elasticsearch, Cypher]
-
-    - name: Applikations- & integrationsplattformar
-      technologies: [WebSphere, Tomcat, JBoss, Resin, SIP, Janus, Flowable, BPMN, Form.io]
-
-    - name: Testning & rapportering
-      technologies: [JUnit, JasperReports, BIRT, iText]
+      technologies: [TypeScript, JavaScript, Angular, AngularJS, HTML, CSS]
+    - name: Data & moln
+      technologies: [SQL, PostgreSQL, MySQL, Oracle, Teradata, Neo4j, MongoDB, AWS, GCP, Docker, Kubernetes]
+    - name: Leverans & tekniskt ansvar
+      technologies: [GitLab CI/CD, Jenkins, JUnit, Kravanalys, Lösningsarkitektur, Teamledning]
+    - name: AI & modernisering
+      technologies: [Python, LangGraph, LangChain, Chainlit, Elasticsearch, "AI-102 Certifikat: Designing and Implementing a Microsoft Azure AI Solution"]
 
 
 footer: >

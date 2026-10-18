@@ -1,19 +1,13 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+---
 sidebar:
-  about: False
-  education: True
-  details-project: False
-
+  about: false
+  education: true
+  details-project: false
   name: Liviu Florin Ilie
-  tagline: Senior Software Developer – Backend, Integration & AI
+  tagline: Senior Full-stack Developer | Java, Kotlin & Spring Boot
   avatar: profile.png
-
   email: ilie.liviu@gmail.com
-#  phone: +46767657704
-  local_phone: "0767657704"
-#  timezone: CET Timezone
+  local_phone: '0767657704'
   location: Kalmar, Sweden
   citizenship: Romanian (EU citizen)
   linkedin: liviu-florin-i-a094367/
@@ -26,245 +20,218 @@ sidebar:
   stack-overflow: 2285846/liviu-florin-ilie
   codewars:
   goodreads:
-#  pdf:
-#    link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_en.pdf
-#    label: My CV
-#  otherlanguage:
-#    link: https://liviu-florin-ilie.github.io/online-cv/sv/index.html
-#    label: My CV in Swedish
-
   languages:
     title: Languages
     info:
-      - idiom: English
-        level: Professional
-
-      - idiom: Swedish
-        level: Professional
-
+    - idiom: English
+      level: Professional
+    - idiom: Swedish
+      level: Professional
   interests:
     title: Interests
     info:
-      - item: Triathlon (Ironman Finisher)
-        link:
-
-      - item: Social Sciences
-        link:
-
+    - item: Triathlon (Ironman Finisher)
+      link:
+    - item: Social Sciences
+      link:
 career-profile:
   title: Career Profile
   summary: |
-    I am an experienced software developer with more than 20 years of experience developing and enhancing business-critical systems.
-    My background is primarily in backend development, complemented by experience in solution architecture, system integrations,
-    cloud and container platforms, CI/CD, and technical leadership.
+    **Senior full-stack developer with over 20 years of experience** in business-critical systems, including over ten years with Java/J2EE.
+    I want to contribute to Fortnox's Kronos team with **Java, Kotlin, Spring Boot, microservices and SQL**, payments experience and a business-focused approach.
 
-    I have more than ten years of direct Java/J2EE experience and have continued working within the JVM ecosystem with technologies
-    including Kotlin, Groovy, Spring Boot, and Quarkus. I have worked with distributed systems, microservices, APIs, and integration architecture,
-    as well as AWS, GCP, Kubernetes, Docker, VMware Tanzu, WebSphere, GitLab CI/CD, and Jenkins.
+    At LeoVegas, I developed payment integrations using Kotlin. At Tietoevry, I worked with Spring Boot, Kotlin, PostgreSQL, TypeScript and Angular, as well as an **AI-based proof of concept for application modernization**.
+    At UniCredit, I modernized pricing platforms and led a proof of concept using Spring Boot and Spring Batch.
 
-    At UniCredit, I acted as team lead/solution architect for a period and was responsible for a POC for a new Fund Transfer Price platform.
-    The work included technical decisions concerning architecture, frameworks, batch processing, database integration, containerization, and CI/CD.
-
-    At Tietoevry, I worked with both cloud-based and on-premises solutions. In SOS-VIDEO for 112, I worked with integration and communication
-    flows in a solution based on technologies including SIP, Janus, Quarkus, Docker, and GitLab.
-
-    My extensive development background enables me to combine an architectural perspective with an understanding of how technical decisions affect
-    implementation, integration, deployment, and long-term maintenance. I enjoy seeing the bigger picture, discussing technical alternatives,
-    and contributing to solutions that are robust, secure, and sustainable over time.
-
+    For me, being a developer means being a **detective, archaeologist, builder and architect**.
+    I look for clues in business needs, examine layers of code and past decisions, build working solutions and weigh technical alternatives to establish a sustainable direction.
+    As a **translator**, I make technical trade-offs understandable and build shared understanding within the team, staying close to implementation.
+    Based in Kalmar, with professional proficiency in Swedish and English.
 education:
   title: Education
   info:
-    - degree: MSc in Economics with a specialization in Computer Science (2001 - 2006)
-      university: Academy of Economic Studies, Bucharest
-      details: |
-        Cybernetics, Statistics, and Economic Informatics
-        Department: Economic Informatics
-
+  - degree: MSc in Economics with a specialization in Computer Science (2001 - 2006)
+    university: Academy of Economic Studies, Bucharest
+    details: |
+      Cybernetics, Statistics, and Economic Informatics
+      Department: Economic Informatics
 experiences:
   title: Experience
   info:
-    - role: Lead Solutions Consultant
-      show: False
-      time: 2023/05 - 2026/07
-      company: Tietoevry, Kalmar, Sweden
-      summary: Developed emergency-video, workflow, AI modernization, and cloud applications, spanning backend integrations and full-stack delivery.
-      details: |
-        I was involved in several projects.<br /><br />
-        **SOS-VIDEO for 112** – The purpose of the project was to add video to an existing 112 emergency call by sending an
-        SMS message containing a link that the caller could open to establish a video connection with the operator handling the call.
-        This was achieved using an open-source stack with Janus as the video server, an internally developed SIP stack, and two Quarkus applications
-        at the top of the flow.
-        The deployment pipeline was automated with GitLab, Ansible, and on-premises Docker.
-        **Technology stack:** Java, Quarkus, SIP, Janus, Docker, GitLab CI/CD, and Ansible.<br /><br />
-        **Driftorder Demo Application** – A demonstration application for the Driftorder BPMN process, built with Spring Boot and Flowable.
-        I developed the integration with Form.io.
-        **Technology stack:** Java, Spring Boot, Flowable, BPMN, and Form.io.<br /><br />
-        **AI Application Modernization POC** – An AI-based application developed to help developers collect and analyze project data and identify opportunities for improvement and modernization.
-        This was my first involvement in an AI project, and I gained hands-on experience with tools such as
-        Chainlit, LangGraph, LangChain, and Elasticsearch, while refreshing my knowledge of
-        Docker Compose and Python.
-        **Technology stack:** Python, Chainlit, LangGraph, LangChain, Elasticsearch, and Docker Compose.<br /><br />
-        **RSS** – Full-stack development for an AWS application supporting a company
-        engaged in commercial trading of small electronic components. I was responsible for development, maintenance, and integration with
-        another system, Upsales.
-        **Technology stack:** Neo4j with Cypher, TypeScript with NestJS and Angular, GraphQL, and AWS.<br /><br />
-        **Friends MDT** – Development of digital survey tools for the Friends Foundation in its work against bullying and harassment.
-        The application was used to collect data from schools through surveys in order to visualize
-        and analyze the results.
-        After collection, a complex research-based report was generated to show children's well-being at school.
-        Technology stack: PostgreSQL, Neo4j, Spring Boot with Kotlin, Angular, AWS, and Amazon Cognito for user and identity management.
-        During the project's first phase, we used VMware Tanzu for CI/CD.
+  - role: Lead Solutions Consultant
+    show: true
+    time: 2023/05 - 2026/07
+    company: Tietoevry, Kalmar, Sweden
+    summary: Full-stack development using Kotlin, Spring Boot, PostgreSQL and TypeScript,
+      Java-based integrations for 112, and an AI-based proof of concept for application
+      modernization.
+    details: |
+      **SOS-VIDEO for 112:** Developed integration and communication flows for a solution that added a video call to an existing 112 audio call. The caller received an SMS with a link to establish a video connection with the operator handling the call. Automated deployment using GitLab CI/CD, Ansible and Docker.
+      **Technologies:** Java, Quarkus, SIP and Janus.
 
-    - role: Software Developer @Payments
-      time: 2021/05 - 2023/05
-      show: False
-      company: Leovegas, Remote-Sweden
-      summary: Built card-payment provider integrations and fraud-prevention rules in Kotlin microservices on Google Cloud.
-      details: |
-        The team in the Payments department builds and maintains payment integrations
-        between our core systems and various payment providers and payment methods,
-        enabling players to deposit and withdraw money smoothly.
-        My role was in the card stream, which specifically handled card-payment integrations.
-        Our goal was to lower the cost per payment, expand our available payment methods,
-        and reduce the risk of payment fraud.
-        As a member of the card stream, I was involved in building two payment-provider integrations
-        and the rules engine used to create risk and fraud-prevention rules.
-        **Technology stack:** A microservices architecture built on an internal Spring Boot-like framework
-        with Kotlin and MySQL as the database. We deployed our microservices to Google Cloud and
-        used Kubernetes as the container platform.<br />
-        **Team:** 3–5 stream members, 30+ extended team members
-        <br /><br />
+      **Friends MDT:** Developed digital survey tools that collected, analyzed and visualized school data on children's well-being and generated research-based reports.
+      **Technologies:** **Kotlin, Spring Boot, PostgreSQL**, Neo4j, Angular, AWS and Cognito; VMware Tanzu for CI/CD in the initial phase.
 
-    - role: Principal Software Engineer
-      show: False
-      time: 2018/03 - 2021/05
-      company: Dell Financial Services, Remote-Romania
-      summary: Automated decision-platform deployments and built risk-review tools and test infrastructure for financial services.
-      details: |
-        Our department's objective was to reduce risk when a customer applied for a loan.
-        I was involved in building tools that helped automate certain tasks within our department.
-        I built a web application that automated the monitoring and deployment of our 20+ Blaze instances. In this project,
-        we built a CI/CD pipeline using GitLab, Artifactory, and Pivotal Cloud Foundry. The application increased satisfaction
-        among our colleagues responsible for releasing new versions and made it easier to monitor
-        our instances during peak periods. Technology stack: Angular, Groovy, Servlets, and MongoDB.
-        I was involved in creating a web application that helped our colleagues review and verify suspicious
-        transactions. Technology stack: Angular, Groovy, Servlets, and MongoDB. I rewrote and improved
-        an existing automated testing framework that enabled our developers to test their code against
-        expected outcomes.
-        I also integrated SSO functionality into our web applications using Waffle.
-        **Team:** Each project team consisted of a team lead and one or two developers.
-        **Technology stack:** Groovy, MongoDB, Akka, Angular, Servlets, GitLab CI/CD, Artifactory, Pivotal Cloud Foundry, and Waffle SSO.
+      **AI Application Modernization POC:** Contributed to an AI application for collecting and analyzing project data and identifying opportunities for improvement and modernization.
+      **Technologies:** Python, Chainlit, **LangGraph, LangChain**, Elasticsearch and Docker Compose.
 
-    - role: Senior Software Developer
-      time: 2015/03 - 2018/03
-      show: False
-      company: UniCredit Services, Bucharest
-      summary: Modernized pricing and batch platforms, led a Fund Transfer Price proof of concept, and guided solution architecture.
-      details: |
-        I worked on various pricing engines for our UniCredit colleagues in Italy.<br /><br />
-        **GPT (Global Pricing Tool)** – We rebuilt this project from a monolith based on a Java technology stack
-        into a microservices infrastructure using Scala for the microservices, Python for
-        the calculation engine, Hazelcast for data caching, and Angular for the frontend. We also used SBT
-        to build the Scala microservices. We aimed to provide users with a better experience
-        and achieved this by improving the web application's speed and resilience. The microservices
-        were ultimately deployed using Docker.
-        **Team:** The project team consisted of a technical analyst, a business analyst, and six developers.
-        We worked according to agile methodology.
-        **Technology stack:** Java, Scala, Play Framework, SBT, Python, AngularJS, JavaScript, Hazelcast, Teradata SQL, Spring Batch, Maven, WebSphere, JasperReports, Jenkins, Jira, Docker, and microservices.<br /><br />
-        **BUL Batch Platform/Calculation Engine** – For four months, I contributed to migrating a critical application to a new server infrastructure. An important part of the work was integrating the application with the company's servers
-        and CI/CD pipelines. This involved collaborating with the team responsible for the WebSphere servers and the team
-        managing the CI/CD tool (Gandalf), because I could not perform certain configurations independently.
-        **Technology stack:** EJB 2.0, JMS, WebSphere 5 and 8, and internal CI/CD tooling.<br /><br />
-        **BUL-CT1** – I managed the application handover from another department, coordinating the transfer of technical knowledge and operational responsibility.
-        **Technology stack:** EJB 2.0, JMS, WebSphere 6 and 8, and internal CI/CD tooling.<br /><br />
-        **Fund Transfer Price** – I built a POC for the Fund Transfer Price platform—a batch platform/calculation engine—using an open-source stack:
-        Spring Batch, Spring Boot, MyBatis, and Vaadin, while retaining the existing Teradata database. We built our CI/CD pipeline with Jenkins and used Docker for the modules.
-        **Technology stack:** Java, Spring Batch, Spring Boot, MyBatis, Vaadin, Teradata, Jenkins, and Docker.
-        **Team:** I acted as team lead/architect in this role and was responsible for three other developers.<br /><br />
-        **Exonus** – I also had a smaller role in this extract/load and reporting project, contributing as a senior developer and architecture advisor.
-        **Technology stack:** Spring Boot, Spring Cloud, MongoDB, SQL databases, BIRT, and Angular 2.
+      **RSS and Driftorder:** Responsible for full-stack development, maintenance and Upsales integration in an AWS application using TypeScript, NestJS, Angular, GraphQL and Neo4j. Also developed the Form.io integration in a BPMN demo using **Java, Spring Boot and Flowable**.
+  - role: Software Developer @Payments
+    time: 2021/05 - 2023/05
+    show: true
+    company: LeoVegas, Remote-Sweden
+    summary: Built card-payment provider integrations and fraud-prevention rules in
+      Kotlin microservices on Google Cloud.
+    details: |
+      Developed and maintained **business-critical payment integrations** between core systems and card-payment providers for deposits and withdrawals. The work aimed to make payments smoother, lower transaction costs and reduce fraud risk.
 
-    - role: Java Developer
-      time: 2011/10 - 2015/03
-      company: Intuitext/Softwin, Bucharest
-      summary: Developed and maintained Java learning and assessment platforms for schools, professionals, and banks.
-      details: |
-        I worked on LMS (Learning Management System), LCMS (Learning Content Management System), and assessment platforms
-        that helped students and professionals acquire knowledge, follow online courses, measure progress, and assess learning outcomes.<br /><br />
-        **INSAM** – An evaluation platform for Romanian high-school students. I developed features and resolved defects.
-        **Technology stack:** Java, Hibernate, Spring, Struts 1, MySQL, BIRT, and Tomcat.<br /><br />
-        **ISMB-SIND, CMBRAE, and FORCAD-VN** – I adapted existing modules and developed new functionality according to customer requirements.
-        **Technology stack:** Java, MySQL, Hibernate, Spring, Spring MVC, JSP, jQuery, and Tomcat.<br /><br />
-        **Matematici and PREVINS** – I developed and maintained learning and assessment functionality.
-        **Technology stack:** Java, Spring MVC, Maven, jQuery, Hibernate, Spring, PostgreSQL, and Tomcat.<br /><br />
-        **Alpha Bank and ING e-learning platforms** – SCORM-based learning platforms that I developed and maintained.
-        **Technology stack:** Java, Struts, Hibernate, MySQL, SCORM, and JBoss.
+      Contributed to **two payment-provider integrations** and the rules engine for risk and fraud prevention. Worked in a card-payments group of 3–5 people within a larger payments organization.
 
-    - role: Java Developer
-      show: False
-      time: 2009/04 - 2011/08
-      company: Advantage Title Solutions, Bucharest
-      summary: Built and maintained a Java title-search application that gathered property information from external websites.
-      details: |
-        I developed and maintained an application for property and title searches by integrating new websites
-        using the HTTP Client API, HTML Parser API, regular expressions, and XML. The information collected from the integrated websites was then stored in the application's MySQL database for later use.
-        The purpose of the Title Search application was to enable users to collect all available information about a property or property seller, making the property transaction as safe as possible and minimizing risks that could affect the buyer.
-        **Technology stack:** Java, GWT, JSP, Servlets, MySQL, HTML Parser, HTTP Client, XML, regular expressions, and Resin.
-        **Team:** Eight developers, three testers, and one development lead.
+      **Technologies:** **Kotlin, microservices and MySQL**, an internal Spring Boot-like framework, and **Google Cloud and Kubernetes** for deployment.
+  - role: Principal Software Engineer
+    show: false
+    time: 2018/03 - 2021/05
+    company: Dell Financial Services, Remote-Romania
+    summary: Automated the deployment of decision platforms and developed risk-review
+      and testing tools in financial services.
+    details: |
+      Our department's objective was to reduce risk when a customer applied for a loan.
+      I was involved in building tools that helped automate certain tasks within our department.
+      I built a web application that automated the monitoring and deployment of our 20+ Blaze instances. In this project,
+      we built a CI/CD pipeline using GitLab, Artifactory, and Pivotal Cloud Foundry. The application increased satisfaction
+      among our colleagues responsible for releasing new versions and made it easier to monitor
+      our instances during peak periods. Technology stack: Angular, Groovy, Servlets, and MongoDB.
+      I was involved in creating a web application that helped our colleagues review and verify suspicious
+      transactions. Technology stack: Angular, Groovy, Servlets, and MongoDB. I rewrote and improved
+      an existing automated testing framework that enabled our developers to test their code against
+      expected outcomes.
+      I also integrated SSO functionality into our web applications using Waffle.
+      **Team:** Each project team consisted of a team lead and one or two developers.
+      **Technology stack:** Groovy, MongoDB, Akka, Angular, Servlets, GitLab CI/CD, Artifactory, Pivotal Cloud Foundry, and Waffle SSO.
+  - role: Senior Software Developer
+    time: 2015/03 - 2018/03
+    show: true
+    company: UniCredit Services, Bucharest
+    summary: Modernized pricing and batch platforms, led a Fund Transfer Price proof
+      of concept, and guided solution architecture.
+    details: |
+      **Global Pricing Tool:** Contributed to modernization from a **Java monolith to microservices**, aiming to improve the web application's speed, resilience and user experience. Collaborated with a technical analyst, a business analyst and six developers in an agile team.
+      **Technologies:** Java, Scala, Play Framework, Python, AngularJS, Hazelcast, Teradata SQL and Docker.
 
-    - role: Full-stack Java Developer
-      time: 2007/06 - 2009/03
-      company: Concept Data, Bucharest
-      summary: Developed TasKAFE, a Java project-management platform with HR, inventory, accounting, and document modules.
-      details: |
-        TasKAFE was a project-management application with features for resource allocation, time and cost tracking, and reporting. New modules were developed for HR, inventory, accounting, and document management.
-        **Technology stack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText, and JasperReports.
-        The team consisted of five developers and one tester.
+      **Fund Transfer Price:** Served for approximately six months as **team lead and solution architect for three developers**. Analyzed requirements, evaluated technologies and designed the architecture and proof of concept for a new batch-processing and calculation platform based on business needs and the team's expertise.
+      **Technologies:** **Java, Spring Boot, Spring Batch**, MyBatis, Vaadin, Teradata, Jenkins and Docker.
 
-    - role: Full-stack Java Developer
-      time: 2007/02 - 2007/06
-      company: Genesys, Bucharest
-      summary: Maintained and extended the internal Gesy application framework using Java and JSF.
-      details: |
-        **Gesy Framework** – I maintained and extended an internal application framework.
-        **Technology stack:** Java, JSF, Ajax, SWT, and Microsoft SQL Server.
-
-    - role: Full-stack Java Developer
-      time: 2005/04 - 2007/02
-      company: INGENIO-UCS, Bucharest
-      summary: Developed intranet and banking applications, including credit-assessment and loan-calculation solutions.
-      details: |
-        I developed and supported internal and customer-facing applications, including credit-assessment and loan-calculation solutions for Romanian banks.<br /><br />
-        **Allia Intranet** – I developed new functionality and resolved defects in an internal web application.
-        **Technology stack:** Java, Struts, JSP, Servlets, jQuery, and MySQL.<br /><br />
-        **Neural-BCR** – I maintained a credit-assessment and loan-calculation application for BCR.
-        **Technology stack:** Java, Struts, JSP, Servlets, Oracle, and PL/SQL.
-
+      **BUL and Exonus:** Contributed to the migration of a calculation application and coordinated integration with server infrastructure and CI/CD teams. Also managed an application handover and knowledge transfer. Provided development and architectural support for a data-extraction and reporting project using **Spring Boot, Spring Cloud, SQL**, MongoDB, BIRT and Angular 2.
+  - role: Java Developer
+    time: 2011/10 - 2015/03
+    company: Intuitext/Softwin, Bucharest
+    summary: Developed and maintained Java learning and assessment platforms for schools,
+      professionals, and banks.
+    details: |
+      I worked on LMS (Learning Management System), LCMS (Learning Content Management System), and assessment platforms
+      that helped students and professionals acquire knowledge, follow online courses, measure progress, and assess learning outcomes.<br /><br />
+      **INSAM** – An evaluation platform for Romanian high-school students. I developed features and resolved defects.
+      **Technology stack:** Java, Hibernate, Spring, Struts 1, MySQL, BIRT, and Tomcat.<br /><br />
+      **ISMB-SIND, CMBRAE, and FORCAD-VN** – I adapted existing modules and developed new functionality according to customer requirements.
+      **Technology stack:** Java, MySQL, Hibernate, Spring, Spring MVC, JSP, jQuery, and Tomcat.<br /><br />
+      **Matematici and PREVINS** – I developed and maintained learning and assessment functionality.
+      **Technology stack:** Java, Spring MVC, Maven, jQuery, Hibernate, Spring, PostgreSQL, and Tomcat.<br /><br />
+      **Alpha Bank and ING e-learning platforms** – SCORM-based learning platforms that I developed and maintained.
+      **Technology stack:** Java, Struts, Hibernate, MySQL, SCORM, and JBoss.
+  - role: Java Developer
+    show: false
+    time: 2009/04 - 2011/08
+    company: Advantage Title Solutions, Bucharest
+    summary: Built and maintained a Java title-search application that gathered property
+      information from external websites.
+    details: |
+      I developed and maintained an application for property and title searches by integrating new websites
+      using the HTTP Client API, HTML Parser API, regular expressions, and XML. The information collected from the integrated websites was then stored in the application's MySQL database for later use.
+      The purpose of the Title Search application was to enable users to collect all available information about a property or property seller, making the property transaction as safe as possible and minimizing risks that could affect the buyer.
+      **Technology stack:** Java, GWT, JSP, Servlets, MySQL, HTML Parser, HTTP Client, XML, regular expressions, and Resin.
+      **Team:** Eight developers, three testers, and one development lead.
+  - role: Full-stack Java Developer
+    time: 2007/06 - 2009/03
+    company: Concept Data, Bucharest
+    summary: Developed TasKAFE, a Java-based project-management platform. New modules
+      were developed for tax-authority reporting, inventory and accounting.
+    details: |
+      TasKAFE was a project-management application with **resource allocation, time and cost tracking, and reporting**. I developed functionality for these business workflows using Java and SQL databases.
+      New modules were developed for tax-authority reporting, inventory and accounting.
+      **Technology stack:** Java, Swing, Hibernate, Oracle, PostgreSQL, Spring, JSF, RMI, Java Web Start, Ant, Maven, JUnit, iText and JasperReports.
+      The team consisted of five developers and one tester.
+  - role: Full-stack Java Developer
+    time: 2007/02 - 2007/06
+    company: Genesys, Bucharest
+    summary: Maintained and extended Gesy, a Java- and JSF-based framework that generated
+      applications with CRUD functionality from definitions of entities and their
+      relationships.
+    details: |
+      **Gesy Framework** – I maintained and extended a framework in which entities and their relationships could be defined. From these definitions, the framework generated an application with CRUD functionality to create, read, update and delete data.
+      **Technology stack:** Java, JSF, Ajax, SWT and Microsoft SQL Server.
+  - role: Full-stack Java Developer
+    time: 2005/04 - 2007/02
+    company: INGENIO-UCS, Bucharest
+    summary: Developed intranet and banking applications, including credit-assessment
+      and loan-calculation solutions.
+    details: |
+      I developed and supported internal and customer-facing applications, including credit-assessment and loan-calculation solutions for Romanian banks.<br /><br />
+      **Allia Intranet** – I developed new functionality and resolved defects in an internal web application.
+      **Technology stack:** Java, Struts, JSP, Servlets, jQuery, and MySQL.<br /><br />
+      **Neural-BCR** – I maintained a credit-assessment and loan-calculation application for BCR.
+      **Technology stack:** Java, Struts, JSP, Servlets, Oracle, and PL/SQL.
 skills:
   title: Skills & Competencies
-
   toolset:
-    - name: AI
-      technologies: [Python, LangChain, LangGraph, Chainlit, AI-assisted development]
+  - name: Backend & Integration
+    technologies:
+    - Java
+    - Kotlin
+    - Spring Boot
+    - Spring Batch
+    - Microservices
+    - REST
+    - GraphQL
+    - Quarkus
+  - name: Frontend
+    technologies:
+    - TypeScript
+    - JavaScript
+    - Angular
+    - AngularJS
+    - HTML
+    - CSS
+  - name: Data & Cloud
+    technologies:
+    - SQL
+    - PostgreSQL
+    - MySQL
+    - Oracle
+    - Teradata
+    - Neo4j
+    - MongoDB
+    - AWS
+    - GCP
+    - Docker
+    - Kubernetes
+  - name: Delivery & Technical Ownership
+    technologies:
+    - GitLab CI/CD
+    - Jenkins
+    - Ansible
+    - JUnit
+    - Requirements Analysis
+    - Solution Architecture
+    - Team Leadership
+  - name: AI & Modernization
+    technologies:
+    - Python
+    - LangGraph
+    - LangChain
+    - Chainlit
+    - Elasticsearch
+    - Docker Compose
+footer: 'Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com"
+  target="_blank" rel="nofollow">Xiaoying Riley</a>
 
-    - name: Backend
-      technologies: [Java, Kotlin, Groovy, Scala, Python, Spring Boot, Spring MVC, Quarkus, NestJS, Play Framework, REST, GraphQL, Microservices, EJB, JMS]
-
-    - name: Frontend
-      technologies: [TypeScript, JavaScript, Angular, AngularJS, HTML, CSS, jQuery, GWT, Swing]
-
-    - name: Cloud & DevOps
-      technologies: [AWS, GCP, Docker, Kubernetes, VMware Tanzu, Pivotal Cloud Foundry, GitLab CI/CD, Jenkins, Ansible, Maven, SBT]
-
-    - name: Data
-      technologies: [PostgreSQL, MySQL, Oracle, Teradata, Microsoft SQL Server, MongoDB, Neo4j, Hazelcast, Elasticsearch, Cypher]
-
-    - name: Application & Integration Platforms
-      technologies: [WebSphere, Tomcat, JBoss, Resin, SIP, Janus, Flowable, BPMN, Form.io]
-
-    - name: Testing & Reporting
-      technologies: [JUnit, JasperReports, BIRT, iText]
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+'

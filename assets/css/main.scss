@@ -20,3 +20,7 @@
 {% if site.theme_skin == 'thalamus' %}
 @import "thalamus";
 {% endif %}
+
+{% if site.theme_skin == 'fortnox' %}
+@import "fortnox";
+{% endif %}
