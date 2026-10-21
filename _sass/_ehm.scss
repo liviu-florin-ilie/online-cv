@@ -87,12 +87,34 @@ a {
     border-bottom-color: #f0f45b;
   }
 
+  .wrapper {
+    max-width: 1100px;
+  }
+
+  .sidebar-wrapper .name {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
   .main-wrapper {
     background: #1e222e;
+    font-size: 15px;
+
+    .details {
+      ul {
+        padding-left: 22px;
+      }
+
+      li {
+        font-size: 15px;
+        line-height: 1.55;
+        margin-bottom: 6px;
+      }
+    }
 
     .section-title {
       color: #fff;
-      border-bottom: 1px solid #383c47;
+      border-bottom: 3px solid #f0f45b;
       font-size: 24px;
 
       .fa-circle {
@@ -146,6 +168,10 @@ a {
       color: #fff;
     }
 
+    .skill-group {
+      font-size: 15px;
+    }
+
     .level-bar {
       background: #383c47;
     }
@@ -162,6 +188,118 @@ a {
   .footer .fa-heart {
     color: #f0f45b;
   }
+}
+
+// Light variant for printing / uploads. Enabled by adding the class
+// `theme-light` to <body> (the PDF generator does this when THEME=light).
+@media screen {
+  body.theme-light {
+    background: #fff;
+    color: #1b1f2a;
+    color-scheme: light;
+
+    .wrapper,
+    .sidebar-wrapper,
+    .main-wrapper {
+      background: #fff;
+      box-shadow: none;
+    }
+
+    .sidebar-wrapper {
+      color: #1b1f2a;
+
+      .profile-container {
+        background: #f1f2f6;
+        border-bottom-color: #171c26;
+        color: #1b1f2a;
+      }
+
+      .name,
+      .tagline,
+      .container-block-title,
+      .education-container .degree,
+      .education-container .meta,
+      .education-container .time,
+      .languages-container .lang-desc {
+        color: #171c26;
+      }
+
+      a {
+        color: #0b3d91;
+
+        &:hover {
+          color: #0b3d91;
+        }
+      }
+    }
+
+    .main-wrapper {
+      .section-title {
+        color: #171c26;
+        border-bottom: 3px solid #171c26;
+
+        .fa-circle {
+          color: #171c26;
+        }
+
+        .fa-inverse {
+          color: #fff;
+        }
+      }
+
+      .job-title,
+      .degree,
+      .project-title,
+      .publication-title {
+        color: #171c26;
+      }
+
+      .time,
+      .company,
+      .university,
+      .publication-authors {
+        color: #4a4f5c;
+      }
+
+      .details li,
+      .details p {
+        color: #1b1f2a;
+      }
+    }
+
+    a {
+      color: #0b3d91;
+    }
+
+    .skillset {
+      .skill-group-title {
+        color: #171c26;
+      }
+
+      .skill-group {
+        color: #1b1f2a;
+      }
+    }
+
+    .footer .copyright {
+      color: #4a4f5c;
+    }
+  }
+}
+
+// One-line summaries are only shown in the compact PDF (see docker/pdf/generate-pdf.js).
+.main-wrapper .summary-line {
+  display: none;
+}
+
+// Keep each entry and its heading together when the PDF/print breaks pages.
+.main-wrapper .item,
+.skillset .item {
+  break-inside: avoid;
+}
+
+.main-wrapper .section-title {
+  break-after: avoid;
 }
 
 @media print {

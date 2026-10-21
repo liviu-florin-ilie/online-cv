@@ -1,9 +1,23 @@
-version: "3.8"
 services:
   jekyll:
-      image: jekyll/jekyll:3.8
-      command: jekyll serve --force_polling
-      ports:
-          - 4000:4000
-      volumes:
-          - .:/srv/jekyll
+    image: jekyll/jekyll:3.8
+    command: jekyll serve --force_polling
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+
+  pdf:
+    build:
+      context: ./docker/pdf
+    depends_on:
+      - jekyll
+    environment:
+      BASE_URL: http://jekyll:4000/online-cv
+      LANGUAGE: ${LANGUAGE:-en}
+      THEME: ${THEME:-dark}
+      OUTPUT: ${OUTPUT:-}
+    volumes:
+      - ./output/pdf:/output
+    profiles:
+      - pdf

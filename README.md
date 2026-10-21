@@ -41,6 +41,40 @@ docker-compose up
 *docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
 Changes *_data/data.yml* will be visible after a while.
 
+### Generate a PDF with Docker
+
+The PDF service starts the Jekyll service automatically, waits for the requested page, and writes the result to `output/pdf`.
+
+English:
+
+```sh
+docker compose --profile pdf run --rm pdf
+```
+
+Swedish:
+
+```sh
+LANGUAGE=sv OUTPUT=/output/liviu-florin-ilie-cv-sv.pdf docker compose --profile pdf run --rm pdf
+```
+
+Light version for printing or uploads (the default is the dark E-hälsomyndigheten look):
+
+```sh
+LANGUAGE=sv THEME=light docker compose --profile pdf run --rm pdf
+```
+
+The light version is written to `output/pdf/liviu-florin-ilie-cv-<language>-light.pdf`.
+The PDF is A4 and prints at normal scale (about 10 pt body text). To keep it short, the PDF build
+(and only the PDF) turns the sidebar into a header band, shows skills in two columns, drops the
+per-role "Teknikstack" lines and shrinks roles that started before 2015 to a one-line summary
+(the `summary` field in the data file). The website itself is unchanged.
+
+Rebuild the PDF image after changing files in `docker/pdf`:
+
+```sh
+docker compose --profile pdf build pdf
+```
+
 ## Skins
 
 There are 6 color schemes available:
@@ -64,4 +98,3 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-
