@@ -1,0 +1,157 @@
+body {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  background: $smoky-white;
+}
+
+p { line-height: 1.6; }
+
+a {
+  color: $theme-color;
+  text-decoration: underline;
+  text-decoration-color: rgba($sigma-accent, 0.6);
+  text-underline-offset: 2px;
+
+  &:hover { color: $sigma-accent; }
+  &:focus-visible { outline: 2px solid $sigma-accent; outline-offset: 3px; }
+}
+
+.wrapper { max-width: 1100px; background: $theme-color; }
+
+.sidebar-wrapper {
+  background: $theme-color;
+
+  .profile-container {
+    background: $sigma-ink;
+    border-bottom: 4px solid $sigma-accent;
+    text-align: left;
+  }
+
+  .name {
+    font-size: 28px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .tagline {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-top: 6px;
+  }
+
+  .container-block-title {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: $sigma-accent;
+  }
+
+  .contact-list .fas,
+  .contact-list .fab,
+  .contact-list .far { color: $sigma-accent; font-size: 15px; width: 18px; }
+
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc { color: rgba(255, 255, 255, 0.72); }
+
+  a { text-decoration: none; }
+  a:hover { color: $sigma-accent; }
+}
+
+.main-wrapper {
+  background: #fff;
+  color: $text-color-secondary;
+  font-size: 14.5px;
+
+  .section { margin-bottom: 44px; }
+
+  .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    border-bottom: 2px solid $divider;
+    padding-bottom: 10px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 64px;
+      height: 2px;
+      background: $sigma-accent;
+    }
+
+    .fa-circle { color: $sigma-accent; }
+    .fa-inverse { color: #fff; }
+  }
+
+  .summary strong { color: $text-color; }
+
+  .upper-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2px 16px;
+  }
+
+  .job-title,
+  .degree { font-weight: 600; color: $text-color; }
+
+  .time {
+    position: static;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12.5px;
+    color: $text-grey;
+    flex-shrink: 0;
+  }
+
+  .company { color: $sigma-accent; font-weight: 500; }
+
+  .details {
+    ul { padding-left: 20px; }
+    li { line-height: 1.55; margin-bottom: 5px; }
+    li::marker { color: $sigma-accent; }
+    strong { color: $text-color; }
+  }
+}
+
+.skillset {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 28px;
+  align-items: start;
+
+  .item {
+    border-left: 3px solid $sigma-accent;
+    padding-left: 12px;
+  }
+
+  .skill-group-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: $text-color;
+  }
+
+  .skill-group { font-size: 13.5px; line-height: 1.5; }
+}
+
+@media (max-width: 767px) {
+  .skillset { grid-template-columns: 1fr; }
+}
+
+// One-line summaries are only shown in the compact PDF (see docker/pdf/generate-pdf.js).
+.main-wrapper .summary-line { display: none; }
+
+.main-wrapper .item,
+.skillset .item { break-inside: avoid; }
+
+.main-wrapper .section-title { break-after: avoid; }
+
+@media print {
+  body { background: #fff; }
+  .wrapper { box-shadow: none; }
+}

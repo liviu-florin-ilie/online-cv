@@ -1,248 +1,154 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
-    # This is the setup area
-    # where some switches can be turned on or off
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    details-project: False # when set to False it will not show the project details from experience.details
+  about: False
+  education: True
+  details-project: False
 
-    # Profile information
-    name: Liviu Florin Ilie
-    tagline: Software Developer with focus on Java like languages
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Liviu Florin Ilie
+  tagline: Senior Backend Developer – Java, Spring Boot, Microservices and AI
+  avatar: profile.png
 
-    # Sidebar links
-    email: ilie.liviu@gmail.com
-    phone: +46767657704
-    timezone: CET Timezone
-    citizenship: Romanian
-#     website: blog.webjeda.com #do not add http://
-    linkedin: liviu-florin-i-a094367/
-    xing:
-    github: liviu-florin-ilie
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: 2285846/liviu-florin-ilie # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
-      link: https://liviu-florin-ilie.github.io/online-cv/assets/LiviuIlieCV_en.pdf
-      label: Resume PDF
-    otherlanguage:
-      link: https://liviu-florin-ilie.github.io/online-cv/sv/index.html
-      label: Mitt CV på Svenska
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
+  email: ilie.liviu@gmail.com
+  local_phone: "+46 767 657 704"
+  location: Kalmar, Sweden
+  citizenship: Romanian (EU citizen)
+  linkedin: liviu-florin-i-a094367/
+  xing:
+  github: liviu-florin-ilie
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: 2285846/liviu-florin-ilie
+  codewars:
+  goodreads:
 
-        - idiom: Swedish
-          level: Professional
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Triathlon (Ironman Finisher)
-          link: https://www.movable-ink-850.com/p/rp/b93e9f68d865fb74/url?mi_u=61436628&mi_ecmp=65854c77-2bf9-452b-b78e-508bbdf4def0&contactid=a3733971-bff3-4a5c-881d-8099f44cd331&utm_campaign=25670808-EMEA%202026%20-%20IM%20%7C%20All%20Races%20-%20AC&utm_medium=email&_hsenc=p2ANqtz-9A3gjOPsXvznC1zJTm2RTTIzzffQYRADnCl5jKWLnVP0rQEQA2qb1Hqshz7VFWdpyqNlko6ODY5-mbNn34T5Ht-9ymig&_hsmi=433939101&utm_content=433939101&utm_source=hs_email&mi_cmp=da27ea647bf68f51&mi_sc=t
+      - idiom: Swedish
+        level: Professional
 
-        - item: Social Sciences
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Triathlon (Ironman Finisher)
+        link:
+
+      - item: Social sciences
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I am a  seasoned (20+ years) Software Developer who lives by this: 
-      \"Do what you can, with what you have, where you are\". 
-      This allowed me to perform in different company cultures, different team setups 
-      and also ever changing tech-stacks. Worked as a full-stack developer developing 
-      software in Java, Groovy, Python, Scala, SQL, Swing, JSP, Typescript, Cypher.
-      Built production ready software for various industries and end users:
-        - experience with building, improving and using CI/CD-pipelines med Jenkins, GitLab, Tanzu och Docker
-        - Procurement and resale
-        - Mobile Gaming in the Payments Area
-        - Financial Sector
-        - eLearning
-        - Task Management
-      I was also involved in configuration of CI pipelines involving WebSphere application
-      servers and internal CI tools. I am a creative, resilient, open and helpful person.
-      I worked with great people who helped me grow both my technical and soft skills.
-      
-      This is my take on software development:
-      The software developer nowadays has to fill in different roles:
-        - assess and take care of the most important tasks
-        - one can be a fireman when something \"catches fire\",         
-        - one can be an archaeologist when there is no handover 
-        - or even a private detective when there are things he needs to accomplish ones tasks 
-          and has to look for the people that can provide help,
-        - sometimes one can act as a translator as there are things that not all people can understand, 
-        - one can even be the housekeeping lady when no one else dares doing the dirty work, 
-        - one must be a teacher in order to share what he has acquired,
-        - and sometimes one can be what he is destined to be: an architect and a builder.
+  title: Career Profile
+  summary: |
+    Senior backend developer with 20+ years of experience building business-critical systems, including more than ten years of Java/J2EE followed by modern JVM development with **Java, Spring Boot, Quarkus and Kotlin**. I have built **REST APIs, integrations and microservices** for emergency services (SOS-VIDEO for 112), payments, finance and e-learning, taking solutions all the way from idea and data model to production and operations.
+
+    I have worked in container-based and cloud environments (**Docker, Kubernetes, Google Cloud, AWS**), with CI/CD in GitLab and Jenkins, SQL and NoSQL databases, and monitoring with Datadog and ELK. Quality, security and scalability have been central to my work: code reviews, test automation, SSO, fraud-prevention rules and performance tuning. As team lead and architect I have driven technical decisions, coached developers and taken part in hiring.
+
+    **AI is a natural part of how I develop software.** I use AI tools such as Codex, GitHub Copilot and IntelliJ AI to analyse large codebases, write tests, debug, refactor and document – while owning the review and the quality of the result. At Tietoevry I built an LLM-based agent prototype for application modernization with Python, LangChain, LangGraph and Elasticsearch, and I am a certified **Microsoft Azure AI Engineer Associate (AI-102)**.
+
+    I live by the motto "do what you can, with what you have, where you are" and enjoy technically challenging consulting assignments alongside other experienced developers. Based in Kalmar and available to start immediately.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Economy with Focus in Computer Science
-        university: Academy of Economic Studies, Bucharest
-        time: 2001 - 2006
-        details: |
-         Cybernetics, Statistics and Economy Informatics 
-         Department: Economy Informatics; 
+  title: Education and Certification
+  info:
+    - degree: Microsoft Certified – Azure AI Engineer Associate (AI-102)
+      university: Microsoft
+
+    - degree: MSc in Economics, specialising in Computer Science (2001 - 2006)
+      university: Bucharest University of Economic Studies (ASE)
+      details: |
+        Five-year degree in economics with a computer science specialisation: economic informatics, cybernetics and statistics.
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Solutions Consultant
-        time: 2023/05 - 2023/08
-        company: Tietoevry, Kalmar, Sweden
-        details: |
-          Was involved in several projects.
-          
-          SOS-VIDEO for 112 Emergency Services - The purpose of the project was to add video capabilities to existing 112 emergency calls by sending a 
-          SMS containing a link that the caller can open to establish a video connection with the operator handling the call.
-          This was achieved using an open-source technology stack consisting of Janus as the video server, an internally developed SIP stack, and two Quarkus applications 
-          at the top of the processing flow.
-          The deployment pipeline was fully automated using GitLab, Ansible, and Docker.
+  title: Experience
+  info:
+    - role: Lead Solutions Consultant
+      show: True
+      time: 2023/05 - 2026/07
+      company: Tietoevry, Kalmar, Sweden
+      summary: Backend development in Java/Quarkus and Spring Boot for critical emergency communication flows (SOS-VIDEO for 112), integrations on AWS and an LLM-based agent prototype.
+      details: |
+        - **SOS-VIDEO for 112:** Developed, integrated and quality-assured the backend flow for video calls to 112 using Quarkus applications on top of Janus and an in-house SIP stack – a critical public-safety system with high stability requirements. Automated the deployment pipeline with GitLab CI/CD, Ansible and Docker.
+        - **AI Application Modernization POC:** Built an LLM-based agent prototype with Python, LangChain, LangGraph, Chainlit and Elasticsearch that gathers and analyses project data to suggest improvements and modernization of existing systems. Packaged with Docker Compose.
+        - **RSS (AWS):** Developed backend features for database clean-up and an API integration with the Upsales CRM in a trading application on AWS (NestJS/Node.js, GraphQL, Neo4j).
+        - **Friends MDT:** Built the backend and data model for a digital survey and reporting system with Spring Boot, Kotlin, JPA and PostgreSQL, deployed on AWS.
+        - **Driftorder:** Built a demo application with Spring Boot and Flowable (BPMN), including the Form.io integration, for customer workshops.
 
-          BPMN process runner Demo Application - A demo application for the handling BPMN processes built with Spring Boot and Flowable. I was responsible for 
-          implementing the integration with Form.io.
+        **Tech stack:** Java, Quarkus, Spring Boot, Kotlin, JPA, PostgreSQL, Neo4j, NestJS/Node.js, GraphQL, Python, LangChain, LangGraph, Elasticsearch, AWS, GitLab CI/CD, Ansible, Docker, TypeScript and Angular.
 
-          AI Application Modernization POC - AI app to assist devs.
-          gather project data, offer solutions for improvement and modernization.
-          Got a first contact with an AI project and got some hands on experience with tools like 
-          Chainlit, LangGraph, LangChain, Elasticsearch and refreshed some other
-          Docker Compose och Python.
-          
-          RSS - I worked with full-stack development for an application hosted on AWS, that is meant 
-          to support the activities of a company that works in a niche market of dealing micro-components 
-          used in different industries and objects for a profit. 
-          I have been responsible for development and maintenance. 
-          Did an integration with another system, Upsales.
-          Some of the tech stack used here involved Neo4j, Cypher, Typescript with NestJS and Angular and also 
-          got more familiar with GraphQL and the AWS stack.
+    - role: Software Developer, Payments
+      time: 2021/05 - 2023/05
+      show: True
+      company: LeoVegas, Remote-Sweden
+      summary: Built payment integrations and a fraud-prevention rule engine in Kotlin/JVM microservices on Kubernetes in Google Cloud.
+      details: |
+        - Built two card payment integrations (including Adyen and PCI Proxy) and a rule engine that selected the payment provider per market – lowering transaction costs and strengthening security and compliance by stopping unwanted and suspicious transactions.
+        - Worked in a distributed microservice architecture handling payment flows of around 30 MEUR per month; evolved the data layer with SQL/Liquibase and JPA entities together with the data team.
+        - Took part in the whole chain: analysis, implementation, code reviews, CI/CD deployment and monitoring of microservices in Marathon and Kubernetes on Google Cloud. Troubleshot with Datadog and ELK and proposed improvements to the deployment process. Also took part in technical interviews when hiring developers.
 
-          Friends MDT- Development of digital tools for the Friends foundation to assist them in 
-          their work against bullying and harassment. 
-          Includes creating a new tool for collecting, visualizing, and analyzing inquiries done in
-          schools. After the collection of the inquiries a complex report was generated. The report was 
-          bases on research meant to show the actual feeling of the children in a school.
-          The application had this stack Postgres, Neo4j, SpringBoot with Kotlin, Angular and all
-          was deployed on AWS. In the first phase of the project we experimented with VmWares Tanzu
-          platform.
+        **Tech stack:** Kotlin, in-house Spring Boot-like framework, REST, microservices, JPA, MySQL, Liquibase, Docker, Kubernetes, Marathon, Google Cloud, Datadog and the ELK stack.<br />
+        **Team:** 3–5 stream members, 30+ in the extended team.
 
-      - role: Software Developer @Payments
-        time: 2021/05 - 2023/05
-        company: Leovegas, Remote-Sweden
-        details: |
-          The team in the Payments department builds and maintains payment integrations 
-          between our core systems and different payment providers and payment methods 
-          which enables the player to deposit and withdraw his money in a smooth way. 
-          My role lies within the cards stream which deals specifically with the card 
-          payments integrations. Our aim is to lower the cost of the price per payment, 
-          expand our current payment methods and lower the fraud risk for the payments. 
-          As a member of the Card stream I was involved in building one of our integrations 
-          and the rule engine used to build rules for risk and fraud mitigation.
-          
-          Tech Stack: A microservices architecture built over an inhouse SpringBoot-ish framework 
-          over Kotlin and MySql as a database.
-          
-          Team: 3-5 stream members, 30+ extended team
-      - role: Principal Software Engineer
-        time: 2018/03 - 2021/05
-        company: Dell Financial Services, Remote-Romania
-        details: |
-          Our department’s aim is to mitigate risk when a loan is requested by a customer.
-          I am involved in building tools that help automate certain tasks in our department.
-          Built a web app that automated the monitoring and deployment of our 20+ Blaze instances 
-          by building a CI/CD pipeline with GitLab and Artifactory and Pivotal Cloud Foundry. 
-          This app increased the happiness of our colleagues in charge of the release of new versions and eased the process of monitoring
-          our instances during high season. Tech stack for this app: Angular, Groovy, Servlets, MongoDB.
-          All of this was deployed in Pivotal Cloud 
+    - role: Principal Software Engineer
+      show: True
+      time: 2018/03 - 2021/05
+      company: Dell Financial Services, Remote-Romania
+      summary: Built backend and automation tools for risk assessment, test automation and CI/CD in finance.
+      details: |
+        - Built a tool that automated monitoring and deployment of 20+ Blaze instances through CI/CD with GitLab, Artifactory and Pivotal Cloud Foundry – simplifying releases and monitoring during high season.
+        - Rewrote and improved an automated test framework so developers could verify code and system flows against expected results and catch regressions earlier.
+        - Developed an application for reviewing and verifying suspicious transactions that replaced manual Excel work and improved the quality of risk assessment.
+        - Integrated SSO with Waffle for safer login and correct authorization – took over the task when a colleague was stuck.
+        - Implemented Blaze FICO rules to reduce risk in customer loan applications.
 
-          Was involved in creating a web-app that would help our colleagues overview and verify the suspect 
-          transactions. Tech stack for this app: Angular, Groovy, Servlets, MongoDB. I rewrote and enhanced 
-          an existing automated testing framework that allows our developers to test their code against 
-          expected results.
-          Also managed to integrate SSO functionality into our webapps using Waffle.
-          The team for a project consists of team-lead and one or two developers
-          
-          Tech Stack: Groovy, MongoDB, Akka, Angular.
-          
-          Team: The team for a project consists of team-lead and one or two developers.          
-      - role: Senior Software Developer
-        time: 2015/03 - 2018/03
-        company: UniCredit Services, Bucharest
-        details: |
-          Worked on different "Pricing engines" for our Unicredit colleagues from Italy. The most 
-          important one was GPT (Global Pricing Tool) which we rewrote from a monolith build on a Java 
-          tech stack to a microservice infrastructure with Scala for the microservices, Python for 
-          the calculation engine, Hazelcast for caching data, and Angular for the frontend. We also used SBT 
-          for building the Scala microservices. We aimed to provide the users with a more pleasant experience 
-          and we fully realized that by increasing the webapps speed and resilience. The microservices were 
-          eventually deployed on Docker.
-          
-          The team for this project consisted of a technical analyst, business analyst and six developers. 
-          We worked in an Agile way.  
+        **Tech stack:** Groovy (JVM), Servlets, Akka, MongoDB, Angular, GitLab CI/CD, Artifactory and Pivotal Cloud Foundry.
 
-          For 4 months I contributed on a migration of a crucial application, BUL-Batch platform/Calculation 
-          engine to a new server infrastructure. One of the important parts of the job was integrating the application 
-          into the company’s servers and CI/CD pipelines. This involved coordinating with the team responsible for the
-          WebSphere servers, as well as the team managing the CI/CD software (Gandalf), since some of the configurations 
-          could not be done independently.
-          The tech-stack had EJB2.0, JMS, WebSphere 5 and 8. 
-          
-          I rearchitected Fund Transfer Price - Batch platform/Calculation Engine with an open-source 
-          tech-stack: Spring Batch, Spring Boot, MyBatis, Vaadin, but using the previous Teradata database. 
-          We built the CI/CD pipeline with Jenkins and used Docker for containerisation. Took it to MVP level.
-          
-          Also had a small role in Exonus project which was built with Spring Cloud infrastructure.
-      - role: Java Developer
-        time: 2011/10 - 2015/03
-        company: Intuitext/Softwin, Bucharest
-        details: |
-          I worked on different projects in eLearning area. The projects I worked on, were LMS (Learning 
-          Management Systems)/LCMS (Learning Content Management Systems). Their aim was to help students and 
-          professionals to acquire new knowledge and skills in certain areas. The platforms supported going 
-          through online courses, they could measure the progress and also assess their knowledge. There were 
-          three different kind of frameworks that I worked on, which had different tech-stacks:
-           - Hibernate, Spring, Struts 1, MySQL, BIRT, Tomcat
-           - Hibernate, Spring, Spring MVC, MySQL, JSP and jQuery, Tomcat
-           - Struts, Hibernate, MySQL, JBoss
-           - JIRA for task/ bug tracking
-           
-          We worked with a Waterfall methodology and usually 2-4 developers per project. Our progress was 
-          supervised by a team manager and a project manager. The QA department helped us with the testing.
-      - role: Java Developer
-        time: 2009/04 - 2011/08
-        company: Advantage Title Solutions, Bucharest
-        details: |
-          Developed and maintained the Title-Search Application by integrating new sites 
-          into it with the help of Http  Client API, Html Parser API, regular expressions and XML. 
-          The harvested data from the implemented site is then saved into the application\'s MySQL database, for later use.
-          The purpose of Title search app is to enable the user to gather all the data available regarding a property or a property 
-          seller in order for the selling to be as "safe" as possible in terms of risks that can affect the buyer. 
-          
-          Tech stack: GWT, Servlets, MySQL, Resin.
-          
-          Team consisted of 8 developers, 3 testers, and one dev lead.
+    - role: Senior Software Developer
+      time: 2015/03 - 2018/03
+      show: True
+      company: UniCredit Services, Bucharest
+      summary: Modernized Java monoliths into microservices and led the architecture of a Spring Boot/Spring Batch platform on Docker.
+      details: |
+        - Contributed to critical parts of GPT (Global Pricing Tool) when it was rebuilt from a Java monolith into microservices in Scala, Python (calculation engine), Hazelcast (cache) and Angular, deployed on Docker.
+        - Drove the introduction of unit tests to raise code quality during the rebuild, and led stakeholder discussions on performance and on the improved precision when BigDecimal replaced Float.
+        - Acted as **team lead and architect** for three developers on the Fund Transfer Price initiative: designed a new platform with Spring Boot, Spring Batch, MyBatis and Vaadin on top of the existing Teradata database, built CI/CD with Jenkins and deployed Docker modules on Mesos/Marathon.
+        - Migrated the BUL batch platform (EJB, JMS) to new WebSphere servers and the Gandalf CI/CD tool, removing a dependency on Tibco GRID and saving several hundred thousand dollars per year.
 
-      - role: Java Developer
-        time: 2007/06 - 2009/03
-        company: Concept Data, Bucharest
+        **Tech stack:** Java, Spring Boot, Spring Batch, MyBatis, EJB, JMS, Scala, Python, Hazelcast, Teradata, Jenkins, Docker and Mesos/Marathon.
 
-      - role: Fullstack Java Developer
-        time: 2007/02 - 2007/06
-        company: Genesys, Bucharest
+    - role: Java Developer
+      time: 2011/10 - 2015/03
+      show: True
+      company: Intuitext/Softwin, Bucharest
+      summary: Built Java web applications and learning platforms with Spring, Hibernate, PostgreSQL and MySQL.
+      details: |
+        Developed and maintained LMS, LCMS and assessment platforms for schools, professionals and banks – data modelling, persistence layers and web applications.<br />
+        **Tech stack:** Java, Spring, Spring MVC, Hibernate, Struts, JSP, PostgreSQL, MySQL, Maven, Tomcat and JBoss.
 
-      - role: Fullstack Java Developer
-        time: 2005/04 - 2007/02
-        company: INGENIO-UCS, Bucharest
-          
+    - role: Java Developer
+      show: False
+      time: 2009/04 - 2011/08
+      company: Advantage Title Solutions, Bucharest
+      summary: Built Java integrations with external websites (HTTP Client, HTML parsing, XML) with persistence in MySQL.
+
+    - role: Fullstack Java Developer
+      time: 2007/06 - 2009/03
+      show: False
+      company: Concept Data, Bucharest
+      summary: Built a Java project management platform (TasKAFE) with Spring, Hibernate, Oracle and PostgreSQL.
+
+    - role: Java Developer
+      time: 2005/04 - 2007/06
+      show: False
+      company: Genesys and INGENIO-UCS, Bucharest
+      summary: Java intranet and banking applications with Struts, JSF, JSP and Servlets; JDBC, SQL and stored procedures on Oracle and SQL Server.
+
 
 # projects:
 #     title: Projects
@@ -279,33 +185,38 @@ experiences:
 #         conference:
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Technical Skills
 
-    toolset:
-      - name: Java
-        level: 80%
-        
-      - name: Typescript
-        level: 60%
+  toolset:
+    - name: Java and JVM
+      technologies: [Java, Spring, Spring Boot, Spring Batch, Quarkus, Kotlin, Groovy, JPA/Hibernate, MyBatis, Maven]
 
-      - name: Software design
-        level: 70%
+    - name: APIs, integrations and microservices
+      technologies: [REST APIs, microservices, GraphQL, payment integrations, JMS/message-based integration, NestJS/Node.js, BPMN (Flowable)]
 
-      - name: Adaptable
-        level: 90%
+    - name: AI and LLMs
+      technologies: [LLMs, AI agents (LangGraph), LangChain, Elasticsearch, Chainlit, Python, Azure AI Engineer (AI-102), Codex, GitHub Copilot, IntelliJ AI]
 
-      - name: Creative
-        level: 80%
-      
-      - name: Open
-        level: 85%
-        
-      - name: Hard worker
-        level: 95%
-      
-      - name: Willing to learn both technically and business wise
-        level: 90%
-        
-        
+    - name: Containers, cloud and DevOps
+      technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, Google Cloud, AWS, Pivotal Cloud Foundry, Ansible]
+
+    - name: CI/CD and Git
+      technologies: [Git, GitLab CI/CD, Jenkins, Artifactory]
+
+    - name: SQL and NoSQL databases
+      technologies: [PostgreSQL, MySQL, Oracle, Teradata, MongoDB, Neo4j, Elasticsearch, Liquibase, data modelling]
+
+    - name: Quality, testing and security
+      technologies: [code review, unit testing, JUnit, Mockito, test automation, SSO, fraud prevention]
+
+    - name: Monitoring
+      technologies: [Datadog, ELK stack]
+
+    - name: Ways of working and leadership
+      technologies: [Scrum, agile teams, system architecture, technical decision-making, team leadership, coaching, knowledge sharing]
+
+    - name: Frontend
+      technologies: [TypeScript, Angular]
+
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

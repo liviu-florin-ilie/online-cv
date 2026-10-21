@@ -10,3 +10,7 @@
 {% if site.theme_skin == 'ehm' %}
 @import "ehm";
 {% endif %}
+
+{% if site.theme_skin == 'sigma' %}
+@import "sigma";
+{% endif %}
