@@ -54,7 +54,7 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Senior fullstackutvecklare med mer än 20 års erfarenhet av verksamhetskritiska system i tvärfunktionella och agila team. Min starkaste grund är Java och JVM-ekosystemet (Quarkus, Spring Boot, Kotlin, JPA/Hibernate och PostgreSQL). Jag har flerårig frontenderfarenhet av TypeScript och Angular samt containerbaserad driftsättning med Docker och Kubernetes. Jag har byggt produktionssystem för bland annat nödtjänster, finans, betalningar, e-lärande och projekthantering.
+    Senior fullstackutvecklare med mer än 20 års erfarenhet av verksamhetskritiska system i tvärfunktionella och agila team. Min starkaste grund är Java, med över tio års erfarenhet av Java/J2EE och därefter modern JVM-utveckling (Quarkus, Spring Boot, Kotlin, JPA/Hibernate och PostgreSQL). Jag har flerårig frontenderfarenhet av TypeScript och Angular samt containerbaserad driftsättning med Docker och Kubernetes. Jag har byggt produktionssystem för bland annat nödtjänster, finans, betalningar, e-lärande och projekthantering.
 
     Jag lever efter devisen "gör vad du kan, med det du har, där du är", vilket har gjort att jag fungerar i olika företagskulturer, teamupplägg och teknikstackar. Jag delar gärna med mig av kunskap, tar gemensamt ansvar för kvaliteten och går in i de roller som behövs, från felsökare när något "brinner" till arkitekt och byggare.
 
@@ -120,7 +120,7 @@ experiences:
       details: |
         - Arbetade som senior utvecklare med prismotorer för UniCredit-kollegor i Italien och bidrog i kritiska delar av GPT (Global Pricing Tool) när projektet byggdes om från Java-monolit till mikrotjänster i Scala (tjänster), Python (beräkningsmotor), Hazelcast (cache) och Angular (frontend), distribuerat på Docker.
         - Drev införandet av enhetstester i GPT för att höja kodkvaliteten och minska antalet buggar under den krävande ombyggnaden. Ledde dialoger med intressenter vid prestandaproblem och med kunden för att förklara den förbättrade precisionen när BigDecimal infördes i stället för Float.
-        - Bidrog under fyra månader till migreringen av BUL-batchplattformen/beräkningsmotorn till ny serverinfrastruktur genom att integrera applikationen mot företagets WebSphere-servrar (5 och 8) och CI/CD-verktyget Gandalf, i nära samarbete med plattformsteamen.
+        - Bidrog till migreringen av BUL-batchplattformen/beräkningsmotorn till ny serverinfrastruktur genom att integrera applikationen mot företagets WebSphere-servrar (5 och 8) och CI/CD-verktyget Gandalf, i nära samarbete med plattformsteamen.
         - Migreringen tog bort ett beroende till Tibco GRID och innebar en kostnadsminskning på flera hundratusen dollar per år.
         - Byggde en POC för Fund Transfer Price-plattformen på en öppen källkodsstack (Spring Batch, Spring Boot, MyBatis, Vaadin) ovanpå den befintliga Teradata-databasen. Byggde driftsättningspipelinen med Jenkins för Docker-moduler på Mesos/Marathon.
         - Agerade teamlead och arkitekt för tre utvecklare i Fund Transfer Price-initiativet: gav teknisk vägledning, samordnade utvecklingsarbetet och drev arkitekturella beslut tillsammans med teamet i en agil miljö.
@@ -153,7 +153,7 @@ experiences:
       time: 2007/06 - 2009/03
       show: True
       company: Concept Data, Bukarest
-      summary: Utvecklade en Java-baserad projekthanteringsplattform med Hibernate, Spring, JSF, Oracle och PostgreSQL.
+      summary: Utvecklade en Java-baserad projekthanteringsplattform med Java, Swing, Hibernate och PostgreSQL.
       details: |
         Jag utvecklade TasKAFE, en projekthanteringsapplikation med funktioner för resursallokering, tids- och kostnadsregistrering samt rapportering. Lösningen innehöll även moduler för HR, lager, redovisning och dokumenthantering.
         Arbetet omfattade datamodellering och persistens med Hibernate mot Oracle och PostgreSQL.
@@ -163,7 +163,7 @@ experiences:
       time: 2007/02 - 2007/06
       show: False
       company: Genesys, Bukarest
-      summary: Underhöll och vidareutvecklade ett internt Java-ramverk med JSF, Ajax och Microsoft SQL Server.
+      summary: Underhöll och vidareutvecklade ett internt Java-ramverk med JSF, Java och Microsoft SQL Server.
 
     - role: Fullstack-Javautvecklare
       time: 2005/04 - 2007/02
@@ -212,22 +212,19 @@ skills:
 
   toolset:
     - name: Java och objektorienterad utveckling
-      technologies: [Java, Kotlin, Groovy, Scala, objektorienterad programmering]
-
-    - name: Python och AI-verktyg
-      technologies: [Python, LangChain, LangGraph, Chainlit, Elasticsearch]
+      technologies: [Java, Kotlin, Groovy, objektorienterad programmering]
 
     - name: Mikrotjänster och backend
-      technologies: [Quarkus, Spring Boot, NestJS, REST API, GraphQL, integrationer]
+      technologies: [Quarkus, Spring Boot, NestJS, REST API, integrationer]
 
     - name: Persistens och relationsdatabaser
       technologies: [JPA, Hibernate, MyBatis, PostgreSQL, MySQL, Oracle, Teradata, MongoDB, Neo4j, Liquibase, datamodellering]
 
     - name: Frontend och fullstackutveckling
-      technologies: [TypeScript, JavaScript, Angular, HTML, CSS, React (enstaka uppgifter)]
+      technologies: [TypeScript, JavaScript, Angular, HTML, CSS]
 
     - name: Test och kvalitetssäkring
-      technologies: [testautomatisering, enhetstester, JUnit, Mockito]
+      technologies: [enhetstester, JUnit, Mockito]
 
     - name: Containrar och molnplattformar
       technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, GCP, AWS, Pivotal Cloud Foundry]
