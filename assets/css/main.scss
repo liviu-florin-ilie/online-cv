@@ -20,3 +20,7 @@
 {% if site.theme_skin == 'thalamus' %}
 @import "thalamus";
 {% endif %}
+
+{% if site.theme_skin == 'red_yellow' %}
+@import "region-kalmar";
+{% endif %}

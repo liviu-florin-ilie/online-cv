@@ -1,0 +1,45 @@
+// Region Kalmar län: red and yellow accents on white, matching the spontaneous application branch.
+$rk-red: #c8102e;
+$rk-yellow: #ffcd00;
+$rk-charcoal: #2c2a29;
+
+body.ats-layout {
+  .name { color: $rk-charcoal; }
+  .tagline { color: #565554; }
+  .resume-header { border-bottom: 5px solid $rk-red; }
+  .section-title,
+  .container-block-title {
+    color: $rk-red;
+    border-bottom: 2px solid $rk-yellow;
+  }
+  a { color: darken($rk-red, 8%); text-underline-offset: 3px; }
+  a:hover, a:focus-visible { background: $rk-yellow; color: #000; }
+  .details ul { padding-left: 18px; }
+  .details li { margin-bottom: 4px; }
+
+  .personal-letter h1 {
+    font-size: 26px;
+    line-height: 1.3;
+    color: $rk-red;
+    padding-bottom: 16px;
+    border-bottom: 5px solid $rk-yellow;
+    margin: 0 0 24px;
+  }
+  .personal-letter p { margin-bottom: 14px; }
+
+  @media screen {
+    background: #f0efed;
+    color: $rk-charcoal;
+    .wrapper, .main-wrapper { background: #fff; }
+    .wrapper { border-top: 8px solid $rk-red; }
+    .name { color: $rk-charcoal; }
+    .section-title, .container-block-title { color: $rk-red; }
+  }
+
+  @media print {
+    .resume-header { border-bottom: 3pt solid $rk-red; }
+    .section-title, .container-block-title { color: $rk-red; border-bottom: 1.5pt solid $rk-yellow; }
+    .personal-letter h1 { font-size: 17pt; padding-bottom: 8px; margin-bottom: 14px; }
+    .personal-letter p { font-size: 10.5pt; line-height: 1.4; margin-bottom: 9px; }
+  }
+}

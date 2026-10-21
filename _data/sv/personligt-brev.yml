@@ -1,18 +1,20 @@
 body: |
-  # Personligt brev – Mjukvaruarkitekt hos Thalamus
+  # Personligt brev – IT-strateg e-Hälsa, Region Kalmar län
   
-  Hej Omar och Tilda,
+  Hej,
   
-  Under mina drygt 20 år inom mjukvaruutveckling har jag ofta känt mig som både arkeolog, byggare och arkitekt. Som arkeolog undersöker jag lager av kod, beroenden och gamla beslut för att förstå varför ett system ser ut som det gör. Som byggare omsätter jag den förståelsen i fungerande lösningar. Som arkitekt behöver jag lyfta blicken, väga alternativ och skapa en riktning som håller även när verksamheten förändras. Det samspelet är en viktig anledning till att jag söker rollen som mjukvaruarkitekt hos Thalamus.
+  Min första kontakt med Region Kalmar län var 2020, när min fru rekryterades hit. Vi flyttade till Kalmar kort därefter, och redan då fick jag ett starkt intryck av en organisation som tar sitt uppdrag på allvar. När jag läser om rollen som IT-strateg e-Hälsa känner jag igen det jag helst vill arbeta med: digitalisering som gör verklig skillnad för patienter och brukare, i gränslandet mellan IT, verksamhet och regelverk.
   
-  På UniCredit fick jag under cirka sex månader arbeta som lösningsarkitekt och team lead för tre utvecklare. Uppgiften var att ta fram en POC för en ny Fund Transfer Pricing-motor som skulle ersätta en befintlig applikation. Jag analyserade kraven, utvärderade tekniska alternativ och tog fram en lösningsarkitektur. Spring Batch, Spring Boot och Vaadin blev delar av lösningen, med hänsyn till både verksamhetens behov och teamets erfarenhet. Jag deltog också i moderniseringen av Global Pricing Tool från en Java-monolit till mikrotjänster. Där blev sambandet mellan tekniska vägval, genomförbarhet och långsiktig förvaltning konkret.
+  Jag har arbetat med IT i över 20 år, främst som utvecklare och lösningsarkitekt i verksamhetskritiska miljöer. Med åren har tyngdpunkten flyttats från att bygga enskilda lösningar till att förstå helheten: vilka behov verksamheten faktiskt har, vilka parter som berörs och vad ett vägval får för konsekvenser för säkerhet, drift och förvaltning. På Tietoevry arbetade jag med SOS-VIDEO till 112 för SOS Alarm, där den hjälpsökande kan dela video med operatören under ett pågående nödsamtal. Det är ett tydligt exempel på att tekniken bara fungerar när rutiner, ansvar och samverkan mellan flera aktörer fungerar lika väl. I Friends MDT var jag med och ersatte pappersenkäter med ett digitalt verktyg, där uppgifter om elevers välmående blev forskningsbaserade rapporter och beslutsunderlag för skolor – ett arbete där hänsyn till integritet och behörigheter var lika viktig som funktionaliteten.
   
-  Min huvudsakliga yrkesbakgrund är som utvecklare, med över tio års direkt erfarenhet av Java/J2EE och fortsatt arbete inom JVM-ekosystemet med Kotlin, Groovy, Spring Boot och Quarkus. På Tietoevry i Kalmar arbetade jag med SOS-VIDEO till 112, där video läggs till ett pågående nödsamtal. Jag arbetade med integrations- och kommunikationsflöden i en lösning med bland annat Quarkus, SIP och Janus samt automatiserad driftsättning med GitLab, Ansible och Docker. Att bidra till en lösning för människor i utsatta situationer gav arbetet en tydlig mening. Därför tilltalar ert fokus på samhällsviktiga verksamheter mig särskilt.
+  Samverkan är en röd tråd i min karriär. På UniCredit ansvarade jag för att ta över en verksamhetskritisk applikation från en annan avdelning och samordnade överföringen av kunskap, rutiner och operativt ansvar. Jag var också teamlead och lösningsarkitekt för en ny Fund Transfer Price-plattform. Inom finans och spel har jag arbetat i miljöer där regelefterlevnad och riskhantering är en självklar del av varje beslut. Den erfarenheten tror jag är värdefull när riktlinjer och rutiner för e-Hälsa ska tas fram tillsammans med kommuner och privata vårdgivare.
   
-  Jag har också behövt vara detektiv och översättare: hitta kunskap hos rätt personer, förstå verksamhetens behov och göra tekniska avvägningar begripliga. Vid övertagandet av BUL-CT1 på UniCredit ansvarade jag för att samordna överföringen av teknisk kunskap och operativt ansvar från en annan avdelning. För mig börjar en hållbar förändring med att förstå det som redan finns och låta den kunskapen forma nästa steg. Jag vill skapa en gemensam förståelse i teamet och vara nära implementationen, så att arkitekturen fungerar i praktiken.
+  Min erfarenhet ligger nära vården genom larmkedjan, men jag har inte arbetat inom hälso- och sjukvården. Däremot har jag lång vana av att sätta mig in i nya verksamheter, lyssna in hur människor faktiskt arbetar och översätta mellan verksamhetens och teknikens språk. Jag dokumenterar gärna beslut och resonemang, till exempel med ADR:er, så att alternativen och skälen bakom ett vägval blir begripliga även för den som inte var med när beslutet togs. Och jag föredrar enkla, beprövade lösningar framför onödig komplexitet.
   
-  Jag bor i Kalmar och ser tjänsten som ett naturligt nästa steg, där jag kan förena min långa utvecklarerfarenhet med ett större ansvar för teknisk riktning och lösningsdesign. Jag berättar gärna mer om hur jag arbetar och hur min erfarenhet kan bidra i era uppdrag.
+  Som person är jag lugn och strukturerad. Att träna inför och genomföra en Ironman har lärt mig mycket om långsiktig planering, prioritering och uthållighet – egenskaper som behövs i ett strategiskt uppdrag där resultaten byggs upp över tid och tillsammans med många.
   
-  Vänliga hälsningar,
-  Liviu Florin Ilie
+  Jag bidrar gärna till IT-stabens arbete och till ett gott samarbete mellan regionen, kommunerna och de privata vårdgivarna, och berättar gärna mer vid ett möte.
+  
+  Vänliga hälsningar,<br>
+  Liviu Florin Ilie<br>
   Kalmar · 0767657704 · ilie.liviu@gmail.com
