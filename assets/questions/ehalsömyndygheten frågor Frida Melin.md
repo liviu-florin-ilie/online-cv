@@ -20,7 +20,7 @@ erfarenhet av Java/J2EE samt lång erfarenhet av fullstackutveckling, integratio
 ### 7. Om ja, vänligen beskriv din erfarenhet. Om nej, skriv ett x.
 
 **Svar:** Jag har över tio års direkt erfarenhet av backendutveckling i Java/J2EE och har därefter fortsatt arbeta inom
-JVM- ekosystemet med bland annat Kotlin, Groovy, Scala, Spring Boot och Quarkus. På Tietoevry (maj 2023–juli 2026)
+JVM- ekosystemet med bland annat Kotlin, Groovy, Scala, Spring Boot och Quarkus. På Tietoevry
 arbetade jag med två Quarkus-mikrotjänster i SOS-VIDEO till 112 och med Spring Boot i flera projekt, bland annat en
 BPMN- baserad demonstrationsapplikation och en digital enkät- och rapportlösning för Friends. Hos LeoVegas (2021–2023)
 arbetade jag med Kotlin i en mikrotjänstarkitektur baserad på ett internt Spring Boot-liknande ramverk. Jag har även
@@ -46,7 +46,7 @@ komponentbaserad frontendutveckling och Angular ger mig en god grund för att sn
 ### 11. Om ja, vänligen beskriv din erfarenhet. Om nej, skriv ett x.
 
 **Svar:** Jag har professionella kunskaper i svenska och använder svenska både muntligt och skriftligt i arbetslivet.
-Jag har arbetat i Sverige sedan 2021 och pluggade svenska redan från 2018. Jag kommunicerar på svenska med kollegor och
+Jag har arbetat i Sverige sedan 2021 och pluggade svenska redan från 2018. Jag kommunicerar på svenska med kollegor, kunder och
 andra intressenter i det dagliga arbetet.
 
 ### 12. Har du erfarenhet av datamodellering och persistenslager med JPA/Hibernate eller motsvarande ORM-ramverk?
@@ -59,7 +59,7 @@ andra intressenter i det dagliga arbetet.
 (2021–2023) använde jag JPA i Kotlin-baserade mikrotjänster för betalningsintegrationer med MySQL som databas, och jag
 vidareutvecklade datalagret med SQL i Liquibase samt anpassade JPA-entiteter för nya funktioner. Hos Intuitext/Softwin
 använde jag Hibernate i flera Java-baserade webbapplikationer och lärplattformar med PostgreSQL och MySQL. På Concept
-Data arbetade jag med Hibernate i en Java-baserad projekthanteringsplattform med Oracle och PostgreSQL. Jag använde även
+Data arbetade jag med Hibernate i en Java-baserad projekthanteringsplattform med PostgreSQL. Jag använde även
 MyBatis i en Spring Boot-baserad POC för Fund Transfer Price hos UniCredit.
 
 ### 14. Har du erfarenhet av PostgreSQL eller någon annan liknande relationsdatabas?
