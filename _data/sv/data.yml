@@ -54,13 +54,15 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Senior backendutvecklare med över 20 års erfarenhet av affärskritiska system, varav över tio år med Java/J2EE och därefter modern JVM-utveckling med **Java, Spring Boot, Quarkus och Kotlin**. Jag har byggt **REST API:er, integrationer och mikrotjänster** inom bland annat nödtjänster (SOS-VIDEO till 112), betalningar, finans och e-lärande, och tagit lösningar hela vägen från idé och datamodell till produktion och drift.
+    Jag är en senior backendutvecklare med över 20 års erfarenhet av affärskritiska system, varav över tio års direkt erfarenhet av Java/J2EE och fortsatt arbete inom JVM-ekosystemet med **Java, Spring Boot, Quarkus och Kotlin**. Min bakgrund omfattar **REST API:er, integrationer och mikrotjänster** inom kritisk kommunikation, betalningar, finans och e-lärande.
 
-    Jag har arbetat med containerbaserade och molnbaserade miljöer (**Docker, Kubernetes, Google Cloud, AWS**), CI/CD med GitLab och Jenkins, SQL- och NoSQL-databaser samt övervakning med Datadog och ELK. Kvalitet, säkerhet och skalbarhet har varit centrala delar av arbetet: kodgranskning, automatiserad testning, SSO, regler för bedrägeribekämpning och prestandaoptimering. Som teamlead och arkitekt har jag drivit tekniska vägval, coachat utvecklare och deltagit i rekrytering.
+    Jag har arbetat med containerbaserade och molnbaserade miljöer (**Docker, Kubernetes, Google Cloud, AWS**), CI/CD med GitLab och Jenkins, SQL- och NoSQL-databaser samt övervakning med Datadog och ELK. Arbetet har omfattat kodgranskning, automatiserad testning, SSO, regler för bedrägeribekämpning och prestandaförbättringar, i samarbete med utvecklare och andra specialistteam.
 
-    **AI är en naturlig del av mitt utvecklingsarbete.** Jag använder AI-verktyg som Codex, GitHub Copilot och IntelliJ AI för att analysera stora kodbaser, ta fram tester, felsöka, refaktorera och dokumentera – med eget ansvar för granskning och kvalitet. På Tietoevry byggde jag en LLM-baserad agentprototyp för applikationsmodernisering med Python, LangChain, LangGraph och Elasticsearch, och jag är certifierad **Microsoft Azure AI Engineer Associate (AI-102)**.
+    På UniCredit agerade jag som teamlead och lösningsarkitekt för tre utvecklare i en konceptstudie för Fund Transfer Price, där jag utvärderade teknik och bidrog till tekniska vägval. På Tietoevry arbetade jag med integrations- och kommunikationsflöden i SOS-VIDEO till 112 och deltog i utvecklingen av en LLM-baserad prototyp för applikationsmodernisering med Python, LangChain, LangGraph och Elasticsearch.
 
-    Jag lever efter devisen "gör vad du kan, med det du har, där du är" och trivs i tekniskt utmanande konsultuppdrag tillsammans med andra erfarna utvecklare. Bosatt i Kalmar och tillgänglig för tillträde snarast.
+    Jag använder AI-verktyg som Codex, GitHub Copilot och IntelliJ AI som stöd för kodanalys, testning, felsökning, refaktorering och dokumentation, med granskning och kvalitetssäkring som en del av arbetet. Jag är certifierad **Microsoft Azure AI Engineer Associate (AI-102)**.
+
+    Jag trivs med att diskutera tekniska alternativ, dela kunskap och hjälpa team att utveckla lösningar som är hållbara över tid. Bosatt i Kalmar och tillgänglig för tillträde snarast.
 
 education:
   title: Utbildning och certifiering
@@ -82,22 +84,22 @@ experiences:
       company: Tietoevry, Kalmar, Sverige
       summary: Backendutveckling i Java/Quarkus och Spring Boot för samhällskritiska kommunikationsflöden (SOS-VIDEO till 112), integrationer på AWS samt en LLM-baserad agentprototyp.
       details: |
-        - **SOS-VIDEO till 112:** Utvecklade, integrerade och kvalitetssäkrade backendflödet för videosamtal till 112 med Quarkus-applikationer ovanpå Janus och en intern SIP-stack – ett samhällskritiskt system med höga krav på stabilitet. Automatiserade driftsättningspipelinen med GitLab CI/CD, Ansible och Docker.
-        - **AI Application Modernization POC:** Byggde en LLM-baserad agentprototyp med Python, LangChain, LangGraph, Chainlit och Elasticsearch som samlar in och analyserar projektdata för att föreslå förbättringar och modernisering av befintliga system. Paketerat med Docker Compose.
-        - **RSS (AWS):** Utvecklade backendfunktionalitet för databastrensning och en API-integration mot CRM-systemet Upsales i en handelsapplikation på AWS (NestJS/Node.js, GraphQL, Neo4j).
-        - **Friends MDT:** Byggde backend och datamodell för ett digitalt enkät- och rapportsystem med Spring Boot, Kotlin, JPA och PostgreSQL, driftsatt på AWS.
-        - **Driftorder:** Tog fram en demoapplikation med Spring Boot och Flowable (BPMN) inklusive integration mot Form.io för kunddialoger.
+        - **SOS-VIDEO till 112:** Bidrog till backendutveckling, integration och kvalitetssäkring av flödet för videosamtal till 112 med Quarkus-applikationer ovanpå Janus och en intern SIP-stack – ett samhällskritiskt system med höga krav på stabilitet. Driftsättningspipelinen automatiserades med GitLab CI/CD och Docker.
+        - **AI Application Modernization POC:** Deltog i utvecklingen av en LLM-baserad agentprototyp med Python, LangChain, LangGraph, Chainlit och Elasticsearch som samlar in och analyserar projektdata för att föreslå förbättringar och modernisering av befintliga system. Paketerat med Docker Compose.
+        - **RSS (AWS):** Arbetade med backendfunktionalitet för databastrensning och en API-integration mot CRM-systemet Upsales i en handelsapplikation på AWS (NestJS/Node.js, GraphQL, Neo4j).
+        - **Friends MDT:** Bidrog till backendutveckling och datamodellering för ett digitalt enkät- och rapportsystem med Spring Boot, Kotlin, JPA och PostgreSQL, driftsatt på AWS.
+        - **Driftorder:** Arbetade med en demoapplikation med Spring Boot och Flowable (BPMN) och utvecklade integrationen mot Form.io för kunddialoger.
 
-        **Teknikstack:** Java, Quarkus, Spring Boot, Kotlin, JPA, PostgreSQL, Neo4j, NestJS/Node.js, GraphQL, Python, LangChain, LangGraph, Elasticsearch, AWS, GitLab CI/CD, Ansible, Docker, TypeScript och Angular.
+        **Teknikstack:** Java, Quarkus, Spring Boot, Kotlin, JPA, PostgreSQL, Neo4j, NestJS/Node.js, GraphQL, Python, LangChain, LangGraph, Elasticsearch, AWS, GitLab CI/CD, Docker, TypeScript och Angular.
 
     - role: Systemutvecklare, Payments
       time: 2021/05 - 2023/05
       show: True
       company: LeoVegas, Remote-Sverige
-      summary: Utvecklade betalningsintegrationer och en regelmotor för bedrägeribekämpning i Kotlin/JVM-mikrotjänster på Kubernetes i Google Cloud.
+      summary: Bidrog till betalningsintegrationer och en regelmotor för bedrägeribekämpning i Kotlin/JVM-mikrotjänster på Kubernetes i Google Cloud.
       details: |
-        - Byggde två kortbetalningsintegrationer (bl.a. Adyen och PCI Proxy) och en regelmotor som valde betalningsleverantör per marknad – sänkte transaktionskostnaderna, stärkte säkerheten och regelefterlevnaden genom att stoppa oönskade och misstänkta transaktioner.
-        - Arbetade i en distribuerad mikrotjänstarkitektur som hanterade betalflöden på cirka 30 MEUR per månad; vidareutvecklade datalagret med SQL/Liquibase och JPA-entiteter tillsammans med datainsamlingsteamet.
+        - Bidrog som medlem i kortbetalningsteamet till två kortbetalningsintegrationer (bl.a. Adyen) och en regelmotor för val av betalningsleverantör samt risk- och bedrägeribekämpning. Teamets mål var att sänka transaktionskostnaderna, utöka betalningsalternativen och minska risken för betalningsbedrägerier.
+        - Arbetade i en distribuerad mikrotjänstarkitektur som hanterade betalflöden på cirka 30 MEUR per månad; samarbetade med datainsamlingsteamet för att lagra och förmedla de fält som behövdes för deras datainsamling.
         - Deltog i hela kedjan: analys, implementation, kodgranskning (PR reviews), CI/CD-driftsättning och övervakning av mikrotjänster i Marathon och Kubernetes på Google Cloud. Felsökte med Datadog och ELK och föreslog förbättringar av driftsättningsprocessen. Deltog även i tekniska intervjuer vid rekrytering av utvecklare.
 
         **Teknikstack:** Kotlin, Spring Boot-liknande internt ramverk, REST, mikrotjänster, JPA, MySQL, Liquibase, Docker, Kubernetes, Marathon, Google Cloud, Datadog och ELK-stacken.<br />
@@ -107,12 +109,12 @@ experiences:
       show: True
       time: 2018/03 - 2021/05
       company: Dell Financial Services, Remote-Rumänien
-      summary: Utvecklade backend- och automationsverktyg för riskbedömning, testautomatisering och CI/CD inom finans.
+      summary: Bidrog till utveckling av backend- och automationsverktyg för riskbedömning, testautomatisering och CI/CD inom finans.
       details: |
-        - Byggde ett verktyg som automatiserade övervakning och driftsättning av 20+ Blaze-instanser via CI/CD med GitLab, Artifactory och Pivotal Cloud Foundry – förenklade releaser och övervakning under högsäsong.
+        - Bidrog till ett verktyg som automatiserade övervakning och driftsättning av 20+ Blaze-instanser via CI/CD med GitLab, Artifactory och Pivotal Cloud Foundry – förenklade releaser och övervakning under högsäsong.
         - Skrev om och förbättrade ett automatiserat testramverk så att utvecklare kunde verifiera kod och systemflöden mot förväntade utfall och upptäcka regressioner tidigare.
-        - Utvecklade en applikation för granskning och verifiering av misstänkta transaktioner som ersatte manuellt arbete i Excel och förbättrade kvaliteten i riskbedömningen.
-        - Integrerade SSO med Waffle för säkrare inloggning och korrekt behörighetsstyrning – tog över uppgiften när en kollega inte kom vidare.
+        - Deltog i utvecklingen av en applikation för granskning och verifiering av misstänkta transaktioner som ersatte manuellt arbete i Excel och förbättrade kvaliteten i riskbedömningen.
+        - Integrerade SSO med Waffle för säkrare inloggning och korrekt behörighetsstyrning.
         - Implementerade Blaze FICO-regler för att minska risken vid kunders låneansökningar.
 
         **Teknikstack:** Groovy (JVM), Servlets, Akka, MongoDB, Angular, GitLab CI/CD, Artifactory och Pivotal Cloud Foundry.
@@ -121,14 +123,14 @@ experiences:
       time: 2015/03 - 2018/03
       show: True
       company: UniCredit Services, Bukarest
-      summary: Moderniserade Java-monoliter till mikrotjänster och ledde arkitekturen för en Spring Boot/Spring Batch-plattform på Docker.
+      summary: Bidrog till modernisering av pris- och batchplattformar och agerade teamlead och arkitekt för en konceptstudie med Spring Boot/Spring Batch.
       details: |
-        - Bidrog i kritiska delar av GPT (Global Pricing Tool) när det byggdes om från Java-monolit till mikrotjänster i Scala, Python (beräkningsmotor), Hazelcast (cache) och Angular, distribuerat på Docker.
-        - Drev införandet av enhetstester för att höja kodkvaliteten under ombyggnaden, och ledde dialoger med intressenter kring prestanda och den förbättrade precisionen när BigDecimal ersatte Float.
-        - Agerade **teamlead och arkitekt** för tre utvecklare i Fund Transfer Price-initiativet: designade en ny plattform med Spring Boot, Spring Batch, MyBatis och Vaadin ovanpå befintlig Teradata, byggde CI/CD med Jenkins och driftsatte Docker-moduler på Mesos/Marathon.
-        - Migrerade BUL-batchplattformen (EJB, JMS) till nya WebSphere-servrar och CI/CD-verktyget Gandalf, vilket tog bort ett beroende till Tibco GRID och sparade flera hundratusen dollar per år.
+        - Bidrog till moderniseringen av GPT (Global Pricing Tool) när det byggdes om från Java-monolit till mikrotjänster i Scala, Python (beräkningsmotor), Hazelcast (cache) och Angular, distribuerat på Docker. I GPT-projektet användes även Mesos och Jenkins.
+        - Arbetade tillsammans med teamet med införandet av enhetstester under ombyggnaden och deltog i dialoger med intressenter kring prestanda och den förbättrade precisionen när BigDecimal ersatte Float.
+        - Agerade **teamlead och arkitekt** för tre utvecklare i Fund Transfer Price-initiativet: utvärderade teknik och tog fram en POC med Spring Boot, Spring Batch, MyBatis och Vaadin ovanpå befintlig Teradata. Arbetet omfattade även CI/CD med Jenkins.
+        - Bidrog till migreringen av BUL-batchplattformen (EJB, JMS) till nya WebSphere-servrar och integrationen med CI/CD-verktyget Gandalf, i samarbete med infrastruktur- och CI/CD-teamen.
 
-        **Teknikstack:** Java, Spring Boot, Spring Batch, MyBatis, EJB, JMS, Scala, Python, Hazelcast, Teradata, Jenkins, Docker och Mesos/Marathon.
+        **Teknikstack:** Java, Spring Boot, Spring Batch, MyBatis, EJB, JMS, Scala, Python, Hazelcast, Teradata, Jenkins, Docker och Mesos.
 
     - role: Javautvecklare
       time: 2011/10 - 2015/03
@@ -136,7 +138,7 @@ experiences:
       company: Intuitext/Softwin, Bukarest
       summary: Utvecklade Java-baserade webbapplikationer och lärplattformar med Spring, Hibernate, PostgreSQL och MySQL.
       details: |
-        Utvecklade och underhöll LMS-, LCMS- och utvärderingsplattformar för skolor, yrkesverksamma och banker – datamodellering, persistenslager och webbapplikationer.<br />
+        Arbetade med utveckling och underhåll av LMS-, LCMS- och utvärderingsplattformar för skolor, yrkesverksamma och banker – datamodellering, persistenslager och webbapplikationer.<br />
         **Teknikstack:** Java, Spring, Spring MVC, Hibernate, Struts, JSP, PostgreSQL, MySQL, Maven, Tomcat och JBoss.
 
     - role: Javautvecklare
@@ -149,7 +151,7 @@ experiences:
       time: 2007/06 - 2009/03
       show: False
       company: Concept Data, Bukarest
-      summary: Utvecklade en Java-baserad projekthanteringsplattform (TasKAFE) med Spring, Hibernate, Oracle och PostgreSQL.
+      summary: Bidrog till utvecklingen av en Java-baserad projekthanteringsplattform (TasKAFE) med Spring, Hibernate, Oracle och PostgreSQL.
 
     - role: Javautvecklare
       time: 2005/04 - 2007/06
@@ -207,7 +209,7 @@ skills:
       technologies: [LLM, AI-agenter (LangGraph), LangChain, Elasticsearch, Chainlit, Python, Azure AI Engineer (AI-102), Codex, GitHub Copilot, IntelliJ AI]
 
     - name: Containrar, moln och DevOps
-      technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, Google Cloud, AWS, Pivotal Cloud Foundry, Ansible]
+      technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, Google Cloud, AWS, Pivotal Cloud Foundry]
 
     - name: CI/CD och Git
       technologies: [Git, GitLab CI/CD, Jenkins, Artifactory]

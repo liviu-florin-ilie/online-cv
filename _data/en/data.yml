@@ -46,13 +46,15 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Senior backend developer with 20+ years of experience building business-critical systems, including more than ten years of Java/J2EE followed by modern JVM development with **Java, Spring Boot, Quarkus and Kotlin**. I have built **REST APIs, integrations and microservices** for emergency services (SOS-VIDEO for 112), payments, finance and e-learning, taking solutions all the way from idea and data model to production and operations.
+    I am a senior backend developer with more than 20 years of experience in business-critical systems, including over ten years of direct Java/J2EE experience and continued work in the JVM ecosystem with **Java, Spring Boot, Quarkus and Kotlin**. My background includes **REST APIs, integrations and microservices** in emergency communication, payments, finance and e-learning.
 
-    I have worked in container-based and cloud environments (**Docker, Kubernetes, Google Cloud, AWS**), with CI/CD in GitLab and Jenkins, SQL and NoSQL databases, and monitoring with Datadog and ELK. Quality, security and scalability have been central to my work: code reviews, test automation, SSO, fraud-prevention rules and performance tuning. As team lead and architect I have driven technical decisions, coached developers and taken part in hiring.
+    I have worked with container-based and cloud environments (**Docker, Kubernetes, Google Cloud, AWS**), CI/CD with GitLab and Jenkins, SQL and NoSQL databases, and monitoring with Datadog and ELK. The work has included code reviews, test automation, SSO, fraud-prevention rules and performance improvements, in collaboration with developers and other specialist teams.
 
-    **AI is a natural part of how I develop software.** I use AI tools such as Codex, GitHub Copilot and IntelliJ AI to analyse large codebases, write tests, debug, refactor and document – while owning the review and the quality of the result. At Tietoevry I built an LLM-based agent prototype for application modernization with Python, LangChain, LangGraph and Elasticsearch, and I am a certified **Microsoft Azure AI Engineer Associate (AI-102)**.
+    At UniCredit, I acted as team lead and solution architect for three developers on the Fund Transfer Price proof of concept, evaluating technology and contributing to technical decisions. At Tietoevry, I worked on integration and communication flows in SOS-VIDEO for 112 and participated in an LLM-based application modernization prototype using Python, LangChain, LangGraph and Elasticsearch.
 
-    I live by the motto "do what you can, with what you have, where you are" and enjoy technically challenging consulting assignments alongside other experienced developers. Based in Kalmar and available to start immediately.
+    I use AI tools such as Codex, GitHub Copilot and IntelliJ AI to support code analysis, testing, debugging, refactoring and documentation, with review and quality assurance as part of the process. I am a certified **Microsoft Azure AI Engineer Associate (AI-102)**.
+
+    I enjoy discussing technical alternatives, sharing knowledge and helping teams develop maintainable solutions. Based in Kalmar and available to start immediately.
 
 education:
   title: Education and Certification
@@ -74,22 +76,22 @@ experiences:
       company: Tietoevry, Kalmar, Sweden
       summary: Backend development in Java/Quarkus and Spring Boot for critical emergency communication flows (SOS-VIDEO for 112), integrations on AWS and an LLM-based agent prototype.
       details: |
-        - **SOS-VIDEO for 112:** Developed, integrated and quality-assured the backend flow for video calls to 112 using Quarkus applications on top of Janus and an in-house SIP stack – a critical public-safety system with high stability requirements. Automated the deployment pipeline with GitLab CI/CD, Ansible and Docker.
-        - **AI Application Modernization POC:** Built an LLM-based agent prototype with Python, LangChain, LangGraph, Chainlit and Elasticsearch that gathers and analyses project data to suggest improvements and modernization of existing systems. Packaged with Docker Compose.
-        - **RSS (AWS):** Developed backend features for database clean-up and an API integration with the Upsales CRM in a trading application on AWS (NestJS/Node.js, GraphQL, Neo4j).
-        - **Friends MDT:** Built the backend and data model for a digital survey and reporting system with Spring Boot, Kotlin, JPA and PostgreSQL, deployed on AWS.
-        - **Driftorder:** Built a demo application with Spring Boot and Flowable (BPMN), including the Form.io integration, for customer workshops.
+        - **SOS-VIDEO for 112:** Contributed to backend development, integration and quality assurance of the flow for video calls to 112 using Quarkus applications on top of Janus and an in-house SIP stack – a critical public-safety system with high stability requirements. The deployment pipeline was automated with GitLab CI/CD and Docker.
+        - **AI Application Modernization POC:** Participated in developing an LLM-based agent prototype with Python, LangChain, LangGraph, Chainlit and Elasticsearch that gathers and analyses project data to suggest improvements and modernization of existing systems. Packaged with Docker Compose.
+        - **RSS (AWS):** Worked on backend features for database clean-up and an API integration with the Upsales CRM in a trading application on AWS (NestJS/Node.js, GraphQL, Neo4j).
+        - **Friends MDT:** Contributed to backend development and data modelling for a digital survey and reporting system with Spring Boot, Kotlin, JPA and PostgreSQL, deployed on AWS.
+        - **Driftorder:** Worked on a demo application with Spring Boot and Flowable (BPMN), developing the Form.io integration for customer workshops.
 
-        **Tech stack:** Java, Quarkus, Spring Boot, Kotlin, JPA, PostgreSQL, Neo4j, NestJS/Node.js, GraphQL, Python, LangChain, LangGraph, Elasticsearch, AWS, GitLab CI/CD, Ansible, Docker, TypeScript and Angular.
+        **Tech stack:** Java, Quarkus, Spring Boot, Kotlin, JPA, PostgreSQL, Neo4j, NestJS/Node.js, GraphQL, Python, LangChain, LangGraph, Elasticsearch, AWS, GitLab CI/CD, Docker, TypeScript and Angular.
 
     - role: Software Developer, Payments
       time: 2021/05 - 2023/05
       show: True
       company: LeoVegas, Remote-Sweden
-      summary: Built payment integrations and a fraud-prevention rule engine in Kotlin/JVM microservices on Kubernetes in Google Cloud.
+      summary: Contributed to payment integrations and a fraud-prevention rule engine in Kotlin/JVM microservices on Kubernetes in Google Cloud.
       details: |
-        - Built two card payment integrations (including Adyen and PCI Proxy) and a rule engine that selected the payment provider per market – lowering transaction costs and strengthening security and compliance by stopping unwanted and suspicious transactions.
-        - Worked in a distributed microservice architecture handling payment flows of around 30 MEUR per month; evolved the data layer with SQL/Liquibase and JPA entities together with the data team.
+        - As part of the card stream, contributed to two card payment integrations (including Adyen) and a rule engine for payment-provider selection and risk and fraud prevention. The team aimed to lower transaction costs, expand payment options and reduce payment fraud.
+        - Worked in a distributed microservice architecture handling payment flows of around 30 MEUR per month; collaborated with the data collection team to store and communicate the fields they needed for data collection.
         - Took part in the whole chain: analysis, implementation, code reviews, CI/CD deployment and monitoring of microservices in Marathon and Kubernetes on Google Cloud. Troubleshot with Datadog and ELK and proposed improvements to the deployment process. Also took part in technical interviews when hiring developers.
 
         **Tech stack:** Kotlin, in-house Spring Boot-like framework, REST, microservices, JPA, MySQL, Liquibase, Docker, Kubernetes, Marathon, Google Cloud, Datadog and the ELK stack.<br />
@@ -99,12 +101,12 @@ experiences:
       show: True
       time: 2018/03 - 2021/05
       company: Dell Financial Services, Remote-Romania
-      summary: Built backend and automation tools for risk assessment, test automation and CI/CD in finance.
+      summary: Contributed to backend and automation tools for risk assessment, test automation and CI/CD in finance.
       details: |
-        - Built a tool that automated monitoring and deployment of 20+ Blaze instances through CI/CD with GitLab, Artifactory and Pivotal Cloud Foundry – simplifying releases and monitoring during high season.
+        - Contributed to a tool that automated monitoring and deployment of 20+ Blaze instances through CI/CD with GitLab, Artifactory and Pivotal Cloud Foundry – simplifying releases and monitoring during high season.
         - Rewrote and improved an automated test framework so developers could verify code and system flows against expected results and catch regressions earlier.
-        - Developed an application for reviewing and verifying suspicious transactions that replaced manual Excel work and improved the quality of risk assessment.
-        - Integrated SSO with Waffle for safer login and correct authorization – took over the task when a colleague was stuck.
+        - Participated in developing an application for reviewing and verifying suspicious transactions that replaced manual Excel work and improved the quality of risk assessment.
+        - Integrated SSO with Waffle for safer login and correct authorization.
         - Implemented Blaze FICO rules to reduce risk in customer loan applications.
 
         **Tech stack:** Groovy (JVM), Servlets, Akka, MongoDB, Angular, GitLab CI/CD, Artifactory and Pivotal Cloud Foundry.
@@ -113,22 +115,22 @@ experiences:
       time: 2015/03 - 2018/03
       show: True
       company: UniCredit Services, Bucharest
-      summary: Modernized Java monoliths into microservices and led the architecture of a Spring Boot/Spring Batch platform on Docker.
+      summary: Contributed to pricing and batch platform modernization and acted as team lead and architect for a Spring Boot/Spring Batch proof of concept.
       details: |
-        - Contributed to critical parts of GPT (Global Pricing Tool) when it was rebuilt from a Java monolith into microservices in Scala, Python (calculation engine), Hazelcast (cache) and Angular, deployed on Docker.
-        - Drove the introduction of unit tests to raise code quality during the rebuild, and led stakeholder discussions on performance and on the improved precision when BigDecimal replaced Float.
-        - Acted as **team lead and architect** for three developers on the Fund Transfer Price initiative: designed a new platform with Spring Boot, Spring Batch, MyBatis and Vaadin on top of the existing Teradata database, built CI/CD with Jenkins and deployed Docker modules on Mesos/Marathon.
-        - Migrated the BUL batch platform (EJB, JMS) to new WebSphere servers and the Gandalf CI/CD tool, removing a dependency on Tibco GRID and saving several hundred thousand dollars per year.
+        - Contributed to the modernization of GPT (Global Pricing Tool) when it was rebuilt from a Java monolith into microservices in Scala, Python (calculation engine), Hazelcast (cache) and Angular, deployed on Docker. The GPT project also used Mesos and Jenkins.
+        - Worked with the team to introduce unit tests during the rebuild and took part in stakeholder discussions on performance and on the improved precision when BigDecimal replaced Float.
+        - Acted as **team lead and architect** for three developers on the Fund Transfer Price initiative: evaluated technology and developed a proof of concept with Spring Boot, Spring Batch, MyBatis and Vaadin on top of the existing Teradata database. The work also included CI/CD with Jenkins.
+        - Contributed to migrating the BUL batch platform (EJB, JMS) to new WebSphere servers and integrating it with the Gandalf CI/CD tool, in collaboration with the infrastructure and CI/CD teams.
 
-        **Tech stack:** Java, Spring Boot, Spring Batch, MyBatis, EJB, JMS, Scala, Python, Hazelcast, Teradata, Jenkins, Docker and Mesos/Marathon.
+        **Tech stack:** Java, Spring Boot, Spring Batch, MyBatis, EJB, JMS, Scala, Python, Hazelcast, Teradata, Jenkins, Docker and Mesos.
 
     - role: Java Developer
       time: 2011/10 - 2015/03
       show: True
       company: Intuitext/Softwin, Bucharest
-      summary: Built Java web applications and learning platforms with Spring, Hibernate, PostgreSQL and MySQL.
+      summary: Developed and maintained Java web applications and learning platforms with Spring, Hibernate, PostgreSQL and MySQL.
       details: |
-        Developed and maintained LMS, LCMS and assessment platforms for schools, professionals and banks – data modelling, persistence layers and web applications.<br />
+        Worked on the development and maintenance of LMS, LCMS and assessment platforms for schools, professionals and banks – data modelling, persistence layers and web applications.<br />
         **Tech stack:** Java, Spring, Spring MVC, Hibernate, Struts, JSP, PostgreSQL, MySQL, Maven, Tomcat and JBoss.
 
     - role: Java Developer
@@ -141,7 +143,7 @@ experiences:
       time: 2007/06 - 2009/03
       show: False
       company: Concept Data, Bucharest
-      summary: Built a Java project management platform (TasKAFE) with Spring, Hibernate, Oracle and PostgreSQL.
+      summary: Contributed to a Java project management platform (TasKAFE) with Spring, Hibernate, Oracle and PostgreSQL.
 
     - role: Java Developer
       time: 2005/04 - 2007/06
@@ -198,7 +200,7 @@ skills:
       technologies: [LLMs, AI agents (LangGraph), LangChain, Elasticsearch, Chainlit, Python, Azure AI Engineer (AI-102), Codex, GitHub Copilot, IntelliJ AI]
 
     - name: Containers, cloud and DevOps
-      technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, Google Cloud, AWS, Pivotal Cloud Foundry, Ansible]
+      technologies: [Docker, Docker Compose, Kubernetes, Mesos/Marathon, Google Cloud, AWS, Pivotal Cloud Foundry]
 
     - name: CI/CD and Git
       technologies: [Git, GitLab CI/CD, Jenkins, Artifactory]

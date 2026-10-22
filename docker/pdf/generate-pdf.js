@@ -21,10 +21,15 @@ if (!["dark", "light"].includes(theme)) {
 // A4 at 96 dpi is 794 px wide. Print at scale 1 so body text ends up around 10 pt
 // (the previous 0.48 scale produced 5 pt text); 13.5 px is about 10 pt.
 // BEGIN pdf-css
-const pdfCss = `
-  html { background: ${theme === "light" ? "#fff" : "#16171b"} !important; }
+// Skins with a white main column (e.g. sigma) take page + header colours from the skin itself,
+// so the dark E-hälsomyndigheten background never shows below the content.
+const pdfCss = (skin) => `
+  html { background: ${skin.lightMain ? "#fff" : theme === "light" ? "#fff" : "#16171b"} !important; }
   body { padding: 0 !important; margin: 0 !important; }
   .wrapper { display: block !important; width: 794px !important; max-width: 794px !important; margin: 0 !important; box-shadow: none !important; }
+  /* Screen styles include an empty website footer with 30px top padding.
+     Keep it out of PDF pagination so it cannot create a blank final page. */
+  footer { display: none !important; }
   .main-wrapper { padding: 20px 32px 8px !important; }
   .main-wrapper .section { margin-bottom: 22px !important; }
   .main-wrapper, .main-wrapper .details li, .skillset .skill-group { font-size: 13.5px !important; }
@@ -38,8 +43,8 @@ const pdfCss = `
     grid-template-columns: 175px 1.15fr 1fr 0.8fr;
     grid-template-areas: "profile contact edu lang" "profile contact edu int";
     align-items: start;
-    background: ${theme === "light" ? "#f1f2f6" : "#1e222e"} !important;
-    border-bottom: 3px solid ${theme === "light" ? "#171c26" : "#f0f45b"};
+    background: ${skin.lightMain ? skin.bandBg : theme === "light" ? "#f1f2f6" : "#1e222e"} !important;
+    border-bottom: 3px solid ${skin.lightMain ? skin.accent : theme === "light" ? "#171c26" : "#f0f45b"};
     padding: 14px 20px 10px;
   }
   .sidebar-wrapper .profile-container { grid-area: profile; background: transparent !important; border: 0 !important; padding: 0 !important; text-align: left !important; }
@@ -142,11 +147,22 @@ async function openWithRetry(page, attempts = 30) {
     await openWithRetry(page);
     await page.evaluate(() => document.fonts.ready);
     await page.emulateMedia({ media: "screen" });
+    const skin = await page.evaluate(() => {
+      const css = (sel, prop) => {
+        const el = document.querySelector(sel);
+        return el ? getComputedStyle(el)[prop] : "";
+      };
+      return {
+        lightMain: css(".main-wrapper", "backgroundColor") === "rgb(255, 255, 255)",
+        bandBg: css(".sidebar-wrapper", "backgroundColor"),
+        accent: css(".sidebar-wrapper .profile-container", "borderBottomColor"),
+      };
+    });
     if (theme === "light") {
       await page.evaluate(() => document.body.classList.add("theme-light"));
     }
     await page.evaluate(compactCv, language);
-    await page.addStyleTag({ content: pdfCss });
+    await page.addStyleTag({ content: pdfCss(skin) });
 
     await page.pdf({
       path: output,
