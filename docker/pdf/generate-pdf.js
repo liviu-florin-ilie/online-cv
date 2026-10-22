@@ -34,7 +34,11 @@ const pdfCss = (skin) => `
   .main-wrapper .section { margin-bottom: 22px !important; }
   .main-wrapper, .main-wrapper .details li, .skillset .skill-group { font-size: 13.5px !important; }
   .main-wrapper .details li { line-height: 1.5 !important; margin-bottom: 4px !important; }
-  .main-wrapper .item, .skillset .item { break-inside: avoid; }
+  /* Let long roles continue on the next page without leaving half a page empty.
+     Keep individual bullets and role headings together. */
+  .main-wrapper .experiences-section .item { break-inside: auto; margin-bottom: 20px !important; }
+  .main-wrapper .details li, .skillset .item { break-inside: avoid; }
+  .main-wrapper .upper-row, .main-wrapper .company { break-after: avoid; }
   .main-wrapper .section-title { break-after: avoid; }
 
   /* 1) Sidebar becomes a compact header band across the top of page 1 */
@@ -64,7 +68,7 @@ const pdfCss = (skin) => `
   .sidebar-wrapper .interests-list li, .sidebar-wrapper .languages-list li { margin-bottom: 3px !important; }
 
   /* 2) Skills as two compact columns; per-role tech-stack lines are removed in compactCv() */
-  .skillset { column-count: 2; column-gap: 28px; }
+  .skillset { display: block !important; column-count: 2; column-gap: 28px; }
   .skillset .item { margin: 0 0 6px !important; overflow: visible !important; break-inside: avoid; }
   .skillset .skill-group-title, .skillset .skill-group { display: inline !important; font-size: 12.5px !important; margin: 0 !important; line-height: 1.45; }
   .skillset .skill-group-title::after { content: ": "; }
