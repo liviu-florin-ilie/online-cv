@@ -18,12 +18,10 @@ sidebar:
   citizenship: Rumänsk (EU-medborgare)
   linkedin: liviu-florin-i-a094367/
   xing:
-  github: liviu-florin-ilie
   telegram:
   gitlab:
   bitbucket:
   twitter:
-  stack-overflow: 2285846/liviu-florin-ilie
   codewars:
   goodreads:
 #  pdf:
@@ -57,15 +55,11 @@ sidebar:
 career-profile:
   title: Karriärprofil
   summary: |
-    Jag har över 20 års erfarenhet av att utveckla, integrera och förvalta verksamhetskritiska IT-system. Med åren har tyngdpunkten flyttats från enskilda lösningar till helheten: att förstå verksamhetens behov, väga tekniska alternativ och göra avvägningarna begripliga för både verksamhet och teknik.
+    Jag har över 20 års erfarenhet av att utveckla, integrera och förvalta verksamhetskritiska IT-system. Jag har även haft uppdrag som teamlead och lösningsarkitekt. Min styrka är att förstå verksamhetens behov, tydliggöra beroenden och göra tekniska avvägningar begripliga för olika intressenter.
 
-    Min närmaste erfarenhet av vårdnära och samhällsviktig IT kommer från Tietoevry, där jag arbetade med **SOS-VIDEO till 112** för SOS Alarm – en lösning där den hjälpsökande kan dela video med operatören under ett pågående nödsamtal. Där är tillgänglighet, säkerhet, tydliga rutiner och samverkan mellan flera aktörer en förutsättning. I **Friends MDT** var jag med och ersatte pappersenkäter med ett digitalt verktyg, där uppgifter om elevers välmående omsattes i forskningsbaserade rapporter som beslutsunderlag för skolor.
+    På Tietoevry arbetade jag med **SOS-VIDEO till 112 för SOS Alarm** och digitala beslutsunderlag för Friends. På UniCredit samordnade jag ett applikationsövertagande mellan avdelningar och arbetade med lösningsarkitektur och modernisering. Jag har också utvecklat betalnings- och risklösningar i reglerade verksamheter.
 
-    Samverkan är en röd tråd i min karriär. På UniCredit samordnade jag övertagandet av en verksamhetskritisk applikation från en annan avdelning – kunskap, rutiner och operativt ansvar – och var teamlead och lösningsarkitekt för en ny Fund Transfer Price-plattform. Inom finans och spel (Dell Financial Services, LeoVegas) har jag arbetat i reglerade miljöer där regelefterlevnad och riskhantering är en del av varje beslut.
-
-    Jag trivs i roller med många samverkansytor. Jag lyssnar in hur verksamheten faktiskt arbetar, planerar och prioriterar strukturerat och dokumenterar beslut och resonemang (bl.a. med ADR:er) så att de håller över tid. Jag föredrar enkla, beprövade lösningar framför onödig komplexitet.
-
-    Bosatt i Kalmar sedan 2020 och tillgänglig för tillträde snarast.
+    Jag vill bidra med teknisk förståelse, strukturerat arbetssätt och erfarenhet av samverkan i Region Kalmar läns arbete med e-Hälsa. Bosatt i Kalmar sedan 2020 och tillgänglig för tillträde snarast.
 
 education:
   title: Utbildning
@@ -91,7 +85,7 @@ experiences:
       company: Tietoevry, Kalmar
       summary: Lösningar för samhällsviktig verksamhet, bl.a. SOS-VIDEO till 112 för SOS Alarm, med fokus på integrationer, verksamhetsprocesser och helhet.
       details: |
-        - **SOS-VIDEO till 112 (SOS Alarm):** Utvecklade och integrerade videoflödet som låter den hjälpsökande dela video med operatören under ett pågående nödsamtal. Lösningen krävde samordning av flera komponenter och parter (Janus, intern SIP-stack, Quarkus-applikationer) samt hög tillgänglighet och säkerhet. Driftsättningen automatiserades och gjordes spårbar med GitLab, Ansible och Docker.
+        - **SOS-VIDEO till 112 (SOS Alarm):** Utvecklade och integrerade videoflödet som låter den hjälpsökande dela video med operatören under ett pågående nödsamtal. Arbetade med integrationer mellan lösningens video- och telefonikomponenter, med fokus på ett sammanhängande kommunikationsflöde. Driftsättningen automatiserades och gjordes spårbar med GitLab, Ansible och Docker.
         - **Friends MDT:** Digitalt enkätverktyg för Friends arbete mot mobbning och kränkningar. Ersatte pappersenkäter och kompletterades med en forskningsbaserad rapport som gav skolor bättre beslutsunderlag kring elevers välmående. Identitets- och behörighetshantering med Amazon Cognito.
         - **Driftorder:** Tog fram en demoapplikation för en BPMN-modellerad verksamhetsprocess (Spring Boot, Flowable, Form.io) som användes i kunddialoger för att konkretisera hur processen kan stödjas digitalt.
         - **RSS:** Integration mot Upsales som förenklade säljarnas och köparnas dagliga arbete i en handelsapplikation på AWS.
@@ -105,7 +99,7 @@ experiences:
       company: LeoVegas, distans
       summary: Betalningsintegrationer och regelmotor för risk- och bedrägeribekämpning i en reglerad verksamhet.
       details: |
-        - Byggde två kortbetalningsintegrationer och en regelmotor som valde betalningsleverantör per marknad, sänkte transaktionskostnaderna och stärkte regelefterlevnaden, bland annat genom att stoppa oönskade transaktioner.
+        - Byggde två kortbetalningsintegrationer och en regelmotor för val av betalningsleverantör per marknad och hantering av oönskade transaktioner, med målet att minska kostnader och risker.
         - Samarbetade med datainsamlingsteamet kring spårning och analys av betalflöden (cirka 30 MEUR per månad).
         - Deltog i hela kedjan från analys och implementation till kodgranskning, driftsättning och övervakning, och föreslog förbättringar av driftsättningsprocessen. Medverkade i rekryteringsintervjuer.
 
@@ -118,22 +112,22 @@ experiences:
       company: Dell Financial Services, distans
       summary: Digitaliserade manuella arbetssätt inom risk- och kreditgranskning.
       details: |
-        - Digitaliserade granskningen av misstänkta transaktioner: ersatte Excel-baserat manuellt arbete med en webbapplikation, vilket förbättrade kvalitet och effektivitet i riskbedömningen.
+        - Digitaliserade granskningen av misstänkta transaktioner: ersatte Excel-baserat manuellt arbete med en webbapplikation, som gav kollegorna stöd för att överblicka och granska transaktioner.
         - Byggde ett verktyg som automatiserade övervakning och driftsättning av 20+ Blaze-instanser och förenklade releasearbetet under högsäsong.
-        - Införde SSO (Waffle) för enklare inloggning, högre säkerhet och rätt behörigheter för olika användargrupper.
+        - Införde SSO (Waffle) för gemensam Windows-baserad inloggning i webbapplikationerna.
         - Implementerade Blaze FICO-regler i arbetet med att minska risken vid kunders låneansökningar.
 
         **Teknik:** Angular, Groovy, MongoDB, GitLab CI/CD, Artifactory och Pivotal Cloud Foundry.
 
-    - role: Senior systemutvecklare / teamlead och lösningsarkitekt
+    - role: Senior systemutvecklare
       show: True
       time: 2015/03 - 2018/03
       company: UniCredit Services, Bukarest
-      summary: Teamlead och lösningsarkitekt, applikationsövertagande och modernisering av prismotorer.
+      summary: Applikationsövertagande och modernisering av prismotorer, samt ett uppdrag som teamlead och lösningsarkitekt.
       details: |
-        - **Fund Transfer Price:** Teamlead och lösningsarkitekt för tre utvecklare. Analyserade krav, utvärderade alternativ och tog fram lösningsarkitektur och POC, med hänsyn till verksamhetens behov och teamets kompetens.
+        - **Fund Transfer Price:** Under cirka sex månader teamlead och lösningsarkitekt för tre utvecklare. Analyserade krav, utvärderade alternativ och tog fram lösningsarkitektur och POC, med hänsyn till verksamhetens behov och teamets kompetens.
         - **BUL-CT1:** Ansvarade för övertagandet av applikationen från en annan avdelning och samordnade överföringen av teknisk kunskap, rutiner och operativt ansvar.
-        - **BUL-batchplattformen:** Migrerade till ny serverinfrastruktur i nära samarbete med plattforms- och CI/CD-teamen. Migreringen tog bort beroendet till Tibco GRID och minskade kostnaderna med flera hundratusen dollar per år.
+        - **BUL-batchplattformen:** Migrerade till ny serverinfrastruktur i nära samarbete med plattforms- och CI/CD-teamen. Migreringen tog bort beroendet till Tibco GRID.
         - **Global Pricing Tool:** Bidrog till moderniseringen från Java-monolit till mikrotjänster. Ledde dialogen med intressenter kring prestanda och förklarade för kunden hur precisionen i beräkningarna förbättrats.
 
     - role: Javautvecklare
@@ -195,7 +189,7 @@ skills:
 
   toolset:
     - name: Strategi och verksamhetsutveckling
-      technologies: [Behovs- och kravanalys, verksamhetsprocesser (BPMN), teknikutvärdering, beslutsunderlag, arkitekturbeslut (ADR), applikationsmodernisering]
+      technologies: [Behovs- och kravanalys, verksamhetsprocesser (BPMN), teknikutvärdering, beslutsunderlag, dokumenterade arkitekturbeslut, applikationsmodernisering]
 
     - name: Samverkan och ledarskap
       technologies: [Samordning mellan avdelningar och leverantörer, kunskapsöverföring, intressentdialog, teamledning, agila arbetssätt]
